@@ -1,0 +1,125 @@
+-- This file was generated at discord.gg/syncrypt
+
+local lib = loadstring(game:HttpGet("https://jnkie.com/sdk/library.lua"))()
+local Players = game:GetService("Players")
+local MarketplaceService = game:GetService("MarketplaceService")
+local TweenService = game:GetService("TweenService")
+Players = Players.LocalPlayer
+local UserId = Players.UserId
+local _ = Players.DisplayName
+local _ = Players.Name
+local _ = Players.AccountAge
+UserId = "rbxthumb://type=Avatar&id=" .. UserId .. "&w=420&h=420"
+local s1 = "Unknown Game"
+pcall(function()
+    s1 = MarketplaceService:GetProductInfo(game.PlaceId).Name
+end)
+local v10
+if #s1 > 32 then
+    MarketplaceService = s1
+    s1 = string.sub(MarketplaceService, 1, 32) .. "..."
+    v10 = s1
+else
+    v10 = s1
+end
+lib.service = "Seisen Hub"
+lib.identifier = "1543"
+lib.provider = "Seisen Hub"
+MarketplaceService = function(p1)
+    local t1 = { pcall(lib.check_key, p1) }
+    local v12 = t1[2]
+
+    if t1[1] then
+        if v12 then
+            t1 = v12.valid
+        else
+            t1 = v12
+        end
+
+        if t1 then
+            getgenv().SCRIPT_KEY = p1
+
+            return true, "Key valid"
+        else
+            return false, v12 and v12.error or "ERROR"
+        end
+
+        return
+    else
+        return false, "ERROR"
+    end
+end
+local v14
+local function _(p2, p3, p4, p5, p6)
+    v14("UIPadding", {
+		["PaddingLeft"] = UDim.new(0, p3 or 0),
+		["PaddingRight"] = UDim.new(0, p4 or 0),
+		["PaddingTop"] = UDim.new(0, p5 or 0),
+		["PaddingBottom"] = UDim.new(0, p6 or 0)
+	}, p2)
+end
+v14 = function(p7, p8, p9)
+    local instance = Instance.new(p7)
+
+    for k, v in pairs(p8) do
+        instance[k] = v
+    end
+
+    if not p9 then
+        return instance
+    end
+
+    instance.Parent = p9
+
+    return instance
+end
+TweenService = function(p10, p11, p12)
+    local v19 = TweenService
+    local TweenInfo_ = TweenInfo
+
+    v19.Create(v19, p10, TweenInfo_.new(p12 or 0.2, Enum.EasingStyle.Quint), p11):Play()
+end
+local s2 = ""
+local function v22()
+    local isfile_ = isfile
+
+    if isfile_ then
+        isfile_ = isfile("seisen/skeys.txt")
+    end
+
+    if not isfile_ then
+        return
+    end
+
+    isfile_ = readfile("seisen/skeys.txt"):gsub("%s+", "")
+
+    local v24 = isfile_ ~= ""
+
+    if v24 then
+        v24 = #isfile_ <= 128
+
+        if v24 then
+            v24 = not isfile_:find("[%z\1-\31]")
+        end
+    end
+
+    if v24 then
+        s2 = isfile_
+
+        return
+    end
+
+    if not writefile then
+        return
+    end
+
+    writefile("seisen/skeys.txt", "")
+end
+pcall(v22)
+if not (s2 == "" or not MarketplaceService(s2)) then
+    while not getgenv().SCRIPT_KEY do
+        task.wait(0.1)
+    end
+
+    return
+end

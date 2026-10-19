@@ -1,0 +1,2439 @@
+-- This file was generated at discord.gg/syncrypt
+
+return {
+    protos = {
+        [0] = {
+            strings = {
+                [0] = "isfile", -- x3
+                [1] = "Color3", -- x32
+                [2] = "fromRGB", -- x32
+                [3] = "Thickness", -- x6
+                [4] = "Transparency", -- x6
+                [5] = "BackgroundTransparency", -- x25
+                [6] = "BorderSizePixel", -- x21
+                [7] = "RESET PRIORITY",
+                [8] = "Text", -- x14
+                [9] = "SurfaceHighlight", -- x7
+                [10] = "UDim2", -- x60
+                [11] = "new", -- x158
+                [12] = "Name", -- x6
+                [13] = "ResetOnSpawn", -- x2
+                [14] = "CharacterAdded",
+                [15] = "Connect", -- x23
+                [16] = "InputChanged",
+                [17] = "Instance", -- x66
+                [18] = "Active", -- x3
+                [19] = "UICorner", -- x17
+                [20] = "FMLYAPCleanup", -- x3
+                [21] = "Balloon",
+                [22] = "balloon", -- x6
+                [23] = "Inverse",
+                [24] = "inverse", -- x6
+                [25] = "Jail",
+                [26] = "jail", -- x6
+                [27] = "Jumpscare",
+                [28] = "jumpscare", -- x6
+                [29] = "function", -- x4
+                [30] = "AP + BBD",
+                [31] = "Loaded successfully",
+                [32] = "print",
+                [33] = "bad", -- x4
+                [34] = "math", -- x2
+                [35] = "clamp",
+                [36] = "TextColor3", -- x13
+                [37] = "ZIndex", -- x20
+                [38] = "task", -- x4
+                [39] = "spawn", -- x4
+                [40] = "morph", -- x6
+                [41] = "nightvision", -- x6
+                [42] = "Position", -- x26
+                [43] = "Padding", -- x4
+                [44] = "UIListLayout", -- x4
+                [45] = "Enum", -- x30
+                [46] = "FillDirection", -- x2
+                [47] = "Horizontal",
+                [48] = "HorizontalAlignment", -- x2
+                [49] = "Center", -- x3
+                [50] = "Size", -- x33
+                [51] = "Font", -- x26
+                [52] = "TextSize", -- x13
+                [53] = "Accent2", -- x8
+                [54] = "Accent1", -- x13
+                [55] = "Color", -- x6
+                [56] = "Frame", -- x17
+                [57] = "GothamBold", -- x8
+                [58] = "UDim", -- x30
+                [59] = "GetPropertyChangedSignal",
+                [60] = "AbsoluteContentSize",
+                [61] = "PaddingBottom", -- x3
+                [62] = "MouseButton1Click", -- x12
+                [63] = "Positions", -- x5
+                [64] = "AdminPanel", -- x3
+                [65] = "x",
+                [66] = "TextMuted", -- x4
+                [67] = "UIPadding", -- x3
+                [68] = "Spam Filter",
+                [69] = "ragdoll", -- x6
+                [70] = "tiny", -- x6
+                [71] = "Tiny",
+                [72] = "SpamFilterPopup",
+                [73] = "Vector2", -- x2
+                [74] = "Parent", -- x3
+                [75] = "getgenv", -- x6
+                [76] = "Click to AP: OFF",
+                [77] = "PlayerRemoving",
+                [78] = "ipairs", -- x6
+                [79] = "PaddingLeft", -- x2
+                [80] = "TextLabel", -- x8
+                [81] = "TextXAlignment", -- x12
+                [82] = "Right", -- x2
+                [83] = "CornerRadius", -- x17
+                [84] = "BackgroundColor3", -- x18
+                [85] = "15",
+                [86] = "Left", -- x3
+                [87] = "TextButton", -- x6
+                [88] = "floor",
+                [89] = "%",
+                [90] = "TextSecondary", -- x3
+                [91] = "TextPrimary", -- x5
+                [92] = "ScrollBarImageColor3", -- x2
+                [93] = "ZIndexBehavior", -- x2
+                [94] = "", -- x2
+                [95] = "AutomaticSize", -- x3
+                [96] = "None",
+                [97] = "table", -- x3
+                [98] = "SortOrder", -- x8
+                [99] = "LayoutOrder", -- x4
+                [100] = "Y", -- x6
+                [101] = "X", -- x6
+                [102] = "DepthMode",
+                [103] = "Background", -- x4
+                [104] = "Visible", -- x2
+                [105] = "ClipsDescendants", -- x3
+                [106] = "Zenith",
+                [107] = "CanvasSize",
+                [108] = "pcall",
+                [109] = "Workspace",
+                [110] = "UIStroke", -- x6
+                [111] = "ReplicatedStorage",
+                [112] = "TweenService",
+                [113] = "InputBegan", -- x3
+                [114] = "Heartbeat",
+                [115] = "Error", -- x2
+                [116] = "typeof", -- x4
+                [117] = "cloneref", -- x2
+                [118] = "[AdminPanel+BBD] loaded. F5 or gear to toggle Bad Boy Detector. Bad: ",
+                [119] = "InputEnded",
+                [120] = "SpamOrder", -- x4
+                [121] = "Ketchuru and Musturu",
+                [122] = "La Secret Combinasion",
+                [123] = "Tralaledon",
+                [124] = "Tictac Sahur",
+                [125] = "Ketupat Kepat",
+                [126] = "Tang Tang Keletang",
+                [127] = "VerticalAlignment", -- x2
+                [128] = "game", -- x2
+                [129] = "Loaded",
+                [130] = "Wait",
+                [131] = "WaitForChild",
+                [132] = "PlayerGui",
+                [133] = "-",
+                [134] = "Braintopia",
+                [135] = "Surface", -- x4
+                [136] = "FMLY_SYNC_GEN", -- x3
+                [137] = "IsLoaded",
+                [138] = "rocket", -- x6
+                [139] = "SpamFilter", -- x4
+                [140] = "FMLY  |  BAD BOY DETECTOR",
+                [141] = "GothamMedium", -- x2
+                [142] = "FillColor",
+                [143] = "FillTransparency",
+                [144] = "OutlineColor",
+                [145] = "OutlineTransparency",
+                [146] = "Adornee",
+                [147] = "HighlightDepthMode",
+                [148] = "AlwaysOnTop",
+                [149] = "PaddingRight", -- x2
+                [150] = "Prox",
+                [151] = "Tuff Toucan",
+                [152] = "W or L",
+                [153] = "Chipso and Queso",
+                [154] = "Atlas",
+                [155] = "La Taco Combinasion",
+                [156] = "Los Primos",
+                [157] = "Chillin Chili",
+                [158] = "good", -- x2
+                [159] = ", Good: ",
+                [160] = "BAD BOYS",
+                [161] = "GOOD BOYS",
+                [162] = "type", -- x3
+                [163] = "ScreenGui", -- x2
+                [164] = "Sibling",
+                [165] = "GetPlayers",
+                [166] = "Success",
+                [167] = "Headless Horseman",
+                [168] = "Strawberry Elephant",
+                [169] = "Signore Carapace",
+                [170] = "Meowl",
+                [171] = "Griffin",
+                [172] = "Skibidi Toilet",
+                [173] = "Moby",
+                [174] = "Header", -- x2
+                [175] = "RenderStepped",
+                [176] = "bad_boy_detector.json",
+                [177] = "writefile",
+                [178] = "VirtualInputManager",
+                [179] = "CoreGui",
+                [180] = "LocalPlayer",
+                [181] = "pairs", -- x2
+                [182] = "Players",
+                [183] = "RunService",
+                [184] = "UserInputService",
+                [185] = "+",
+                [186] = "fcc5696b9d37ae086a324d99e6b8fa5e",
+                [187] = "PaddingTop", -- x2
+                [188] = "UIScale", -- x2
+                [189] = "Highlight",
+                [190] = "FMLY ADMIN",
+                [191] = "GothamBlack", -- x3
+                [192] = "ScrollingFrame", -- x2
+                [193] = "WServer",
+                [194] = "Admin-controlled list  |  Discord",
+                [195] = "Kawaifu",
+                [196] = "Row",
+                [197] = "Border", -- x3
+                [198] = "ScrollBarThickness", -- x2
+                [199] = "AdminButtonCache",
+                [200] = "BalloonedPlayers",
+                [201] = "AdminTools",
+                [202] = "Dragon Gingerini",
+                [203] = "Elefanto Frigo",
+                [204] = "Love Love Bear",
+                [205] = "Antonio",
+                [206] = "tonumber",
+                [207] = "SpamDelays", -- x5
+                [208] = "ToolsBar",
+                [209] = "ClickToAP",
+                [210] = "ProximityRange", -- x2
+                [211] = "readfile",
+                [212] = "⚙",
+                [213] = "Popcuru and Fizzuru",
+                [214] = "Reinito Sleighito",
+                [215] = "Fragrama and Chocrama",
+                [216] = "Garama and Madundung",
+                [217] = "Ginger Gerat",
+                [218] = "La Casa Boo",
+                [219] = "Rosey and Teddy",
+                [220] = "Cerberus",
+                [221] = "Main",
+                [222] = "AutomaticCanvasSize",
+                [223] = "AnchorPoint", -- x2
+                [224] = "XiAPPanel_v1.json",
+                [225] = "Orcaledon",
+                [226] = "La Ginger Sekolah",
+                [227] = "Los Spaghettis",
+                [228] = "Lavadorito Spinito",
+                [229] = "Swaggy Bros",
+                [230] = "PlayerAdded",
+                [231] = "fmly_badboys.json",
+                [232] = "/raw/",
+                [233] = "https://gist.githubusercontent.com/josecastle21/",
+                [234] = "https://api.github.com/gists/",
+                [235] = "HttpService",
+                [236] = "Morph",
+                [237] = "Night Vision",
+                [238] = "Ragdoll",
+                [239] = "Rocket",
+                [240] = "Capitano Moby",
+                [241] = "Burguro and Fryuro",
+                [242] = "Spooky and Pumpky",
+                [243] = "Cooki and Milki",
+                [244] = "Spam Base Owner",
+                [245] = "Filter",
+                [246] = "Dragon Cannelloni",
+                [247] = "La Supreme Combinasion",
+                [248] = "Fishino Clownino",
+                [249] = "Hydra Dragon Cannelloni",
+                [250] = "Ketupat Bros",
+            },
+            booleans = {
+                [0] = false, -- x9
+                [1] = true, -- x18
+            },
+            proto_references = {
+                [0] = { proto = 1 },
+                [1] = { proto = 2 },
+                [2] = { proto = 3 },
+                [3] = { proto = 4 },
+                [4] = { proto = 5 },
+                [5] = { proto = 6 },
+                [6] = { proto = 7 },
+                [7] = { proto = 8 },
+                [8] = { proto = 9 },
+                [9] = { proto = 10 },
+                [10] = { proto = 11 },
+                [11] = { proto = 12 },
+                [12] = { proto = 13 },
+                [13] = { proto = 14 },
+                [14] = { proto = 15 },
+                [15] = { proto = 16 },
+                [16] = { proto = 17 },
+                [17] = { proto = 18 },
+                [18] = { proto = 19 },
+                [19] = { proto = 20 },
+                [20] = { proto = 21 },
+                [21] = { proto = 22 },
+                [22] = { proto = 23 },
+                [23] = { proto = 24 },
+                [24] = { proto = 25 },
+                [25] = { proto = 26 },
+                [26] = { proto = 27 },
+                [27] = { proto = 28 },
+                [28] = { proto = 29 },
+                [29] = { proto = 30 },
+                [30] = { proto = 31 },
+                [31] = { proto = 32 },
+                [32] = { proto = 33 },
+                [33] = { proto = 34 },
+                [34] = { proto = 35 },
+                [35] = { proto = 36 },
+                [36] = { proto = 37 },
+                [37] = { proto = 38 },
+                [38] = { proto = 39 },
+                [39] = { proto = 40 },
+                [40] = { proto = 41 },
+                [41] = { proto = 42 },
+                [42] = { proto = 43 },
+                [43] = { proto = 44 },
+                [44] = { proto = 45 },
+                [45] = { proto = 46 },
+                [46] = { proto = 47 },
+                [47] = { proto = 48 },
+                [48] = { proto = 49 },
+                [49] = { proto = 50 },
+                [50] = { proto = 51 },
+                [51] = { proto = 52 },
+                [52] = { proto = 53 },
+                [53] = { proto = 54 },
+                [54] = { proto = 55 },
+                [55] = { proto = 56 },
+                [56] = { proto = 57 },
+                [57] = { proto = 58 },
+                [58] = { proto = 59 },
+                [59] = { proto = 60 },
+                [60] = { proto = 61 },
+                [61] = { proto = 62 },
+                [62] = { proto = 63 },
+                [63] = { proto = 64 },
+                [64] = { proto = 65 },
+                [65] = { proto = 66 },
+                [66] = { proto = 67 },
+                [67] = { proto = 68 },
+                [68] = { proto = 69 },
+                [69] = { proto = 70 },
+                [70] = { proto = 71 },
+                [71] = { proto = 72 },
+                [72] = { proto = 73 },
+                [73] = { proto = 74 },
+                [74] = { proto = 75 },
+                [75] = { proto = 76 },
+                [76] = { proto = 77 },
+                [77] = { proto = 78 },
+                [78] = { proto = 79 },
+                [79] = { proto = 80 },
+                [80] = { proto = 81 },
+                [81] = { proto = 82 },
+                [82] = { proto = 83 },
+                [83] = { proto = 84 },
+                [84] = { proto = 85 },
+                [85] = { proto = 86 },
+                [86] = { proto = 87 },
+                [87] = { proto = 88 },
+                [88] = { proto = 89 },
+                [89] = { proto = 90 },
+            },
+        },
+        [1] = {
+            parent = 0,
+            strings = {
+                [0] = "task",
+                [1] = "wait",
+            },
+        },
+        [2] = {
+            parent = 0,
+            strings = {
+                [0] = "ProximityRange",
+                [1] = "UserInputType", -- x4
+                [2] = "Enum", -- x2
+                [3] = "Touch",
+                [4] = "MouseButton1",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [3] = {
+            parent = 0,
+            strings = {
+                [0] = "UserInputType", -- x4
+                [1] = "Enum", -- x2
+                [2] = "Position",
+                [3] = "X", -- x3
+                [4] = "AbsolutePosition",
+                [5] = "AbsoluteSize",
+                [6] = "MouseMovement",
+                [7] = "Touch",
+            },
+        },
+        [4] = {
+            parent = 0,
+            strings = {
+                [0] = "Angles",
+                [1] = "math",
+                [2] = "Transparency",
+                [3] = "CastShadow",
+                [4] = "CurrentCamera",
+                [5] = "ProximityRange", -- x2
+                [6] = "Instance",
+                [7] = "new", -- x3
+                [8] = "Part",
+                [9] = "Size",
+                [10] = "CFrame", -- x3
+                [11] = "Name",
+                [12] = "Anchored",
+                [13] = "CanCollide",
+                [14] = "Vector3", -- x2
+                [15] = "Parent",
+                [16] = "Character",
+                [17] = "Destroy",
+                [18] = "rad",
+                [19] = "FindFirstChild",
+                [20] = "HumanoidRootPart",
+                [21] = "Cylinder",
+                [22] = "Shape",
+                [23] = "Accent1",
+                [24] = "Color",
+                [25] = "Enum",
+                [26] = "PartType",
+            },
+            booleans = {
+                [0] = false, -- x2
+                [1] = true,
+            },
+        },
+        [5] = {
+            parent = 0,
+            strings = {
+                [0] = "Character", -- x4
+                [1] = "FindFirstChild", -- x2
+                [2] = "HumanoidRootPart", -- x3
+                [3] = "random",
+                [4] = "Position", -- x2
+                [5] = "ipairs", -- x2
+                [6] = "GetPlayers",
+                [7] = "Magnitude",
+                [8] = "ProximityRange",
+                [9] = "task",
+                [10] = "wait",
+                [11] = "math",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+        },
+        [6] = {
+            parent = 0,
+            strings = {
+                [0] = "bad",
+            },
+        },
+        [7] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible", -- x3
+            },
+        },
+        [8] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible",
+            },
+        },
+        [9] = {
+            parent = 0,
+            strings = {
+                [0] = "math", -- x2
+                [1] = "clamp",
+                [2] = "Size",
+                [3] = "UDim2", -- x2
+                [4] = "new", -- x2
+                [5] = "Position",
+                [6] = "tostring",
+                [7] = "floor",
+                [8] = "ProximityRange",
+                [9] = "Text",
+            },
+        },
+        [10] = {
+            parent = 0,
+            strings = {
+                [0] = "ON",
+                [1] = "OFF",
+                [2] = "BackgroundColor3",
+                [3] = "TextColor3",
+                [4] = "TextPrimary",
+                [5] = "Click to AP: ",
+                [6] = "Text",
+                [7] = "SurfaceHighlight",
+                [8] = "Accent1",
+                [9] = "ClickToAP",
+                [10] = "Color3",
+                [11] = "new",
+                [12] = "BackgroundTransparency",
+            },
+        },
+        [11] = {
+            parent = 0,
+            strings = {
+                [0] = "string", -- x2
+                [1] = "lower", -- x2
+                [2] = "ipairs", -- x2
+                [3] = "good",
+                [4] = "bad",
+            },
+            booleans = {
+                [0] = true, -- x2
+            },
+        },
+        [12] = {
+            parent = 0,
+            strings = {
+                [0] = "Accent1",
+                [1] = "Color3",
+                [2] = "new",
+                [3] = "BackgroundTransparency",
+                [4] = "SurfaceHighlight",
+                [5] = "TextColor3",
+                [6] = "TextPrimary",
+                [7] = "Text",
+                [8] = "Prox",
+                [9] = "BackgroundColor3",
+            },
+        },
+        [13] = {
+            parent = 0,
+            strings = {
+                [0] = "ipairs", -- x2
+                [1] = "GetPlayers", -- x2
+                [2] = "Parent", -- x3
+                [3] = "pairs",
+                [4] = "UserId", -- x2
+                [5] = "player", -- x3
+                [6] = "task",
+                [7] = "wait",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [14] = {
+            parent = 0,
+            strings = {
+                [0] = "Z", -- x9
+                [1] = "X", -- x9
+                [2] = "Vector3", -- x5
+                [3] = "new", -- x5
+                [4] = "Y", -- x9
+            },
+            booleans = {
+                [0] = true,
+                [1] = false, -- x2
+            },
+        },
+        [15] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundColor3", -- x2
+                [1] = "BackgroundTransparency", -- x6
+                [2] = "BorderSizePixel", -- x2
+                [3] = "Instance", -- x8
+                [4] = "Size", -- x4
+                [5] = "UDim2", -- x8
+                [6] = "new", -- x19
+                [7] = "Create", -- x5
+                [8] = "Enum", -- x6
+                [9] = "Font", -- x4
+                [10] = "GothamBlack",
+                [11] = "upper",
+                [12] = "Text", -- x2
+                [13] = "Position", -- x4
+                [14] = "TextLabel", -- x2
+                [15] = "TextSize", -- x2
+                [16] = "TextSecondary",
+                [17] = "TextColor3", -- x2
+                [18] = "Accent1", -- x2
+                [19] = "Name",
+                [20] = "ResetOnSpawn",
+                [21] = "Transparency", -- x2
+                [22] = "Play", -- x5
+                [23] = "GothamMedium",
+                [24] = "EasingStyle",
+                [25] = "Quad",
+                [26] = "EasingDirection",
+                [27] = "Out",
+                [28] = "UICorner", -- x2
+                [29] = "TextXAlignment", -- x4
+                [30] = "Left", -- x2
+                [31] = "TextTransparency", -- x4
+                [32] = "TweenInfo",
+                [33] = "pcall",
+                [34] = "UDim", -- x2
+                [35] = "task",
+                [36] = "delay",
+                [37] = "Frame", -- x2
+                [38] = "Color",
+                [39] = "CornerRadius", -- x2
+                [40] = "Color3",
+                [41] = "fromRGB",
+                [42] = "Thickness",
+                [43] = "Accent2",
+                [44] = "UIStroke",
+                [45] = "ScreenGui",
+            },
+            booleans = {
+                [0] = false,
+            },
+            proto_references = {
+                [0] = { proto = 91 },
+                [1] = { proto = 92 },
+            },
+        },
+        [16] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall", -- x2
+                [1] = "ipairs", -- x2
+                [2] = "getgenv",
+                [3] = "FMLYAPCleanup",
+            },
+            proto_references = {
+                [0] = { proto = 93 },
+                [1] = { proto = 94 },
+            },
+        },
+        [17] = {
+            parent = 0,
+            strings = {
+                [0] = "Positions", -- x4
+                [1] = "type",
+                [2] = "table",
+                [3] = "pcall",
+                [4] = "pairs", -- x2
+            },
+            proto_references = {
+                [0] = { proto = 95 },
+            },
+        },
+        [18] = {
+            parent = 0,
+            strings = {
+                [0] = "MouseButton1",
+                [1] = "PROTECTED",
+                [2] = "Name", -- x2
+                [3] = " is a Good Boy",
+                [4] = "CLICK AP", -- x2
+                [5] = " to ",
+                [6] = "balloon",
+                [7] = "UserInputType", -- x2
+                [8] = "Enum",
+                [9] = "Sent ",
+                [10] = "tick",
+                [11] = "All commands on cooldown",
+                [12] = "BalloonedPlayers",
+                [13] = "UserId",
+                [14] = "ClickToAP",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [19] = {
+            parent = 0,
+            strings = {
+                [0] = "conn",
+                [1] = "pcall", -- x3
+                [2] = "highlight",
+                [3] = "billboard",
+            },
+            proto_references = {
+                [0] = { proto = 96 },
+                [1] = { proto = 97 },
+                [2] = { proto = 98 },
+            },
+        },
+        [20] = {
+            parent = 0,
+            strings = {
+                [0] = "pairs",
+            },
+        },
+        [21] = {
+            parent = 0,
+            strings = {
+                [0] = "Enum",
+                [1] = "Font", -- x2
+                [2] = "GothamBold",
+                [3] = "UDim2", -- x3
+                [4] = "new", -- x7
+                [5] = "Color3", -- x3
+                [6] = "fromRGB", -- x2
+                [7] = "bad", -- x2
+                [8] = "BAD BOY",
+                [9] = "Size", -- x2
+                [10] = "FindFirstChild", -- x2
+                [11] = "Head",
+                [12] = "Instance", -- x2
+                [13] = "BillboardGui",
+                [14] = "Name",
+                [15] = "Adornee",
+                [16] = "TextStrokeColor3",
+                [17] = "TextScaled",
+                [18] = "Parent", -- x2
+                [19] = "billboard",
+                [20] = "TextLabel",
+                [21] = "BackgroundTransparency",
+                [22] = "GOOD BOY",
+                [23] = "HumanoidRootPart",
+                [24] = "StudsOffset",
+                [25] = "AlwaysOnTop",
+                [26] = "MaxDistance",
+                [27] = "Vector3",
+                [28] = "Position",
+                [29] = "Text",
+                [30] = "TextColor3",
+                [31] = "TextStrokeTransparency",
+                [32] = "Character",
+            },
+            booleans = {
+                [0] = true, -- x2
+            },
+        },
+        [22] = {
+            parent = 0,
+            strings = {
+                [0] = "string",
+                [1] = "lower",
+                [2] = "Name",
+                [3] = "bad",
+                [4] = "good",
+            },
+        },
+        [23] = {
+            parent = 0,
+            strings = {
+                [0] = "ipairs",
+                [1] = "GetPlayers",
+            },
+        },
+        [24] = {
+            parent = 0,
+            strings = {
+                [0] = "InputBegan",
+                [1] = "InputChanged", -- x2
+                [2] = "Connect", -- x3
+            },
+            proto_references = {
+                [0] = { proto = 99 },
+                [1] = { proto = 100 },
+                [2] = { proto = 101 },
+            },
+        },
+        [25] = {
+            parent = 0,
+            strings = {
+                [0] = "ColorSequence",
+                [1] = "new", -- x4
+                [2] = "ColorSequenceKeypoint", -- x2
+                [3] = "Accent2", -- x2
+                [4] = "Color",
+                [5] = "Rotation",
+                [6] = "Instance",
+                [7] = "UIGradient",
+            },
+        },
+        [26] = {
+            parent = 0,
+            strings = {
+                [0] = "AbsolutePosition", -- x2
+                [1] = "X", -- x2
+                [2] = "AbsoluteSize", -- x2
+                [3] = "Y", -- x2
+                [4] = "game", -- x2
+                [5] = "firesignal", -- x4
+                [6] = "MouseButton1Click",
+                [7] = "MouseButton1Down",
+                [8] = "Activated",
+                [9] = "SendMouseButtonEvent", -- x2
+            },
+            booleans = {
+                [0] = true,
+                [1] = false,
+            },
+        },
+        [27] = {
+            parent = 0,
+            strings = {
+                [0] = "CanvasSize",
+                [1] = "UDim2",
+                [2] = "new",
+                [3] = "AbsoluteContentSize",
+                [4] = "Y",
+            },
+        },
+        [28] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall",
+                [1] = "Parent",
+                [2] = "task",
+                [3] = "wait",
+            },
+        },
+        [29] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible", -- x3
+                [1] = "KeyCode", -- x2
+                [2] = "Enum",
+                [3] = "F5",
+            },
+        },
+        [30] = {
+            parent = 0,
+            strings = {
+                [0] = "UserInputType", -- x4
+                [1] = "Enum", -- x2
+                [2] = "MouseButton1",
+                [3] = "Touch",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [31] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall", -- x4
+            },
+            proto_references = {
+                [0] = { proto = 102 },
+                [1] = { proto = 103 },
+                [2] = { proto = 104 },
+                [3] = { proto = 105 },
+            },
+        },
+        [32] = {
+            parent = 0,
+            strings = {
+                [0] = "math", -- x2
+                [1] = "random", -- x2
+                [2] = "sub",
+                [3] = "abcdefghijklmnopqrstuvwxyz0123456789",
+                [4] = "",
+            },
+        },
+        [33] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall",
+            },
+            proto_references = {
+                [0] = { proto = 106 },
+            },
+        },
+        [34] = {
+            parent = 0,
+        },
+        [35] = {
+            parent = 0,
+            strings = {
+                [0] = "UDim2",
+                [1] = "new", -- x4
+                [2] = "Size",
+                [3] = "SurfaceHighlight",
+                [4] = "BackgroundColor3",
+                [5] = "BackgroundTransparency",
+                [6] = "Text",
+                [7] = "BorderSizePixel",
+                [8] = "ZIndex",
+                [9] = "Instance", -- x2
+                [10] = "Enum",
+                [11] = "Font", -- x2
+                [12] = "GothamBold",
+                [13] = "TextSize",
+                [14] = "TextPrimary",
+                [15] = "TextColor3",
+                [16] = "UICorner",
+                [17] = "UDim",
+                [18] = "TextButton",
+                [19] = "CornerRadius",
+            },
+        },
+        [36] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall",
+            },
+            proto_references = {
+                [0] = { proto = 107 },
+            },
+        },
+        [37] = {
+            parent = 0,
+            strings = {
+                [0] = "type",
+                [1] = "isfile",
+                [2] = "bad", -- x3
+                [3] = "pcall",
+                [4] = "good", -- x3
+                [5] = "table",
+            },
+            proto_references = {
+                [0] = { proto = 108 },
+            },
+        },
+        [38] = {
+            parent = 0,
+            strings = {
+                [0] = "floor", -- x3
+                [1] = "%",
+                [2] = "Text",
+                [3] = "UDim2",
+                [4] = "new",
+                [5] = "math", -- x4
+                [6] = "clamp",
+                [7] = "Size",
+                [8] = "UIScale",
+            },
+        },
+        [39] = {
+            parent = 0,
+            strings = {
+                [0] = "inverse",
+                [1] = "jumpscare",
+                [2] = "morph",
+                [3] = "nightvision",
+                [4] = "SpamDelays",
+                [5] = "ragdoll",
+                [6] = "tiny",
+                [7] = "SpamOrder",
+                [8] = "ipairs",
+                [9] = "balloon",
+                [10] = "rocket",
+                [11] = "jail",
+                [12] = "SPAM FILTER",
+                [13] = "Priorities reset to default",
+            },
+        },
+        [40] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible", -- x2
+            },
+        },
+        [41] = {
+            parent = 0,
+            strings = {
+                [0] = "CLICK TO AP",
+                [1] = "ClickToAP", -- x3
+                [2] = "ENABLED",
+                [3] = "DISABLED",
+            },
+        },
+        [42] = {
+            parent = 0,
+        },
+        [43] = {
+            parent = 0,
+            strings = {
+                [0] = "Adornee", -- x2
+                [1] = "ClickToAP",
+                [2] = "Character",
+            },
+        },
+        [44] = {
+            parent = 0,
+            strings = {
+                [0] = "PROXIMITY AP",
+                [1] = "ENABLED",
+                [2] = "DISABLED",
+            },
+        },
+        [45] = {
+            parent = 0,
+            strings = {
+                [0] = "IsDescendantOf",
+                [1] = "Parent",
+                [2] = "AbsoluteContentSize",
+                [3] = "Y",
+                [4] = "row",
+                [5] = "table",
+                [6] = "remove",
+                [7] = "pairs",
+                [8] = "AdminButtonCache",
+                [9] = "UDim2",
+                [10] = "new",
+                [11] = "CanvasSize",
+                [12] = "Destroy",
+                [13] = "BalloonedPlayers",
+                [14] = "UserId",
+            },
+        },
+        [46] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [47] = {
+            parent = 0,
+            strings = {
+                [0] = "game",
+                [1] = "GetService",
+            },
+        },
+        [48] = {
+            parent = 0,
+            strings = {
+                [0] = "Size", -- x4
+                [1] = "UDim2", -- x7
+                [2] = "new", -- x17
+                [3] = "IsA",
+                [4] = "Frame", -- x4
+                [5] = "Position", -- x3
+                [6] = "Row",
+                [7] = "BackgroundColor3", -- x3
+                [8] = "ipairs", -- x3
+                [9] = "Text", -- x2
+                [10] = "UICorner", -- x3
+                [11] = "UDim", -- x3
+                [12] = "CornerRadius", -- x3
+                [13] = "Instance", -- x7
+                [14] = "TextPrimary",
+                [15] = "GetChildren",
+                [16] = "string", -- x2
+                [17] = "lower", -- x2
+                [18] = "Name",
+                [19] = "Destroy",
+                [20] = "Accent1",
+                [21] = "",
+                [22] = "Success",
+                [23] = "BackgroundTransparency",
+                [24] = "BorderSizePixel", -- x3
+                [25] = "Enum", -- x3
+                [26] = "Font", -- x3
+                [27] = "GothamMedium",
+                [28] = "TextColor3",
+                [29] = "TextSecondary",
+                [30] = "GetPlayers",
+                [31] = "TextSize",
+                [32] = "TextXAlignment", -- x2
+                [33] = "Left",
+                [34] = "LayoutOrder",
+                [35] = "Parent",
+                [36] = "TextLabel",
+                [37] = "  (in server)",
+                [38] = "TextMuted",
+                [39] = "Border",
+                [40] = " names",
+                [41] = "GothamBold",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+        },
+        [49] = {
+            parent = 0,
+            strings = {
+                [0] = "Accent1", -- x2
+                [1] = "BackgroundColor3", -- x4
+                [2] = "Color3", -- x2
+                [3] = "new", -- x2
+                [4] = "SurfaceHighlight", -- x2
+                [5] = "TextPrimary", -- x2
+                [6] = "TextColor3", -- x4
+                [7] = "bad",
+                [8] = "Text", -- x2
+                [9] = "FMLY  |  BAD BOY DETECTOR",
+                [10] = "FMLY  |  GOOD BOY DETECTOR",
+            },
+        },
+        [50] = {
+            parent = 0,
+            strings = {
+                [0] = "string", -- x2
+                [1] = "lower", -- x2
+                [2] = "ipairs",
+                [3] = "table",
+                [4] = "insert",
+                [5] = "gsub", -- x2
+                [6] = "^%s+",
+                [7] = "", -- x3
+                [8] = "%s+$",
+            },
+            booleans = {
+                [0] = true,
+                [1] = false, -- x2
+            },
+        },
+        [51] = {
+            parent = 0,
+            strings = {
+                [0] = "ipairs",
+                [1] = "string", -- x2
+                [2] = "lower", -- x2
+                [3] = "table",
+                [4] = "remove",
+            },
+            booleans = {
+                [0] = true,
+                [1] = false,
+            },
+        },
+        [52] = {
+            parent = 0,
+            strings = {
+                [0] = "string",
+                [1] = "lower",
+                [2] = "Name",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [53] = {
+            parent = 0,
+            strings = {
+                [0] = "string",
+                [1] = "lower",
+                [2] = "Name",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [54] = {
+            parent = 0,
+            strings = {
+                [0] = "task", -- x2
+                [1] = "wait", -- x2
+                [2] = "pcall", -- x2
+                [3] = "getgenv", -- x2
+                [4] = "FMLY_SYNC_GEN", -- x2
+            },
+        },
+        [55] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [56] = {
+            parent = 0,
+            strings = {
+                [0] = "writefile",
+                [1] = "pcall",
+            },
+            proto_references = {
+                [0] = { proto = 109 },
+            },
+        },
+        [57] = {
+            parent = 0,
+            strings = {
+                [0] = "X", -- x3
+                [1] = "AbsolutePosition", -- x2
+                [2] = "Parent", -- x2
+                [3] = "AbsoluteSize",
+                [4] = "Y", -- x3
+                [5] = "Vector2",
+                [6] = "new",
+                [7] = "Positions",
+            },
+        },
+        [58] = {
+            parent = 0,
+            strings = {
+                [0] = "Parent",
+                [1] = "BackgroundColor3",
+                [2] = "ipairs",
+                [3] = "AdminButtonCache", -- x2
+                [4] = "balloon", -- x2
+                [5] = "next",
+                [6] = "BalloonedPlayers",
+                [7] = "Error",
+                [8] = "SurfaceHighlight",
+            },
+        },
+        [59] = {
+            parent = 0,
+            strings = {
+                [0] = "random",
+                [1] = "task",
+                [2] = "delay",
+                [3] = "math",
+                [4] = "PROTECTED",
+                [5] = "Name",
+                [6] = " is a Good Boy",
+                [7] = "ipairs",
+            },
+            proto_references = {
+                [0] = { proto = 110 },
+            },
+        },
+        [60] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild", -- x8
+                [1] = "PlotSign", -- x2
+                [2] = "SurfaceGui",
+                [3] = "Character",
+                [4] = "Position", -- x2
+                [5] = "Magnitude",
+                [6] = "Text", -- x2
+                [7] = "match",
+                [8] = "^(.-)'",
+                [9] = "DisplayName",
+                [10] = "ipairs", -- x2
+                [11] = "GetPlayers",
+                [12] = "YourBase",
+                [13] = "Plots",
+                [14] = "FindFirstChildWhichIsA",
+                [15] = "BasePart", -- x2
+                [16] = "Frame",
+                [17] = "Enabled",
+                [18] = "HumanoidRootPart",
+                [19] = "IsA",
+                [20] = "math",
+                [21] = "huge",
+                [22] = "GetChildren",
+                [23] = "Name",
+                [24] = "TextLabel",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [61] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "HumanoidRootPart",
+                [2] = "tick", -- x2
+                [3] = "math", -- x2
+                [4] = "abs", -- x2
+                [5] = "HumanoidStateType", -- x2
+                [6] = "Freefall",
+                [7] = "task",
+                [8] = "wait",
+                [9] = "Health",
+                [10] = "Y", -- x2
+                [11] = "GetState",
+                [12] = "Enum", -- x2
+                [13] = "Jumping",
+                [14] = "FindFirstChildOfClass",
+                [15] = "Humanoid",
+                [16] = "Position",
+                [17] = "Character",
+                [18] = "AssemblyLinearVelocity",
+            },
+            booleans = {
+                [0] = true,
+                [1] = false,
+            },
+        },
+        [62] = {
+            parent = 0,
+        },
+        [63] = {
+            parent = 0,
+            strings = {
+                [0] = "good",
+            },
+        },
+        [64] = {
+            parent = 0,
+            strings = {
+                [0] = "AdminPanel", -- x5
+                [1] = "Content", -- x2
+                [2] = "FindFirstChild", -- x7
+                [3] = "Name", -- x3
+                [4] = "Profiles", -- x2
+                [5] = "ScrollingFrame", -- x2
+                [6] = "task",
+                [7] = "wait",
+                [8] = "PROTECTED", -- x2
+                [9] = " is using ",
+                [10] = " is a Good Boy",
+            },
+            booleans = {
+                [0] = false, -- x7
+                [1] = true,
+            },
+        },
+        [65] = {
+            parent = 0,
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "FindFirstChild", -- x6
+                [2] = "_moby_highlight",
+                [3] = "Braintopia",
+                [4] = "KaWaifu_NeonHighlight",
+                [5] = "gethui", -- x2
+                [6] = "FindFirstChildWhichIsA",
+                [7] = "Highlight",
+                [8] = "Head",
+                [9] = "typeof",
+                [10] = "function",
+                [11] = "Atlas",
+                [12] = "AtlasESPFolder",
+                [13] = "GetChildren", -- x4
+                [14] = "Kawaifu",
+                [15] = "Name",
+                [16] = "_ESP",
+                [17] = "Moby",
+                [18] = "FillColor",
+                [19] = "Color3",
+                [20] = "fromRGB",
+                [21] = "BT_ESP",
+            },
+            booleans = {
+                [0] = false, -- x2
+                [1] = true, -- x2
+            },
+            proto_references = {
+                [0] = { proto = 111 },
+            },
+        },
+        [66] = {
+            parent = 0,
+            strings = {
+                [0] = "tick",
+                [1] = "FindFirstChild", -- x6
+                [2] = "Content",
+                [3] = "Visible",
+                [4] = "AdminPanel", -- x2
+                [5] = "ScrollingFrame",
+                [6] = "Timer",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [67] = {
+            parent = 0,
+            strings = {
+                [0] = "AdminButtonCache", -- x2
+                [1] = "Parent",
+                [2] = "Error",
+                [3] = "BackgroundColor3",
+                [4] = "task",
+                [5] = "delay",
+                [6] = "ipairs",
+            },
+            proto_references = {
+                [0] = { proto = 112 },
+            },
+        },
+        [68] = {
+            parent = 0,
+        },
+        [69] = {
+            parent = 0,
+            strings = {
+                [0] = "table",
+                [1] = "insert",
+            },
+        },
+        [70] = {
+            parent = 0,
+            strings = {
+                [0] = "table",
+                [1] = "insert",
+            },
+        },
+        [71] = {
+            parent = 0,
+            strings = {
+                [0] = "Vector2",
+                [1] = "new", -- x6
+                [2] = "AnchorPoint",
+                [3] = "UDim2", -- x2
+                [4] = "ZIndex",
+                [5] = "Parent", -- x3
+                [6] = "Instance", -- x2
+                [7] = "UIListLayout",
+                [8] = "Enum", -- x2
+                [9] = "Padding",
+                [10] = "HorizontalAlignment", -- x2
+                [11] = "UDim",
+                [12] = "SortOrder", -- x2
+                [13] = "LayoutOrder",
+                [14] = "Position",
+                [15] = "Frame",
+                [16] = "Name",
+                [17] = "Center",
+                [18] = "Size",
+                [19] = "BackgroundTransparency",
+            },
+        },
+        [72] = {
+            parent = 0,
+            strings = {
+                [0] = "Size", -- x2
+                [1] = "UDim2", -- x3
+                [2] = "new", -- x8
+                [3] = "CornerRadius",
+                [4] = "Instance", -- x3
+                [5] = "Parent", -- x2
+                [6] = "task",
+                [7] = "delay",
+                [8] = "BackgroundColor3",
+                [9] = "BorderSizePixel",
+                [10] = "ZIndex", -- x2
+                [11] = "BackgroundTransparency",
+                [12] = "Position",
+                [13] = "bad",
+                [14] = "Frame",
+                [15] = "UICorner",
+                [16] = "Text",
+                [17] = "Color3", -- x3
+                [18] = "Left",
+                [19] = "TextXAlignment", -- x2
+                [20] = "fromRGB", -- x2
+                [21] = "UDim",
+                [22] = "TextLabel",
+                [23] = "TextColor3",
+                [24] = "Enum", -- x2
+                [25] = "Font", -- x2
+                [26] = "GothamBold",
+                [27] = "TextSize",
+            },
+            proto_references = {
+                [0] = { proto = 113 },
+            },
+        },
+        [73] = {
+            parent = 0,
+        },
+        [74] = {
+            parent = 0,
+            strings = {
+                [0] = "Visible",
+                [1] = "CharacterAdded",
+                [2] = "Connect",
+                [3] = "Parent",
+                [4] = "task",
+                [5] = "wait",
+            },
+            proto_references = {
+                [0] = { proto = 114 },
+            },
+        },
+        [75] = {
+            parent = 0,
+        },
+        [76] = {
+            parent = 0,
+            strings = {
+                [0] = "Character", -- x3
+                [1] = "Direction",
+                [2] = "Position", -- x2
+                [3] = "HumanoidRootPart", -- x2
+                [4] = "Origin", -- x2
+                [5] = "Magnitude",
+                [6] = "math",
+                [7] = "huge",
+                [8] = "ipairs",
+                [9] = "GetPlayers",
+                [10] = "CurrentCamera",
+                [11] = "GetMouseLocation",
+                [12] = "FindFirstChild",
+                [13] = "ViewportPointToRay",
+                [14] = "X",
+                [15] = "Y",
+                [16] = "Parent",
+            },
+        },
+        [77] = {
+            parent = 0,
+            strings = {
+                [0] = "", -- x5
+                [1] = "Name", -- x4
+                [2] = "GetAttribute", -- x2
+                [3] = "Stealing",
+                [4] = "ipairs",
+                [5] = "StealingIndex",
+                [6] = "Parent",
+            },
+        },
+        [78] = {
+            parent = 0,
+            strings = {
+                [0] = "table", -- x2
+                [1] = "insert",
+                [2] = "row", -- x2
+                [3] = "plr",
+                [4] = "FindFirstChild", -- x2
+                [5] = "Name", -- x2
+                [6] = "IsA",
+                [7] = "Frame",
+                [8] = "LayoutOrder",
+                [9] = "ipairs", -- x2
+                [10] = "GetChildren",
+                [11] = "sort",
+                [12] = "",
+                [13] = "_isPlayerRow",
+            },
+            proto_references = {
+                [0] = { proto = 115 },
+            },
+        },
+        [79] = {
+            parent = 0,
+            strings = {
+                [0] = "CornerRadius", -- x7
+                [1] = "Instance", -- x22
+                [2] = "new", -- x56
+                [3] = "TextButton", -- x2
+                [4] = "ZIndex", -- x11
+                [5] = "pcall",
+                [6] = "Position", -- x10
+                [7] = "table",
+                [8] = "insert",
+                [9] = "AdminButtonCache", -- x3
+                [10] = "cmd", -- x7
+                [11] = "MouseLeave", -- x2
+                [12] = "Connect", -- x8
+                [13] = "MouseButton1Click", -- x2
+                [14] = "🚀",
+                [15] = "icon", -- x5
+                [16] = "rocket",
+                [17] = "🎈",
+                [18] = "balloon",
+                [19] = "Size", -- x12
+                [20] = "UDim2", -- x22
+                [21] = "Color3", -- x13
+                [22] = "fromRGB", -- x9
+                [23] = "Border",
+                [24] = "ApplyStrokeMode", -- x2
+                [25] = "Enabled",
+                [26] = "Font", -- x10
+                [27] = "GothamBlack", -- x3
+                [28] = "BackgroundTransparency", -- x12
+                [29] = "Name", -- x6
+                [30] = "@",
+                [31] = "Text", -- x5
+                [32] = "Enum", -- x11
+                [33] = "GothamBold", -- x2
+                [34] = "TextSize", -- x5
+                [35] = "UICorner", -- x7
+                [36] = "Visible", -- x3
+                [37] = "_toolIcon",
+                [38] = "Color", -- x2
+                [39] = "Thickness", -- x2
+                [40] = "Transparency",
+                [41] = "BackgroundColor3", -- x9
+                [42] = "UDim", -- x7
+                [43] = "Vector2",
+                [44] = "ALL",
+                [45] = "TextXAlignment", -- x6
+                [46] = "Left", -- x3
+                [47] = "BorderSizePixel", -- x5
+                [48] = "Parent",
+                [49] = "BoolValue",
+                [50] = "_isPlayerRow",
+                [51] = "Value",
+                [52] = "TextColor3", -- x4
+                [53] = "Frame", -- x5
+                [54] = "InputBegan",
+                [55] = "TextLabel", -- x3
+                [56] = "UIStroke", -- x2
+                [57] = "MouseEnter", -- x2
+                [58] = "TextTruncate", -- x4
+                [59] = "ipairs",
+                [60] = "✂️",
+                [61] = "ragdoll",
+                [62] = "Accent1", -- x2
+                [63] = "task", -- x4
+                [64] = "spawn", -- x4
+                [65] = "AtEnd", -- x2
+                [66] = "InputEnded",
+                [67] = "ImageLabel", -- x2
+                [68] = "", -- x2
+                [69] = "Image",
+                [70] = "DisplayName",
+                [71] = "LayoutOrder",
+                [72] = "🔒",
+                [73] = "jail",
+                [74] = "AnchorPoint",
+                [75] = "_tintOverlay",
+            },
+            booleans = {
+                [0] = false, -- x4
+                [1] = true,
+            },
+            proto_references = {
+                [0] = { proto = 116 },
+                [1] = { proto = 117 },
+                [2] = { proto = 118 },
+                [3] = { proto = 119 },
+                [4] = { proto = 120 },
+                [5] = { proto = 121 },
+                [6] = { proto = 122 },
+                [7] = { proto = 123 },
+                [8] = { proto = 124 },
+                [9] = { proto = 125 },
+                [10] = { proto = 126 },
+                [11] = { proto = 127 },
+                [12] = { proto = 128 },
+                [13] = { proto = 129 },
+                [14] = { proto = 130 },
+                [15] = { proto = 131 },
+            },
+        },
+        [80] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall", -- x2
+                [1] = "syn", -- x2
+                [2] = "Body", -- x3
+                [3] = "", -- x2
+                [4] = "http_request",
+                [5] = "http", -- x2
+                [6] = "request", -- x3
+                [7] = "type", -- x2
+                [8] = "string", -- x2
+            },
+            proto_references = {
+                [0] = { proto = 132 },
+                [1] = { proto = 133 },
+            },
+        },
+        [81] = {
+            parent = 0,
+            strings = {
+                [0] = "UDim", -- x6
+                [1] = "new", -- x35
+                [2] = "CornerRadius", -- x6
+                [3] = "UDim2", -- x15
+                [4] = "Size", -- x8
+                [5] = "MouseButton1Click", -- x5
+                [6] = "TextTruncate", -- x2
+                [7] = "ZIndex", -- x8
+                [8] = "Instance", -- x14
+                [9] = "TextButton", -- x5
+                [10] = "Surface", -- x4
+                [11] = "BackgroundColor3", -- x5
+                [12] = "BackgroundTransparency", -- x7
+                [13] = "UICorner", -- x6
+                [14] = "Connect", -- x5
+                [15] = "TextColor3", -- x6
+                [16] = "TextSize", -- x7
+                [17] = "Accent1",
+                [18] = "BorderSizePixel", -- x6
+                [19] = "+",
+                [20] = "Text", -- x5
+                [21] = "Enum", -- x9
+                [22] = "Font", -- x14
+                [23] = "GothamBold", -- x7
+                [24] = "-",
+                [25] = "Accent2", -- x4
+                [26] = "TextPrimary",
+                [27] = "TextXAlignment", -- x2
+                [28] = "Left",
+                [29] = "Position", -- x7
+                [30] = "TextLabel", -- x2
+                [31] = "▲",
+                [32] = "▼",
+                [33] = "Frame",
+                [34] = "AtEnd",
+                [35] = "SurfaceHighlight",
+                [36] = "LayoutOrder",
+            },
+            proto_references = {
+                [0] = { proto = 134 },
+                [1] = { proto = 135 },
+                [2] = { proto = 136 },
+                [3] = { proto = 137 },
+                [4] = { proto = 138 },
+                [5] = { proto = 139 },
+                [6] = { proto = 140 },
+                [7] = { proto = 141 },
+            },
+        },
+        [82] = {
+            parent = 0,
+            strings = {
+                [0] = "IsA",
+                [1] = "Frame",
+                [2] = "ipairs", -- x2
+                [3] = "GetChildren",
+                [4] = "Destroy",
+                [5] = "SpamOrder",
+            },
+        },
+        [83] = {
+            parent = 0,
+            strings = {
+                [0] = "task",
+                [1] = "defer",
+            },
+            proto_references = {
+                [0] = { proto = 142 },
+            },
+        },
+        [84] = {
+            parent = 0,
+            strings = {
+                [0] = "Character",
+                [1] = "Health",
+                [2] = "FindFirstChildOfClass",
+                [3] = "Humanoid",
+            },
+        },
+        [85] = {
+            parent = 0,
+            strings = {
+                [0] = "pcall",
+                [1] = "task", -- x3
+                [2] = "wait", -- x3
+                [3] = "jail", -- x3
+                [4] = "tick",
+            },
+            booleans = {
+                [0] = true,
+                [1] = false,
+            },
+        },
+        [86] = {
+            parent = 0,
+            strings = {
+                [0] = "Spamming...",
+                [1] = "Text",
+                [2] = "Accent1",
+                [3] = "BackgroundColor3",
+                [4] = "Color3",
+                [5] = "SPAM OWNER", -- x4
+                [6] = "No nearby base found",
+                [7] = "PROTECTED",
+                [8] = "Name",
+                [9] = " is a Good Boy",
+                [10] = "No commands selected in Filter",
+                [11] = "That's your own base!",
+                [12] = "SpamFilter",
+                [13] = "ipairs",
+                [14] = "DisplayName",
+                [15] = "Spamming ",
+                [16] = "task",
+                [17] = "spawn",
+                [18] = "TextColor3",
+                [19] = "new",
+            },
+            booleans = {
+                [0] = false, -- x2
+                [1] = true,
+            },
+            proto_references = {
+                [0] = { proto = 143 },
+            },
+        },
+        [87] = {
+            parent = 0,
+            strings = {
+                [0] = "new", -- x5
+                [1] = "UICorner",
+                [2] = "TextButton",
+                [3] = "Tab",
+                [4] = "UDim",
+                [5] = "UDim2", -- x2
+                [6] = "CornerRadius",
+                [7] = "Position",
+                [8] = "SurfaceHighlight",
+                [9] = "BackgroundColor3",
+                [10] = "BorderSizePixel",
+                [11] = "Text",
+                [12] = "Name",
+                [13] = "Size",
+                [14] = "TextPrimary",
+                [15] = "TextColor3",
+                [16] = "Enum",
+                [17] = "Font", -- x2
+                [18] = "GothamBold",
+                [19] = "TextSize",
+                [20] = "Parent",
+                [21] = "Instance", -- x2
+            },
+        },
+        [88] = {
+            parent = 0,
+            strings = {
+                [0] = "Name", -- x2
+                [1] = "GetChildren",
+                [2] = "IsA",
+                [3] = "Frame",
+                [4] = "Destroy",
+                [5] = "FindFirstChild",
+                [6] = "_isPlayerRow",
+                [7] = "ipairs",
+            },
+        },
+        [89] = {
+            parent = 0,
+            strings = {
+                [0] = "Y",
+                [1] = "CanvasSize",
+                [2] = "UserId", -- x4
+                [3] = "player", -- x2
+                [4] = "row", -- x4
+                [5] = "Parent", -- x2
+                [6] = "UDim2",
+                [7] = "new",
+                [8] = "AbsoluteContentSize",
+                [9] = "FindFirstChild",
+                [10] = "Name",
+            },
+        },
+        [90] = {
+            parent = 0,
+            strings = {
+                [0] = "files", -- x2
+                [1] = "pcall", -- x5
+                [2] = "type", -- x8
+                [3] = "bad", -- x4
+                [4] = "table", -- x8
+                [5] = "good", -- x4
+                [6] = "content",
+                [7] = "tostring", -- x2
+                [8] = "os",
+                [9] = "time",
+                [10] = "?cb=",
+                [11] = "math",
+                [12] = "random",
+            },
+            booleans = {
+                [0] = true, -- x2
+                [1] = false,
+            },
+            proto_references = {
+                [0] = { proto = 144 },
+                [1] = { proto = 145 },
+                [2] = { proto = 146 },
+            },
+        },
+        [91] = {
+            parent = 15,
+            strings = {
+                [0] = "Quad",
+                [1] = "Enum", -- x2
+                [2] = "EasingDirection",
+                [3] = "In",
+                [4] = "TextTransparency", -- x2
+                [5] = "Play", -- x5
+                [6] = "BackgroundTransparency", -- x2
+                [7] = "Create", -- x5
+                [8] = "Completed",
+                [9] = "Wait",
+                [10] = "Destroy",
+                [11] = "TweenInfo",
+                [12] = "new",
+                [13] = "EasingStyle",
+                [14] = "Parent", -- x2
+                [15] = "Transparency",
+            },
+        },
+        [92] = {
+            parent = 15,
+            strings = {
+                [0] = "Destroy",
+            },
+        },
+        [93] = {
+            parent = 16,
+            strings = {
+                [0] = "Disconnect",
+            },
+        },
+        [94] = {
+            parent = 16,
+            strings = {
+                [0] = "Destroy",
+            },
+        },
+        [95] = {
+            parent = 17,
+            strings = {
+                [0] = "JSONDecode",
+                [1] = "readfile",
+            },
+        },
+        [96] = {
+            parent = 19,
+            strings = {
+                [0] = "billboard",
+                [1] = "Destroy",
+            },
+        },
+        [97] = {
+            parent = 19,
+            strings = {
+                [0] = "conn",
+                [1] = "Disconnect",
+            },
+        },
+        [98] = {
+            parent = 19,
+            strings = {
+                [0] = "highlight",
+                [1] = "Destroy",
+            },
+        },
+        [99] = {
+            parent = 24,
+            strings = {
+                [0] = "Scale", -- x2
+                [1] = "Y", -- x3
+                [2] = "Offset", -- x2
+                [3] = "X", -- x3
+                [4] = "new",
+                [5] = "Position", -- x2
+                [6] = "UDim2",
+            },
+        },
+        [100] = {
+            parent = 24,
+            strings = {
+                [0] = "UserInputType", -- x4
+                [1] = "Enum", -- x2
+                [2] = "MouseMovement",
+                [3] = "Touch",
+            },
+        },
+        [101] = {
+            parent = 24,
+            strings = {
+                [0] = "UserInputType", -- x4
+                [1] = "Enum", -- x2
+                [2] = "MouseButton1",
+                [3] = "Touch",
+                [4] = "Connect",
+                [5] = "Position", -- x2
+                [6] = "Changed",
+            },
+            booleans = {
+                [0] = true,
+            },
+            proto_references = {
+                [0] = { proto = 147 },
+            },
+        },
+        [102] = {
+            parent = 31,
+            strings = {
+                [0] = "protect_gui", -- x4
+                [1] = "syn", -- x3
+            },
+        },
+        [103] = {
+            parent = 31,
+            strings = {
+                [0] = "gethui", -- x2
+            },
+        },
+        [104] = {
+            parent = 31,
+            strings = {
+                [0] = "Parent",
+            },
+        },
+        [105] = {
+            parent = 31,
+            strings = {
+                [0] = "Parent",
+            },
+        },
+        [106] = {
+            parent = 33,
+            strings = {
+                [0] = "gethui", -- x2
+            },
+        },
+        [107] = {
+            parent = 36,
+            strings = {
+                [0] = "writefile",
+                [1] = "JSONEncode",
+            },
+        },
+        [108] = {
+            parent = 37,
+            strings = {
+                [0] = "JSONDecode",
+                [1] = "readfile",
+            },
+        },
+        [109] = {
+            parent = 56,
+            strings = {
+                [0] = "writefile",
+                [1] = "JSONEncode",
+            },
+        },
+        [110] = {
+            parent = 59,
+            strings = {
+                [0] = "balloon",
+                [1] = "BalloonedPlayers",
+                [2] = "UserId",
+                [3] = "tick",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [111] = {
+            parent = 65,
+            strings = {
+                [0] = "string", -- x3
+                [1] = "lower",
+                [2] = "Text", -- x2
+                [3] = "find", -- x2
+                [4] = "Adornee",
+                [5] = "IsA", -- x3
+                [6] = "TextButton",
+                [7] = "IsDescendantOf",
+                [8] = "ipairs", -- x2
+                [9] = "GetDescendants",
+                [10] = "Zenith",
+                [11] = "w user",
+                [12] = "zenith",
+                [13] = "BillboardGui",
+                [14] = "TextLabel",
+                [15] = "WServer",
+            },
+            booleans = {
+                [0] = true,
+                [1] = false,
+            },
+        },
+        [112] = {
+            parent = 67,
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "SurfaceHighlight",
+                [2] = "balloon",
+                [3] = "Parent",
+                [4] = "Error",
+                [5] = "next",
+                [6] = "BalloonedPlayers",
+            },
+        },
+        [113] = {
+            parent = 72,
+            strings = {
+                [0] = "Destroy",
+                [1] = "BackgroundTransparency",
+                [2] = "TextTransparency",
+                [3] = "task",
+                [4] = "wait",
+            },
+        },
+        [114] = {
+            parent = 74,
+            strings = {
+                [0] = "task",
+                [1] = "wait",
+            },
+        },
+        [115] = {
+            parent = 78,
+            strings = {
+                [0] = "plr", -- x2
+                [1] = "", -- x2
+            },
+        },
+        [116] = {
+            parent = 79,
+            strings = {
+                [0] = "GetUserThumbnailAsync",
+                [1] = "UserId",
+                [2] = "Enum", -- x2
+                [3] = "ThumbnailType",
+                [4] = "HeadShot",
+                [5] = "ThumbnailSize",
+                [6] = "Size48x48",
+                [7] = "Image",
+            },
+        },
+        [117] = {
+            parent = 79,
+            strings = {
+                [0] = "Enabled",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [118] = {
+            parent = 79,
+            strings = {
+                [0] = "BalloonedPlayers", -- x2
+                [1] = "UserId",
+                [2] = "cmd", -- x6
+                [3] = "balloon", -- x2
+                [4] = "BLOCKED",
+                [5] = "Name",
+                [6] = " is using ",
+                [7] = "tick",
+                [8] = "next",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [119] = {
+            parent = 79,
+            strings = {
+                [0] = "UserInputType", -- x2
+                [1] = "MouseMovement",
+                [2] = "Enum",
+                [3] = "BackgroundTransparency",
+            },
+        },
+        [120] = {
+            parent = 79,
+            strings = {
+                [0] = "BackgroundTransparency",
+            },
+        },
+        [121] = {
+            parent = 79,
+            strings = {
+                [0] = "BackgroundTransparency",
+            },
+        },
+        [122] = {
+            parent = 79,
+            strings = {
+                [0] = "next",
+                [1] = "BalloonedPlayers",
+                [2] = "cmd", -- x2
+                [3] = "BackgroundTransparency", -- x3
+                [4] = "Color3", -- x6
+                [5] = "fromRGB", -- x5
+                [6] = "BackgroundColor3", -- x3
+                [7] = "TextTransparency", -- x3
+                [8] = "new",
+                [9] = "TextColor3", -- x3
+                [10] = "balloon",
+            },
+        },
+        [123] = {
+            parent = 79,
+            strings = {
+                [0] = "Enabled",
+                [1] = "Transparency",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [124] = {
+            parent = 79,
+            strings = {
+                [0] = "Color3", -- x4
+                [1] = "new", -- x4
+                [2] = "TextColor3", -- x3
+                [3] = "Visible", -- x2
+                [4] = "UDim2", -- x3
+                [5] = "BackgroundColor3", -- x2
+                [6] = "Position", -- x3
+                [7] = "Lerp",
+                [8] = "fromRGB", -- x3
+                [9] = "Text",
+                [10] = "]",
+                [11] = "[",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+        },
+        [125] = {
+            parent = 79,
+            strings = {
+                [0] = "TextColor3", -- x3
+                [1] = "Visible", -- x2
+                [2] = "UNKNOWN",
+                [3] = "Color3", -- x5
+                [4] = "fromRGB", -- x5
+                [5] = "BackgroundColor3", -- x2
+                [6] = "Name",
+                [7] = "@",
+                [8] = "Text", -- x2
+                [9] = "tostring",
+                [10] = "⚠ ",
+                [11] = "GetAttribute", -- x2
+                [12] = "Stealing",
+                [13] = "StealingIndex",
+                [14] = "Parent",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+        },
+        [126] = {
+            parent = 79,
+            strings = {
+                [0] = "Character",
+                [1] = "task",
+                [2] = "wait",
+                [3] = "Parent",
+                [4] = "Visible", -- x2
+                [5] = "Image", -- x2
+                [6] = "", -- x2
+                [7] = "TextureId", -- x2
+                [8] = "FindFirstChildWhichIsA",
+                [9] = "Tool",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+        },
+        [127] = {
+            parent = 79,
+            strings = {
+                [0] = "BLOCKED",
+                [1] = "Name",
+                [2] = " is using ",
+            },
+        },
+        [128] = {
+            parent = 79,
+            strings = {
+                [0] = "Lerp",
+                [1] = "Color3", -- x2
+                [2] = "fromRGB", -- x2
+                [3] = "MouseMovement",
+                [4] = "UserInputType", -- x2
+                [5] = "Enum",
+                [6] = "BackgroundColor3",
+                [7] = "BackgroundTransparency",
+            },
+        },
+        [129] = {
+            parent = 79,
+            strings = {
+                [0] = "task",
+                [1] = "wait",
+                [2] = "Parent",
+            },
+        },
+        [130] = {
+            parent = 79,
+            strings = {
+                [0] = "Parent",
+                [1] = "wait",
+                [2] = "task",
+            },
+        },
+        [131] = {
+            parent = 79,
+            strings = {
+                [0] = "task",
+                [1] = "wait",
+                [2] = "Parent",
+            },
+        },
+        [132] = {
+            parent = 80,
+            strings = {
+                [0] = "game",
+                [1] = "HttpGet",
+            },
+        },
+        [133] = {
+            parent = 80,
+            strings = {
+                [0] = "FMLY",
+                [1] = "User-Agent",
+                [2] = "no-cache",
+                [3] = "Cache-Control",
+                [4] = "Headers",
+                [5] = "Url",
+                [6] = "GET",
+                [7] = "Method",
+            },
+        },
+        [134] = {
+            parent = 81,
+            strings = {
+                [0] = "Text",
+                [1] = "SpamDelays", -- x2
+                [2] = "string",
+                [3] = "format",
+                [4] = "%.1fs",
+            },
+        },
+        [135] = {
+            parent = 81,
+            strings = {
+                [0] = "TextColor3",
+                [1] = "Accent1",
+                [2] = "Text",
+                [3] = "BackgroundColor3",
+                [4] = "BackgroundTransparency",
+                [5] = "TextSecondary",
+                [6] = "SurfaceHighlight",
+                [7] = "SpamFilter",
+                [8] = "OFF",
+                [9] = "Color3",
+                [10] = "new",
+                [11] = "ON",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [136] = {
+            parent = 81,
+            strings = {
+                [0] = "SpamDelays", -- x2
+                [1] = "math",
+                [2] = "clamp",
+            },
+        },
+        [137] = {
+            parent = 81,
+            strings = {
+                [0] = "SpamDelays", -- x2
+                [1] = "math",
+                [2] = "clamp",
+            },
+        },
+        [138] = {
+            parent = 81,
+            strings = {
+                [0] = "SpamFilter", -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [139] = {
+            parent = 81,
+            strings = {
+                [0] = "SpamOrder",
+                [1] = "ipairs",
+            },
+        },
+        [140] = {
+            parent = 81,
+        },
+        [141] = {
+            parent = 81,
+        },
+        [142] = {
+            parent = 83,
+            strings = {
+                [0] = "math", -- x2
+                [1] = "floor",
+                [2] = "AbsoluteContentSize",
+                [3] = "max",
+                [4] = "Size",
+                [5] = "Y",
+                [6] = "UDim2",
+                [7] = "new",
+                [8] = "Parent",
+            },
+        },
+        [143] = {
+            parent = 86,
+            strings = {
+                [0] = "table",
+                [1] = "insert",
+                [2] = " cmds to ",
+                [3] = "Sent ",
+                [4] = "balloon",
+                [5] = "ipairs", -- x2
+                [6] = "SpamOrder",
+                [7] = "math",
+                [8] = "random",
+                [9] = "task", -- x2
+                [10] = "wait", -- x2
+                [11] = "rocket",
+                [12] = "jail", -- x2
+                [13] = "Text",
+                [14] = "Spam Base Owner",
+                [15] = "SurfaceHighlight",
+                [16] = "BackgroundColor3",
+                [17] = "BackgroundTransparency",
+                [18] = "TextPrimary",
+                [19] = "tick",
+                [20] = "SpamFilter",
+                [21] = "BalloonedPlayers",
+                [22] = "UserId",
+                [23] = "SpamDelays", -- x2
+                [24] = "pcall",
+                [25] = "TextColor3",
+                [26] = "SPAM OWNER",
+                [27] = "DisplayName",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+        },
+        [144] = {
+            parent = 90,
+            strings = {
+                [0] = "JSONDecode",
+                [1] = "content",
+            },
+        },
+        [145] = {
+            parent = 90,
+            strings = {
+                [0] = "JSONDecode",
+            },
+        },
+        [146] = {
+            parent = 90,
+            strings = {
+                [0] = "JSONDecode",
+            },
+        },
+        [147] = {
+            parent = 101,
+            strings = {
+                [0] = "End",
+                [1] = "UserInputState", -- x2
+                [2] = "Enum",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+    },
+}
