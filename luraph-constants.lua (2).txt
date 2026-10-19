@@ -1,0 +1,5794 @@
+-- This file was generated at discord.gg/syncrypt
+
+return {
+    protos = {
+        [0] = {
+            strings = {
+                [0] = "BackgroundColor3", -- x17
+                [1] = "BorderSizePixel", -- x2
+                [2] = "ZIndex",
+                [3] = "Parent", -- x41
+                [4] = "Tojee",
+                [5] = "autoTojee",
+                [6] = "Katakurii",
+                [7] = "autoKatakurii",
+                [8] = "Dungeon", -- x3
+                [9] = "Export",
+                [10] = "ScrollBarThickness",
+                [11] = "RED_DIM", -- x5
+                [12] = "ScrollBarImageColor3",
+                [13] = "Y",
+                [14] = "AutomaticCanvasSize", -- x2
+                [15] = "accent", -- x12
+                [16] = "Size", -- x30
+                [17] = "MouseButton1Click", -- x6
+                [18] = "Connect",
+                [19] = "InputBegan", -- x4
+                [20] = "distance",
+                [21] = "Left", -- x6
+                [22] = "TextXAlignment", -- x7
+                [23] = "npcName", -- x19
+                [24] = "name", -- x35
+                [25] = "Soul / Stamina / Haki",
+                [26] = "autoSoul",
+                [27] = "TextButton", -- x8
+                [28] = "Text", -- x4
+                [29] = "NPC Teleport",
+                [30] = "Select NPC",
+                [31] = "Position", -- x20
+                [32] = "BORDER", -- x4
+                [33] = "BackgroundTransparency", -- x3
+                [34] = "RED", -- x7
+                [35] = "ScrollingFrame", -- x2
+                [36] = "PANEL",
+                [37] = "Megumo", -- x2
+                [38] = "autoMegumo",
+                [39] = "Gojoh",
+                [40] = "autoGojoh",
+                [41] = "Gotham", -- x7
+                [42] = "Font", -- x16
+                [43] = "TextSize",
+                [44] = "TextColor3", -- x16
+                [45] = "Transparency",
+                [46] = "ImageLabel",
+                [47] = "InteractControl", -- x22
+                [48] = "Monkey Quests", -- x3
+                [49] = "King Gorilla",
+                [50] = "CARD", -- x7
+                [51] = "Auto Take Quests",
+                [52] = "autoCoyote", -- x2
+                [53] = "autoKidBuu", -- x2
+                [54] = "PaddingLeft", -- x3
+                [55] = "Frame", -- x8
+                [56] = "TextLabel", -- x8
+                [57] = "bg", -- x12
+                [58] = "quest", -- x13
+                [59] = "Distance",
+                [60] = "surf", -- x12
+                [61] = "AutoButtonColor",
+                [62] = "GetPropertyChangedSignal",
+                [63] = "ViewportSize",
+                [64] = "TEXT_PRI", -- x6
+                [65] = "TEXT_MUTE", -- x3
+                [66] = "Ready",
+                [67] = "PaddingTop", -- x2
+                [68] = "Fishman Quests", -- x3
+                [69] = "Fishman Guards",
+                [70] = "args", -- x22
+                [71] = "autoAllBosses",
+                [72] = "SortOrder", -- x2
+                [73] = "Teleport",
+                [74] = "GetService",
+                [75] = "Select Quest",
+                [76] = "k", -- x7
+                [77] = "Specific Boss",
+                [78] = "Center",
+                [79] = "request",
+                [80] = "Truffle Quests", -- x3
+                [81] = "X", -- x3
+                [82] = "ScrollingDirection",
+                [83] = "Coyote Shark",
+                [84] = "UIListLayout", -- x2
+                [85] = "TEXT_SEC", -- x3
+                [86] = "GothamBold", -- x3
+                [87] = "Quests",
+                [88] = "InputEnded", -- x2
+                [89] = "ScreenGui",
+                [90] = "Name",
+                [91] = "ResetOnSpawn",
+                [92] = "IgnoreGuiInset",
+                [93] = "Global",
+                [94] = "ZIndexBehavior",
+                [95] = "DisplayOrder",
+                [96] = "autoSelectedBoss", -- x2
+                [97] = "autoBossQuest", -- x2
+                [98] = "autoHaki", -- x2
+                [99] = "Rewards",
+                [100] = "PlaceholderColor3", -- x2
+                [101] = "WaitForChild",
+                [102] = "PlayerGui",
+                [103] = "JJK Quests", -- x3
+                [104] = "Grade1 Sorcerers",
+                [105] = "autoStrength",
+                [106] = "GothamBlack", -- x4
+                [107] = "Monkeys",
+                [108] = "RED_GLOW",
+                [109] = "Raid",
+                [110] = "Players",
+                [111] = "UserInputService",
+                [112] = "TweenService",
+                [113] = "UIPadding", -- x4
+                [114] = "Mihook",
+                [115] = "autoMihook",
+                [116] = "AnchorPoint",
+                [117] = "Image",
+                [118] = "ImageColor3",
+                [119] = "ImageTransparency",
+                [120] = "MouseEnter", -- x4
+                [121] = "Desert Quests", -- x2
+                [122] = "Sand Genins",
+                [123] = "Padding", -- x2
+                [124] = "LayoutOrder", -- x3
+                [125] = "MouseLeave", -- x4
+                [126] = "Weapon (Auto Equip)",
+                [127] = "Auto Farm", -- x4
+                [128] = "Auto Stats", -- x2
+                [129] = "Misc", -- x2
+                [130] = "Summon Kill", -- x3
+                [131] = "Auto Raid", -- x3
+                [132] = "Config", -- x3
+                [133] = "Color", -- x3
+                [134] = "Thickness",
+                [135] = "Truffle Minions",
+                [136] = "Leaf Quests", -- x3
+                [137] = "Sand Chunins",
+                [138] = "instaKillPct", -- x2
+                [139] = "autoFarm", -- x2
+                [140] = "Copy Current Config",
+                [141] = "Import",
+                [142] = "n", -- x9
+                [143] = "Server Hop",
+                [144] = "PaddingBottom",
+                [145] = "WestCity Quests", -- x3
+                [146] = "Super 17",
+                [147] = "SURFACE", -- x3
+                [148] = "ReplicatedStorage",
+                [149] = "PaddingRight", -- x3
+                [150] = "All For Me",
+                [151] = "autoAllForMe",
+                [152] = "Goko SSJ4",
+                [153] = "autoGokoSSJ4",
+                [154] = "UIStroke", -- x2
+                [155] = "500CCU",
+                [156] = "1000CCUYAY",
+                [157] = "AYE2500LIKES",
+                [158] = "BETA",
+                [159] = "BIGBOOST1K",
+                [160] = "FREESOULYUPYUP",
+                [161] = "Android 23s",
+                [162] = "s",
+                [163] = "%",
+                [164] = "Redeem Codes",
+                [165] = "Chests",
+                [166] = "TextTransparency",
+                [167] = "InputChanged", -- x2
+                [168] = "selectedWep",
+                [169] = "selectedBoss",
+                [170] = "autoSword", -- x2
+                [171] = "Leaf Chunins",
+                [172] = "Load & Save Config",
+                [173] = "Auto Delete Water",
+                [174] = "autoDeleteWater",
+                [175] = "Grade2 Sorcerers",
+                [176] = "Saiyons",
+                [177] = "BG", -- x2
+                [178] = "FocusLost",
+                [179] = "Dawn Quests", -- x2
+                [180] = "Bandit Boss",
+                [181] = "Baby Veguta",
+                [182] = "Weapon",
+                [183] = "Top", -- x2
+                [184] = "Leaf Jonins",
+                [185] = "Arlog",
+                [186] = "Direction",
+                [187] = "SetText",
+                [188] = "Back", -- x2
+                [189] = "Strength / Stamina / Haki",
+                [190] = "TextBox", -- x2
+                [191] = "PlaceholderText",
+                [192] = "Color Theme",
+                [193] = "Insta Kill",
+                [194] = "VirtualUser",
+                [195] = "Idled",
+                [196] = "Color3",
+                [197] = "error",
+                [198] = "next",
+                [199] = "Visible",
+                [200] = "Auto Collect",
+                [201] = "autoCollect",
+                [202] = "LIMITLESSGIFT",
+                [203] = "POWERED5KLIKES",
+                [204] = "RELEASE",
+                [205] = "Right",
+                [206] = "autoAllSummons", -- x2
+                [207] = "autoGrabChest", -- x2
+                [208] = "autoSoulChest", -- x2
+                [209] = "autoRaid", -- x2
+                [210] = "autoServerHop", -- x2
+                [211] = "autoDungeon", -- x2
+                [212] = "Truffle Elites",
+                [213] = "Selected Boss",
+                [214] = "UIScale",
+                [215] = "Kill ALL Summons",
+                [216] = "Vector2",
+                [217] = "Auto Farm Dungeon",
+                [218] = "Focused",
+                [219] = "Auto Soul Chest",
+                [220] = "Kid Buu",
+                [221] = "Bandits",
+                [222] = "Front",
+                [223] = "Horizontal",
+                [224] = "FillDirection",
+                [225] = "Auto Hop + Chests",
+                [226] = "TextYAlignment",
+                [227] = "TextWrapped",
+                [228] = "MultiLine",
+                [229] = "ClearTextOnFocus",
+                [230] = "SHUTDOWNFORFIXES",
+                [231] = "SORRYFORTHEMBUGS",
+                [232] = "THANKSFORPLAYING",
+                [233] = "THANKYOU",
+                [234] = "WOOTWOOT",
+                [235] = "JJKUPDATE",
+                [236] = "Bosses",
+                [237] = "GothamMedium", -- x2
+                [238] = "missionIndex",
+                [239] = "direction",
+                [240] = "Auto Grab Chest",
+                [241] = "Player Tweaks",
+                [242] = "Night Guy Dungeon",
+                [243] = "Fire Ready",
+                [244] = "Refresh",
+                [245] = "Themes", -- x2
+                [246] = "SUPERDRAGONFIST",
+                [247] = "FREEKEYS",
+                [248] = "unlocked",
+                [249] = "Fishman Fighters",
+                [250] = "CoreGui",
+                [251] = "HttpService",
+                [252] = "Workspace",
+                [253] = "ClipsDescendants",
+                [254] = "Training",
+                [255] = "Sword / Stamina / Haki",
+                [256] = "CanvasSize", -- x2
+                [257] = "VerticalAlignment",
+                [258] = "RunService",
+                [259] = "LocalPlayer",
+                [260] = "CurrentCamera",
+                [261] = "toclipboard",
+                [262] = "Server",
+                [263] = "All Bosses",
+                [264] = "Gorillas",
+                [265] = "Cursed Raid",
+                [266] = "AutomaticSize",
+            },
+            numbers = {
+                [0] = 457,
+                [1] = 486,
+                [2] = 0, -- x101
+                [3] = 40, -- x9
+                [4] = 140, -- x3
+                [5] = 5, -- x5
+                [6] = 28, -- x10
+                [7] = 7, -- x6
+                [8] = 10, -- x15
+                [9] = 2, -- x19
+                [10] = 1, -- x43
+                [11] = -4, -- x4
+                [12] = 50, -- x2
+                [13] = 4, -- x4
+                [14] = 22, -- x17
+                [15] = 36, -- x2
+                [16] = 6, -- x14
+                [17] = 0.5, -- x17
+                [18] = 148, -- x2
+                [19] = 168,
+                [20] = 38, -- x5
+                [21] = 200, -- x7
+                [22] = 210, -- x3
+                [23] = 12, -- x8
+                [24] = 160, -- x3
+                [25] = 220, -- x7
+                [26] = 20, -- x12
+                [27] = 18, -- x10
+                [28] = 32, -- x6
+                [29] = 16, -- x3
+                [30] = 8, -- x13
+                [31] = 90, -- x4
+                [32] = 170,
+                [33] = 255, -- x20
+                [34] = 24, -- x5
+                [35] = 120,
+                [36] = 13, -- x4
+                [37] = -42,
+                [38] = -14, -- x2
+                [39] = -10,
+                [40] = 48, -- x5
+                [41] = 80, -- x5
+                [42] = -11,
+                [43] = -34,
+                [44] = 236, -- x2
+                [45] = -24, -- x5
+                [46] = -16,
+                [47] = 189,
+                [48] = 109,
+                [49] = -100, -- x2
+                [50] = 183,
+                [51] = -12,
+                [52] = -50,
+                [53] = -290,
+                [54] = -210,
+                [55] = 14, -- x10
+                [56] = 34, -- x2
+                [57] = 9, -- x2
+                [58] = 150, -- x4
+                [59] = 166,
+                [60] = 100,
+                [61] = 232,
+                [62] = 70,
+                [63] = 46, -- x2
+                [64] = 240,
+                [65] = 195,
+                [66] = 60, -- x2
+                [67] = 30, -- x5
+                [68] = 65,
+                [69] = 96,
+                [70] = 175,
+                [71] = 580,
+                [72] = 420,
+                [73] = 79,
+                [74] = -38,
+                [75] = 95, -- x2
+                [76] = 23, -- x2
+                [77] = 242, -- x2
+                [78] = 228, -- x2
+                [79] = -8,
+                [80] = 110, -- x2
+                [81] = -66,
+                [82] = 130,
+                [83] = -65,
+                [84] = 98,
+                [85] = 196,
+                [86] = 26, -- x2
+                [87] = 11,
+                [88] = 416,
+                [89] = 78,
+                [90] = 51,
+                [91] = 76,
+                [92] = 136,
+                [93] = 17,
+                [94] = 111,
+                [95] = 3581,
+                [96] = 519,
+                [97] = 57,
+                [98] = 3748,
+                [99] = 3212,
+                [100] = 2078,
+                [101] = 2627,
+                [102] = 1647,
+                [103] = 465,
+            },
+            booleans = {
+                [0] = false, -- x4
+            },
+            imports = {
+                [0] = { import = { 2 } }, -- x14
+                [1] = { import = { 4 } }, -- x18
+                [2] = { import = { 15 } }, -- x2
+                [3] = { import = { 34 } }, -- x26
+                [4] = { import = { 46 } }, -- x18
+                [5] = { import = { 48 } }, -- x18
+                [6] = { import = { 55 } }, -- x16
+                [7] = { import = { 71 } }, -- x15
+                [8] = { import = { 93 } }, -- x16
+                [9] = { import = { 98 } },
+                [10] = { import = { 52 } },
+                [11] = { import = { 107 } },
+                [12] = { import = { 109 } },
+                [13] = { import = { 119 } }, -- x10
+                [14] = { import = { 129 } }, -- x6
+                [15] = { import = { 131 } },
+                [16] = { import = { 159 } }, -- x9
+                [17] = { import = { 166 } }, -- x2
+                [18] = { import = { 86 } },
+                [19] = { import = { 89 } },
+                [20] = { import = { 8 } },
+                [21] = { import = { 11 } },
+                [22] = { import = { 187 } },
+                [23] = { import = { 189 } },
+                [24] = { import = { 191 } },
+                [25] = { import = { 195 } },
+                [26] = { import = { 198 } },
+                [27] = { import = { 200 } },
+                [28] = { import = { 202 } },
+                [29] = { import = { 207 } },
+                [30] = { import = { 234 } },
+                [31] = { import = { 237 } },
+                [32] = { import = { 262 } }, -- x3
+                [33] = { import = { 284 } },
+                [34] = { import = { 286 } },
+                [35] = { import = { 152 } },
+                [36] = { import = { 162 } }, -- x2
+                [37] = { import = { 308 } },
+                [38] = { import = { 311 } },
+                [39] = { import = { 232 } },
+                [40] = { import = { 343 } }, -- x3
+                [41] = { import = { 354 } },
+                [42] = { import = { 356 } },
+                [43] = { import = { 358 } },
+                [44] = { import = { 217 } },
+                [45] = { import = { 405 } }, -- x2
+                [46] = { import = { 415 } },
+                [47] = { import = { 417 } },
+                [48] = { import = { 419 } },
+                [49] = { import = { 421 } }, -- x2
+                [50] = { import = { 430 } },
+                [51] = { import = { 432 } },
+                [52] = { import = { 434 } },
+                [53] = { import = { 436 } },
+                [54] = { import = { 438 } },
+                [55] = { import = { 424 } },
+                [56] = { import = { 441 } },
+                [57] = { import = { 448 } },
+                [58] = { import = { 466 } },
+                [59] = { import = { 468 } },
+                [60] = { import = { 470 } },
+                [61] = { import = { 484 } },
+                [62] = { import = { 486 } },
+                [63] = { import = { 42 } },
+                [64] = { import = { 373 } },
+                [65] = { import = { 501 } },
+                [66] = { import = { 516 } },
+                [67] = { import = { 534 } },
+            },
+            closures = {
+                [0] = { closure = 1 },
+                [1] = { closure = 2 },
+                [2] = { closure = 3 },
+                [3] = { closure = 4 },
+                [4] = { closure = 5 },
+                [5] = { closure = 6 },
+                [6] = { closure = 7 },
+                [7] = { closure = 8 },
+                [8] = { closure = 9 },
+                [9] = { closure = 10 },
+                [10] = { closure = 11 },
+                [11] = { closure = 12 },
+                [12] = { closure = 13 },
+                [13] = { closure = 14 },
+                [14] = { closure = 15 },
+                [15] = { closure = 16 },
+                [16] = { closure = 17 },
+                [17] = { closure = 18 },
+                [18] = { closure = 19 },
+                [19] = { closure = 20 },
+                [20] = { closure = 21 },
+                [21] = { closure = 22 },
+                [22] = { closure = 23 },
+                [23] = { closure = 24 },
+                [24] = { closure = 25 },
+                [25] = { closure = 26 },
+                [26] = { closure = 27 },
+                [27] = { closure = 28 },
+                [28] = { closure = 29 },
+                [29] = { closure = 30 },
+                [30] = { closure = 31 },
+                [31] = { closure = 32 },
+                [32] = { closure = 33 },
+                [33] = { closure = 34 },
+                [34] = { closure = 35 },
+                [35] = { closure = 36 },
+                [36] = { closure = 37 },
+                [37] = { closure = 38 },
+                [38] = { closure = 39 },
+                [39] = { closure = 40 },
+                [40] = { closure = 41 },
+                [41] = { closure = 42 },
+                [42] = { closure = 43 },
+                [43] = { closure = 44 },
+                [44] = { closure = 45 },
+                [45] = { closure = 46 },
+                [46] = { closure = 47 },
+                [47] = { closure = 48 },
+                [48] = { closure = 49 },
+                [49] = { closure = 50 },
+                [50] = { closure = 51 },
+                [51] = { closure = 52 },
+                [52] = { closure = 53 },
+                [53] = { closure = 54 },
+                [54] = { closure = 55 },
+                [55] = { closure = 56 },
+                [56] = { closure = 57 },
+                [57] = { closure = 58 },
+                [58] = { closure = 59 },
+                [59] = { closure = 60 },
+                [60] = { closure = 61 },
+                [61] = { closure = 62 },
+                [62] = { closure = 63 },
+                [63] = { closure = 64 },
+                [64] = { closure = 65 },
+                [65] = { closure = 66 },
+                [66] = { closure = 67 },
+                [67] = { closure = 68 },
+                [68] = { closure = 69 },
+                [69] = { closure = 70 },
+                [70] = { closure = 71 },
+                [71] = { closure = 72 },
+                [72] = { closure = 73 },
+                [73] = { closure = 74 },
+                [74] = { closure = 75 },
+                [75] = { closure = 76 },
+                [76] = { closure = 77 },
+                [77] = { closure = 78 },
+                [78] = { closure = 79 },
+                [79] = { closure = 80 },
+                [80] = { closure = 81 },
+                [81] = { closure = 82 },
+                [82] = { closure = 83 },
+                [83] = { closure = 84 },
+                [84] = { closure = 85 },
+                [85] = { closure = 86 },
+                [86] = { closure = 87 },
+                [87] = { closure = 88 },
+                [88] = { closure = 89 },
+                [89] = { closure = 90 },
+                [90] = { closure = 91 },
+                [91] = { closure = 92 },
+                [92] = { closure = 93 },
+                [93] = { closure = 94 },
+                [94] = { closure = 95 },
+                [95] = { closure = 96 },
+                [96] = { closure = 97 },
+                [97] = { closure = 98 },
+                [98] = { closure = 99 },
+                [99] = { closure = 100 },
+                [100] = { closure = 101 },
+                [101] = { closure = 102 },
+                [102] = { closure = 103 },
+                [103] = { closure = 104 },
+                [104] = { closure = 105 },
+                [105] = { closure = 106 },
+                [106] = { closure = 107 },
+                [107] = { closure = 108 },
+                [108] = { closure = 109 },
+                [109] = { closure = 110 },
+                [110] = { closure = 111 },
+                [111] = { closure = 112 },
+                [112] = { closure = 113 },
+                [113] = { closure = 114 },
+                [114] = { closure = 115 },
+                [115] = { closure = 116 },
+                [116] = { closure = 117 },
+                [117] = { closure = 118 },
+                [118] = { closure = 119 },
+                [119] = { closure = 120 },
+                [120] = { closure = 121 },
+            },
+        },
+        [1] = {
+            parent = 0,
+        },
+        [2] = {
+            parent = 0,
+            strings = {
+                [0] = "Color",
+            },
+            numbers = {
+                [0] = 0.1,
+                [1] = 0.7,
+            },
+        },
+        [3] = {
+            parent = 0,
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+                [2] = 2,
+                [3] = 3,
+            },
+        },
+        [4] = {
+            parent = 0,
+            strings = {
+                [0] = "debug",
+            },
+            numbers = {
+                [0] = 246,
+                [1] = 1,
+                [2] = 74,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [5] = {
+            parent = 0,
+        },
+        [6] = {
+            parent = 0,
+            strings = {
+                [0] = "next",
+            },
+            numbers = {
+                [0] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [7] = {
+            parent = 0,
+            strings = {
+                [0] = "tostring",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [8] = {
+            parent = 0,
+            strings = {
+                [0] = "Codes",
+                [1] = "WaitForChild",
+                [2] = "Game",
+                [3] = "Remotes",
+                [4] = "ServerHandler",
+            },
+            numbers = {
+                [0] = 5, -- x2
+                [1] = 10, -- x2
+                [2] = 0,
+            },
+            imports = {
+                [0] = { import = { 2 } }, -- x4
+            },
+        },
+        [9] = {
+            parent = 0,
+            strings = {
+                [0] = "isfile",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+            closures = {
+                [0] = { closure = 122 },
+            },
+        },
+        [10] = {
+            parent = 0,
+            strings = {
+                [0] = "JSONDecode",
+                [1] = "AnimeLimitless_Config.json", -- x2
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 2,
+                [2] = 3,
+                [3] = 4,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [11] = {
+            parent = 0,
+            strings = {
+                [0] = "loadstring",
+                [1] = "FindFirstChild",
+                [2] = "NexusAnimeLimitless",
+                [3] = "Destroy",
+            },
+            numbers = {
+                [0] = 0,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+                [2] = { import = { 5 } },
+            },
+        },
+        [12] = {
+            parent = 0,
+        },
+        [13] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundTransparency",
+                [1] = "IsA",
+                [2] = "TextBox", -- x2
+                [3] = "TextTransparency", -- x2
+                [4] = "TextLabel",
+                [5] = "Text",
+                [6] = "match",
+                [7] = "^%s*(.-)%s*$",
+                [8] = "Create",
+                [9] = "Quart",
+                [10] = "Out",
+                [11] = "Play",
+                [12] = "",
+                [13] = "TextButton",
+            },
+            numbers = {
+                [0] = 200, -- x2
+                [1] = 0.5, -- x2
+                [2] = 100, -- x2
+                [3] = 0.4, -- x2
+                [4] = 80, -- x2
+                [5] = 3, -- x2
+                [6] = 247,
+                [7] = 4, -- x3
+                [8] = 2, -- x3
+                [9] = 5, -- x2
+                [10] = 0,
+                [11] = 7, -- x2
+                [12] = 10,
+                [13] = 15,
+                [14] = 16,
+                [15] = 17,
+                [16] = 18,
+                [17] = 1, -- x2
+            },
+            booleans = {
+                [0] = true,
+            },
+            imports = {
+                [0] = { import = { 2 } }, -- x4
+                [1] = { import = { 5 } }, -- x2
+                [2] = { import = { 10 } },
+                [3] = { import = { 1 } }, -- x2
+                [4] = { import = { 18 } },
+                [5] = { import = { 22 } },
+            },
+            closures = {
+                [0] = { closure = 123 },
+                [1] = { closure = 124 },
+            },
+        },
+        [14] = {
+            parent = 0,
+            strings = {
+                [0] = "Parent", -- x3
+                [1] = "request",
+                [2] = "TextLabel",
+                [3] = "Size",
+                [4] = "BackgroundTransparency",
+                [5] = "Text",
+                [6] = "TEXT_PRI",
+                [7] = "Frame", -- x2
+                [8] = "ColorSequence",
+                [9] = "Position", -- x2
+                [10] = "BorderSizePixel",
+                [11] = "Left",
+                [12] = "TextXAlignment",
+                [13] = "TextColor3",
+                [14] = "GothamBold",
+                [15] = "Font",
+                [16] = "TextSize",
+            },
+            numbers = {
+                [0] = 0, -- x10
+                [1] = 0.5,
+                [2] = -6,
+                [3] = 1, -- x7
+                [4] = 22,
+                [5] = 10,
+                [6] = -12,
+                [7] = 2, -- x2
+                [8] = 3, -- x2
+                [9] = 12,
+                [10] = 121,
+                [11] = 5,
+                [12] = 7,
+                [13] = 6,
+            },
+            imports = {
+                [0] = { import = { 4 } },
+                [1] = { import = { 10 } }, -- x2
+                [2] = { import = { 15 } },
+                [3] = { import = { 18 } },
+                [4] = { import = { 31 } },
+            },
+            closures = {
+                [0] = { closure = 125 },
+            },
+        },
+        [15] = {
+            parent = 0,
+            strings = {
+                [0] = "BORDER",
+                [1] = "UIStroke",
+                [2] = "Color",
+                [3] = "Thickness",
+                [4] = "Transparency",
+                [5] = "Parent",
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 0, -- x2
+            },
+        },
+        [16] = {
+            parent = 0,
+            strings = {
+                [0] = "UIGradient",
+                [1] = "Rotation",
+            },
+            numbers = {
+                [0] = 90,
+                [1] = 0,
+                [2] = 1,
+            },
+        },
+        [17] = {
+            parent = 0,
+            strings = {
+                [0] = "Play",
+                [1] = "Out",
+                [2] = "Quad",
+                [3] = "Create",
+            },
+            numbers = {
+                [0] = 0.15,
+                [1] = 3,
+                [2] = 2,
+                [3] = 0,
+                [4] = 185,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 5 } },
+            },
+        },
+        [18] = {
+            parent = 0,
+            strings = {
+                [0] = "B",
+            },
+            numbers = {
+                [0] = 0.62,
+                [1] = 0,
+            },
+        },
+        [19] = {
+            parent = 0,
+            strings = {
+                [0] = "G", -- x2
+                [1] = "B", -- x2
+                [2] = "tonumber",
+                [3] = "R", -- x2
+            },
+            numbers = {
+                [0] = 0.3,
+            },
+            imports = {
+                [0] = { import = { 3 } },
+            },
+        },
+        [20] = {
+            parent = 0,
+            strings = {
+                [0] = "next",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [21] = {
+            parent = 0,
+        },
+        [22] = {
+            parent = 0,
+            numbers = {
+                [0] = 0.15,
+                [1] = 1,
+            },
+        },
+        [23] = {
+            parent = 0,
+            strings = {
+                [0] = "Parent",
+                [1] = "Frame",
+                [2] = "Position",
+                [3] = "BackgroundColor3",
+                [4] = "BorderSizePixel",
+                [5] = "ZIndex",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 4,
+                [2] = 1,
+                [3] = 3,
+            },
+            imports = {
+                [0] = { import = { 6 } },
+                [1] = { import = { 8 } },
+            },
+            closures = {
+                [0] = { closure = 126 },
+            },
+        },
+        [24] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Water", -- x2
+                [2] = "autoDeleteWater",
+                [3] = "Character",
+            },
+            numbers = {
+                [0] = 0.4,
+                [1] = 3, -- x3
+                [2] = 2,
+                [3] = 0,
+            },
+            booleans = {
+                [0] = true,
+                [1] = false, -- x2
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x2
+            },
+            closures = {
+                [0] = { closure = 127 },
+                [1] = { closure = 128 },
+            },
+        },
+        [25] = {
+            parent = 0,
+            numbers = {
+                [0] = 85,
+                [1] = 1,
+            },
+        },
+        [26] = {
+            parent = 0,
+            strings = {
+                [0] = "next",
+                [1] = "UICorner",
+                [2] = "CornerRadius",
+                [3] = "Parent",
+            },
+            numbers = {
+                [0] = 4,
+                [1] = 0, -- x2
+                [2] = 1,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+        },
+        [27] = {
+            parent = 0,
+        },
+        [28] = {
+            parent = 0,
+        },
+        [29] = {
+            parent = 0,
+            strings = {
+                [0] = "miscNpcName", -- x2
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+            },
+            closures = {
+                [0] = { closure = 129 },
+            },
+        },
+        [30] = {
+            parent = 0,
+            strings = {
+                [0] = "AbsolutePosition",
+                [1] = "UserInputType", -- x2
+                [2] = "MouseButton1",
+                [3] = "Position",
+                [4] = "Touch",
+            },
+            numbers = {
+                [0] = 169,
+            },
+        },
+        [31] = {
+            parent = 0,
+            strings = {
+                [0] = "autoStrength",
+                [1] = "Katana",
+                [2] = "CombatControl", -- x2
+                [3] = "KidGohon",
+                [4] = "autoSword",
+                [5] = "next",
+                [6] = "Combat",
+            },
+            numbers = {
+                [0] = 1, -- x3
+                [1] = 0.2,
+                [2] = 84,
+                [3] = 2, -- x2
+                [4] = 161,
+                [5] = 3, -- x2
+                [6] = 0,
+            },
+            booleans = {
+                [0] = false, -- x3
+            },
+            imports = {
+                [0] = { import = { 7 } },
+            },
+        },
+        [32] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundTransparency", -- x3
+                [1] = "TextTransparency", -- x3
+                [2] = "Size",
+            },
+            numbers = {
+                [0] = 0.3, -- x4
+                [1] = 130,
+                [2] = 1, -- x5
+                [3] = 0.4,
+                [4] = 0.1,
+                [5] = 6,
+                [6] = 5,
+                [7] = 0, -- x2
+                [8] = 2,
+                [9] = 3,
+                [10] = 4,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+            },
+        },
+        [33] = {
+            parent = 0,
+        },
+        [34] = {
+            parent = 0,
+        },
+        [35] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundColor3", -- x2
+                [1] = "BorderSizePixel",
+                [2] = "Parent", -- x3
+                [3] = "Size", -- x2
+                [4] = "Position", -- x2
+                [5] = "RED",
+                [6] = "TEXT_PRI",
+                [7] = "GothamMedium",
+                [8] = "Font",
+                [9] = "Random",
+                [10] = "TextLabel",
+                [11] = "BORDER",
+                [12] = "Frame", -- x2
+                [13] = "CARD",
+                [14] = "TextSize",
+                [15] = "Left",
+                [16] = "TextXAlignment",
+                [17] = "tostring",
+                [18] = "BackgroundTransparency",
+                [19] = "Text",
+                [20] = "_",
+            },
+            numbers = {
+                [0] = 8, -- x2
+                [1] = 0, -- x9
+                [2] = 4, -- x2
+                [3] = 0.5,
+                [4] = -4,
+                [5] = 32,
+                [6] = 1, -- x6
+                [7] = -28,
+                [8] = 24,
+                [9] = 6,
+                [10] = 89,
+                [11] = 5,
+                [12] = 253,
+                [13] = 92,
+                [14] = 2, -- x2
+                [15] = 7,
+                [16] = 3,
+            },
+            imports = {
+                [0] = { import = { 15 } },
+                [1] = { import = { 1 } },
+                [2] = { import = { 26 } },
+                [3] = { import = { 31 } },
+                [4] = { import = { 33 } },
+                [5] = { import = { 37 } },
+            },
+            closures = {
+                [0] = { closure = 130 },
+                [1] = { closure = 131 },
+            },
+        },
+        [36] = {
+            parent = 0,
+            strings = {
+                [0] = "AnimeLimitless_Key.txt", -- x2
+                [1] = "nexusXsxlnxcy",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 2,
+            },
+            booleans = {
+                [0] = true,
+                [1] = false,
+            },
+        },
+        [37] = {
+            parent = 0,
+            strings = {
+                [0] = "coroutine",
+                [1] = "selectedWep", -- x4
+                [2] = "FindFirstChild",
+                [3] = "FindFirstChildOfClass",
+                [4] = "EquipTool",
+                [5] = "Parent",
+                [6] = "Character",
+                [7] = "IsA",
+                [8] = "Tool", -- x2
+                [9] = "error",
+            },
+            numbers = {
+                [0] = 112,
+                [1] = 325,
+                [2] = 0, -- x2
+                [3] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 4 } }, -- x3
+                [2] = { import = { 6 } },
+                [3] = { import = { 8 } },
+                [4] = { import = { 12 } }, -- x2
+                [5] = { import = { 15 } },
+            },
+        },
+        [38] = {
+            parent = 0,
+            strings = {
+                [0] = "Parent",
+                [1] = "Combat",
+                [2] = "Character",
+            },
+            numbers = {
+                [0] = 1, -- x3
+                [1] = 3,
+                [2] = 2,
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+            closures = {
+                [0] = { closure = 132 },
+            },
+        },
+        [39] = {
+            parent = 0,
+            strings = {
+                [0] = "IsA",
+                [1] = "TextLabel",
+                [2] = "FindFirstChildOfClass",
+                [3] = "PlayerGui",
+                [4] = "GetDescendants",
+                [5] = "match",
+                [6] = "error",
+                [7] = "TextButton",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+                [2] = 2, -- x2
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x2
+                [1] = { import = { 5 } },
+                [2] = { import = { 7 } },
+                [3] = { import = { 9 } },
+            },
+        },
+        [40] = {
+            parent = 0,
+        },
+        [41] = {
+            parent = 0,
+        },
+        [42] = {
+            parent = 0,
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+            },
+        },
+        [43] = {
+            parent = 0,
+            strings = {
+                [0] = "PANEL",
+                [1] = "UDim2",
+                [2] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 0,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+        },
+        [44] = {
+            parent = 0,
+            strings = {
+                [0] = "CARD",
+                [1] = "BackgroundColor3",
+                [2] = "Visible",
+            },
+        },
+        [45] = {
+            parent = 0,
+        },
+        [46] = {
+            parent = 0,
+            strings = {
+                [0] = "", -- x7
+                [1] = "FindFirstChildOfClass",
+                [2] = "Humanoid",
+                [3] = "FindFirstChild", -- x2
+                [4] = "NPC's",
+                [5] = "Position",
+                [6] = "Health", -- x3
+                [7] = "MaxHealth",
+                [8] = "KingGorilla alive! Reverting...",
+                [9] = "_",
+                [10] = "Complete! Restarting...",
+                [11] = "Character", -- x2
+                [12] = "selectedWep", -- x2
+                [13] = "Idle",
+                [14] = "Starting...",
+                [15] = "hum", -- x3
+                [16] = "npc", -- x2
+                [17] = "part", -- x2
+                [18] = "NPCs",
+                [19] = "Cursed Gorilla",
+                [20] = "Cursed Jonin",
+                [21] = "Cursed Monkey",
+                [22] = "Cursed Gaaro",
+                [23] = "Attacking Born Cursed!",
+                [24] = "Cursed KingGorilla", -- x2
+                [25] = "Born Cursed",
+                [26] = "HumanoidRootPart",
+                [27] = "autoRaid",
+                [28] = "Name",
+            },
+            numbers = {
+                [0] = 0, -- x12
+                [1] = 1, -- x5
+                [2] = 0.1,
+                [3] = 2,
+                [4] = 13, -- x2
+                [5] = 17, -- x3
+                [6] = 16, -- x6
+                [7] = 14, -- x7
+                [8] = 9, -- x2
+            },
+            booleans = {
+                [0] = false, -- x4
+                [1] = true, -- x2
+            },
+            imports = {
+                [0] = { import = { 2 } },
+                [1] = { import = { 5 } }, -- x2
+                [2] = { import = { 14 } },
+            },
+            closures = {
+                [0] = { closure = 133 },
+                [1] = { closure = 134 },
+                [2] = { closure = 135 },
+                [3] = { closure = 136 },
+                [4] = { closure = 137 },
+                [5] = { closure = 138 },
+                [6] = { closure = 139 },
+                [7] = { closure = 140 },
+                [8] = { closure = 141 },
+                [9] = { closure = 142 },
+                [10] = { closure = 143 },
+            },
+        },
+        [47] = {
+            parent = 0,
+            strings = {
+                [0] = "Health",
+                [1] = "debug",
+                [2] = "FindFirstChildOfClass",
+                [3] = "Specs",
+                [4] = "Character",
+                [5] = "autoHaki",
+                [6] = "request",
+            },
+            numbers = {
+                [0] = 0, -- x4
+                [1] = 1,
+                [2] = 4,
+                [3] = 5,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 9 } },
+            },
+        },
+        [48] = {
+            parent = 0,
+            strings = {
+                [0] = "",
+            },
+        },
+        [49] = {
+            parent = 0,
+            strings = {
+                [0] = "Parent", -- x7
+                [1] = "Refresh",
+                [2] = "TextButton",
+                [3] = "Size", -- x5
+                [4] = "MouseEnter",
+                [5] = "Connect",
+                [6] = "BackgroundTransparency", -- x2
+                [7] = "Text", -- x2
+                [8] = "TEXT_SEC", -- x2
+                [9] = "TextColor3", -- x3
+                [10] = "None",
+                [11] = "UIStroke",
+                [12] = "MouseButton1Click",
+                [13] = "SetText",
+                [14] = "TextLabel", -- x2
+                [15] = "Enum",
+                [16] = "Left", -- x2
+                [17] = "TextXAlignment", -- x2
+                [18] = "BorderSizePixel",
+                [19] = "AutoButtonColor",
+                [20] = "ScrollBarImageColor3",
+                [21] = "ZIndex",
+                [22] = "Y",
+                [23] = "AutomaticCanvasSize",
+                [24] = "CanvasSize",
+                [25] = "GothamMedium",
+                [26] = "TextSize",
+                [27] = "BORDER", -- x2
+                [28] = "Position",
+                [29] = "Color3",
+                [30] = "CARD",
+                [31] = "BackgroundColor3", -- x2
+                [32] = "GothamBold",
+                [33] = "Font", -- x2
+                [34] = "Thickness",
+                [35] = "PANEL",
+                [36] = "Visible",
+                [37] = "ScrollBarThickness",
+                [38] = "RED_DIM",
+                [39] = "ScrollingFrame",
+                [40] = "Color",
+                [41] = "TEXT_PRI",
+                [42] = "MouseLeave",
+                [43] = "Gotham",
+                [44] = "Frame",
+            },
+            numbers = {
+                [0] = 14,
+                [1] = 0, -- x29
+                [2] = 16,
+                [3] = 4, -- x3
+                [4] = 1, -- x15
+                [5] = 32,
+                [6] = 50,
+                [7] = 24,
+                [8] = 6, -- x2
+                [9] = -26,
+                [10] = 11,
+                [11] = 2, -- x7
+                [12] = 5,
+                [13] = 9,
+                [14] = 3, -- x2
+                [15] = 7,
+                [16] = 85,
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 8 } }, -- x3
+                [1] = { import = { 13 } }, -- x2
+                [2] = { import = { 28 } },
+                [3] = { import = { 32 } }, -- x2
+                [4] = { import = { 34 } },
+                [5] = { import = { 38 } },
+                [6] = { import = { 44 } }, -- x2
+                [7] = { import = { 52 } },
+                [8] = { import = { 15 } },
+                [9] = { import = { 59 } },
+                [10] = { import = { 62 } },
+                [11] = { import = { 64 } },
+            },
+            closures = {
+                [0] = { closure = 144 },
+                [1] = { closure = 145 },
+                [2] = { closure = 146 },
+                [3] = { closure = 147 },
+                [4] = { closure = 148 },
+                [5] = { closure = 149 },
+                [6] = { closure = 150 },
+            },
+        },
+        [50] = {
+            parent = 0,
+            strings = {
+                [0] = "GothamBold",
+                [1] = "Font", -- x2
+                [2] = "TextSize", -- x2
+                [3] = "Right",
+                [4] = "TextXAlignment", -- x2
+                [5] = "Parent", -- x7
+                [6] = "Connect",
+                [7] = "firetouchinterest",
+                [8] = "Size", -- x6
+                [9] = "BackgroundTransparency",
+                [10] = "Text",
+                [11] = "TEXT_SEC",
+                [12] = "TextColor3", -- x2
+                [13] = "type",
+                [14] = "InputEnded",
+                [15] = "Frame", -- x4
+                [16] = "Position", -- x3
+                [17] = "BORDER",
+                [18] = "InputBegan",
+                [19] = "TEXT_PRI",
+                [20] = "BackgroundColor3", -- x4
+                [21] = "BorderSizePixel",
+                [22] = "RED",
+                [23] = "GothamMedium",
+                [24] = "CARD",
+                [25] = "",
+                [26] = "TextLabel", -- x2
+                [27] = "BG",
+                [28] = "UIPadding",
+                [29] = "PaddingLeft",
+                [30] = "ZIndex",
+            },
+            numbers = {
+                [0] = -6, -- x2
+                [1] = 0.5,
+                [2] = 12, -- x2
+                [3] = -50, -- x2
+                [4] = 0, -- x22
+                [5] = 6, -- x5
+                [6] = 1, -- x11
+                [7] = 255, -- x3
+                [8] = 16,
+                [9] = 3, -- x6
+                [10] = 10, -- x2
+                [11] = 50,
+                [12] = 28,
+                [13] = 9, -- x2
+                [14] = 7,
+                [15] = 2, -- x6
+                [16] = 8,
+                [17] = 11,
+                [18] = 4,
+                [19] = 5, -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 3 } },
+                [1] = { import = { 10 } }, -- x3
+                [2] = { import = { 14 } },
+                [3] = { import = { 21 } },
+                [4] = { import = { 17 } },
+                [5] = { import = { 39 } }, -- x4
+                [6] = { import = { 55 } },
+            },
+            closures = {
+                [0] = { closure = 151 },
+                [1] = { closure = 152 },
+                [2] = { closure = 153 },
+                [3] = { closure = 154 },
+                [4] = { closure = 155 },
+                [5] = { closure = 156 },
+            },
+        },
+        [51] = {
+            parent = 0,
+            strings = {
+                [0] = "FrameWork_WorkSpace", -- x2
+                [1] = "FindFirstChild",
+                [2] = "CFrame", -- x2
+                [3] = "BasePart",
+                [4] = "HumanoidRootPart",
+                [5] = "Trophy",
+                [6] = "Color3",
+                [7] = "Character",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 3, -- x4
+                [2] = 0.1,
+                [3] = 4,
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x3
+                [1] = { import = { 7 } },
+            },
+        },
+        [52] = {
+            parent = 0,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Torso",
+                [2] = "Waiting for NighttGuy...",
+                [3] = "Character", -- x2
+                [4] = "direction",
+                [5] = "CFrame",
+                [6] = "distance",
+                [7] = "CharacterAdded",
+                [8] = "Connect",
+                [9] = "Heartbeat",
+                [10] = "Idle",
+                [11] = "Position",
+                [12] = "HumanoidRootPart",
+                [13] = "Health", -- x2
+                [14] = "autoDungeon",
+                [15] = "PrimaryPart",
+                [16] = "MaxHealth", -- x2
+                [17] = "instaKillPct",
+            },
+            numbers = {
+                [0] = 0.1,
+                [1] = 15, -- x3
+                [2] = 9,
+                [3] = 3, -- x3
+                [4] = 2, -- x2
+                [5] = 6, -- x4
+                [6] = 10,
+                [7] = 13,
+                [8] = 5,
+                [9] = 8,
+                [10] = 243,
+                [11] = 16, -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x3
+                [1] = { import = { 14 } }, -- x2
+            },
+            closures = {
+                [0] = { closure = 157 },
+                [1] = { closure = 158 },
+                [2] = { closure = 159 },
+                [3] = { closure = 160 },
+                [4] = { closure = 161 },
+                [5] = { closure = 162 },
+                [6] = { closure = 163 },
+            },
+        },
+        [53] = {
+            parent = 0,
+            strings = {
+                [0] = "Refresh",
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 5,
+                [2] = 0,
+            },
+            closures = {
+                [0] = { closure = 164 },
+            },
+        },
+        [54] = {
+            parent = 0,
+        },
+        [55] = {
+            parent = 0,
+            strings = {
+                [0] = "CARD",
+                [1] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 2,
+            },
+        },
+        [56] = {
+            parent = 0,
+            strings = {
+                [0] = "UserInputType", -- x2
+                [1] = "MouseButton1",
+                [2] = "Touch",
+                [3] = "type",
+                [4] = "syn",
+                [5] = "Size",
+                [6] = "Back",
+            },
+            numbers = {
+                [0] = 48, -- x2
+                [1] = 0, -- x3
+                [2] = 0.12,
+                [3] = 86,
+                [4] = 5,
+            },
+            imports = {
+                [0] = { import = { 5 } },
+                [1] = { import = { 7 } },
+            },
+        },
+        [57] = {
+            parent = 0,
+        },
+        [58] = {
+            parent = 0,
+            strings = {
+                [0] = "Clipboard not supported",
+                [1] = "Copied to clipboard!",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 7,
+            },
+            closures = {
+                [0] = { closure = 165 },
+            },
+        },
+        [59] = {
+            parent = 0,
+        },
+        [60] = {
+            parent = 0,
+        },
+        [61] = {
+            parent = 0,
+            closures = {
+                [0] = { closure = 166 },
+            },
+        },
+        [62] = {
+            parent = 0,
+            strings = {
+                [0] = "PANEL",
+                [1] = "BackgroundColor3",
+                [2] = "debug",
+            },
+            imports = {
+                [0] = { import = { 2 } },
+            },
+        },
+        [63] = {
+            parent = 0,
+            strings = {
+                [0] = "CARD",
+                [1] = "BackgroundColor3",
+            },
+        },
+        [64] = {
+            parent = 0,
+        },
+        [65] = {
+            parent = 0,
+            strings = {
+                [0] = "setclipboard",
+                [1] = "fluxus",
+                [2] = "CaptureController",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+                [2] = { import = { 5 } },
+            },
+        },
+        [66] = {
+            parent = 0,
+            numbers = {
+                [0] = 300,
+                [1] = 1,
+                [2] = 0,
+            },
+            closures = {
+                [0] = { closure = 167 },
+            },
+        },
+        [67] = {
+            parent = 0,
+            strings = {
+                [0] = "autoServerHop",
+                [1] = "Path2DControlPoint",
+            },
+            numbers = {
+                [0] = 5, -- x5
+                [1] = 60,
+                [2] = 10,
+            },
+            imports = {
+                [0] = { import = { 3 } },
+            },
+            closures = {
+                [0] = { closure = 168 },
+                [1] = { closure = 169 },
+            },
+        },
+        [68] = {
+            parent = 0,
+        },
+        [69] = {
+            parent = 0,
+        },
+        [70] = {
+            parent = 0,
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+            },
+        },
+        [71] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "TweenInfo",
+                [2] = "PANEL",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 2,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+        },
+        [72] = {
+            parent = 0,
+            strings = {
+                [0] = "Position",
+                [1] = "BackgroundColor3", -- x2
+                [2] = "BorderSizePixel", -- x2
+                [3] = "Parent", -- x5
+                [4] = "Connect",
+                [5] = "MouseEnter",
+                [6] = "MouseButton1Click", -- x2
+                [7] = "PaddingRight",
+                [8] = "TextColor3",
+                [9] = "GothamMedium",
+                [10] = "Font",
+                [11] = "TextSize",
+                [12] = "Left",
+                [13] = "TextXAlignment",
+                [14] = "Random",
+                [15] = "MouseLeave",
+                [16] = "TextButton", -- x2
+                [17] = "Size", -- x4
+                [18] = "RED",
+                [19] = "BORDER", -- x2
+                [20] = "UIPadding",
+                [21] = "AutoButtonColor", -- x2
+                [22] = "Frame",
+                [23] = "BackgroundTransparency",
+                [24] = "Text", -- x2
+                [25] = "TEXT_PRI",
+                [26] = "TextLabel",
+                [27] = "rawget",
+            },
+            numbers = {
+                [0] = 6, -- x2
+                [1] = 8,
+                [2] = 0, -- x11
+                [3] = 40,
+                [4] = 20,
+                [5] = -16,
+                [6] = 1, -- x10
+                [7] = -40,
+                [8] = 0.5, -- x2
+                [9] = -10,
+                [10] = 10, -- x2
+                [11] = 14, -- x2
+                [12] = -7,
+                [13] = 3, -- x4
+                [14] = 7, -- x2
+                [15] = -54,
+                [16] = 255, -- x3
+                [17] = 2, -- x4
+                [18] = 4,
+                [19] = 9,
+                [20] = 5,
+            },
+            imports = {
+                [0] = { import = { 3 } }, -- x2
+                [1] = { import = { 6 } }, -- x3
+                [2] = { import = { 16 } },
+                [3] = { import = { 24 } },
+                [4] = { import = { 38 } },
+                [5] = { import = { 45 } },
+                [6] = { import = { 53 } },
+                [7] = { import = { 47 } },
+            },
+            closures = {
+                [0] = { closure = 170 },
+                [1] = { closure = 171 },
+                [2] = { closure = 172 },
+                [3] = { closure = 173 },
+            },
+        },
+        [73] = {
+            parent = 0,
+            strings = {
+                [0] = "Font",
+                [1] = "TextSize",
+                [2] = "BorderSizePixel",
+                [3] = "AutoButtonColor",
+                [4] = "TextColor3",
+                [5] = "GothamBold",
+                [6] = "Text",
+                [7] = "MouseLeave",
+                [8] = "Size",
+                [9] = "RED_DIM",
+                [10] = "BackgroundColor3",
+                [11] = "Connect",
+                [12] = "MouseButton1Down",
+                [13] = "MouseEnter",
+                [14] = "TextButton",
+            },
+            numbers = {
+                [0] = 6, -- x2
+                [1] = 255, -- x3
+                [2] = 1, -- x2
+                [3] = 0, -- x3
+                [4] = 36,
+                [5] = 5,
+                [6] = 4,
+                [7] = 2,
+            },
+            imports = {
+                [0] = { import = { 18 } }, -- x4
+            },
+            closures = {
+                [0] = { closure = 174 },
+                [1] = { closure = 175 },
+                [2] = { closure = 176 },
+                [3] = { closure = 177 },
+                [4] = { closure = 178 },
+            },
+        },
+        [74] = {
+            parent = 0,
+            strings = {
+                [0] = "assert",
+                [1] = "FindFirstChild",
+                [2] = "Codes",
+                [3] = "Name",
+            },
+            numbers = {
+                [0] = 2, -- x2
+                [1] = 4,
+                [2] = 0,
+                [3] = 3,
+                [4] = 116,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+            },
+            closures = {
+                [0] = { closure = 179 },
+            },
+        },
+        [75] = {
+            parent = 0,
+            strings = {
+                [0] = "UserInputType",
+                [1] = "MouseMovement",
+                [2] = "Y", -- x4
+                [3] = "typeof",
+                [4] = "Position",
+                [5] = "ViewportSize",
+                [6] = "X", -- x2
+                [7] = "AbsoluteSize",
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 5,
+                [2] = 6,
+                [3] = 2,
+                [4] = 0,
+                [5] = 7,
+            },
+            imports = {
+                [0] = { import = { 2 } },
+                [1] = { import = { 4 } },
+            },
+        },
+        [76] = {
+            parent = 0,
+            strings = {
+                [0] = "UserInputType", -- x2
+                [1] = "next",
+                [2] = "MouseMovement",
+                [3] = "X", -- x2
+                [4] = "Y", -- x2
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 2,
+                [2] = 99,
+                [3] = 46,
+                [4] = 1,
+                [5] = 7, -- x2
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 5 } },
+                [2] = { import = { 7 } },
+            },
+        },
+        [77] = {
+            parent = 0,
+            strings = {
+                [0] = "Paste a config first",
+                [1] = "Invalid config (bad format)",
+                [2] = "",
+                [3] = "Text",
+                [4] = "match",
+                [5] = "^%s*(.-)%s*$",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 1, -- x2
+                [2] = 138,
+                [3] = 2,
+                [4] = 5,
+                [5] = 4,
+            },
+            imports = {
+                [0] = { import = { 7 } },
+            },
+            closures = {
+                [0] = { closure = 180 },
+                [1] = { closure = 181 },
+            },
+        },
+        [78] = {
+            parent = 0,
+        },
+        [79] = {
+            parent = 0,
+            strings = {
+                [0] = "n", -- x10
+                [1] = "FindFirstChild",
+                [2] = "NPCs",
+                [3] = "instaKillPct",
+                [4] = "Health", -- x2
+                [5] = "Character", -- x2
+                [6] = "CFrame",
+                [7] = "NPC's",
+                [8] = "Name",
+                [9] = "HumanoidRootPart", -- x2
+                [10] = "GetChildren",
+                [11] = "Position",
+                [12] = "PrimaryPart",
+                [13] = "Torso",
+                [14] = "FindFirstChildOfClass",
+                [15] = "IsA",
+                [16] = "Model",
+                [17] = "k",
+                [18] = "Humanoid",
+            },
+            numbers = {
+                [0] = 0, -- x7
+                [1] = 4, -- x3
+                [2] = 6, -- x8
+                [3] = 38,
+                [4] = 237,
+                [5] = 1,
+                [6] = 2, -- x3
+                [7] = 10,
+                [8] = 3,
+                [9] = 12, -- x2
+                [10] = 5,
+                [11] = 221,
+                [12] = 9,
+            },
+            imports = {
+                [0] = { import = { 5 } }, -- x5
+                [1] = { import = { 22 } },
+                [2] = { import = { 28 } }, -- x2
+                [3] = { import = { 30 } },
+            },
+            closures = {
+                [0] = { closure = 182 },
+                [1] = { closure = 183 },
+                [2] = { closure = 184 },
+                [3] = { closure = 185 },
+                [4] = { closure = 186 },
+                [5] = { closure = 187 },
+                [6] = { closure = 188 },
+                [7] = { closure = 189 },
+                [8] = { closure = 190 },
+                [9] = { closure = 191 },
+                [10] = { closure = 192 },
+            },
+        },
+        [80] = {
+            parent = 0,
+            strings = {
+                [0] = "BORDER",
+            },
+        },
+        [81] = {
+            parent = 0,
+        },
+        [82] = {
+            parent = 0,
+        },
+        [83] = {
+            parent = 0,
+            strings = {
+                [0] = "firetouchinterest",
+                [1] = "selectedWep", -- x2
+                [2] = "SetText",
+            },
+            numbers = {
+                [0] = 3,
+                [1] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [84] = {
+            parent = 0,
+            strings = {
+                [0] = "Name", -- x2
+                [1] = "GetChildren",
+                [2] = "Tool",
+                [3] = "FindFirstChild",
+                [4] = "Backpack",
+                [5] = "Character",
+                [6] = "IsA",
+            },
+            numbers = {
+                [0] = 2,
+                [1] = 1, -- x2
+                [2] = 0,
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x2
+                [1] = { import = { 4 } },
+                [2] = { import = { 8 } },
+            },
+        },
+        [85] = {
+            parent = 0,
+            numbers = {
+                [0] = 0.7,
+            },
+        },
+        [86] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "accent",
+                [2] = "bg", -- x3
+                [3] = "surf", -- x2
+                [4] = "xpcall",
+            },
+            numbers = {
+                [0] = 0.7,
+                [1] = 0.45,
+                [2] = 0,
+                [3] = 2, -- x2
+                [4] = 3, -- x2
+                [5] = 5, -- x2
+                [6] = 6,
+                [7] = 7,
+                [8] = 10,
+            },
+            imports = {
+                [0] = { import = { 6 } },
+            },
+            closures = {
+                [0] = { closure = 193 },
+            },
+        },
+        [87] = {
+            parent = 0,
+            numbers = {
+                [0] = 0.75,
+                [1] = 1,
+            },
+        },
+        [88] = {
+            parent = 0,
+        },
+        [89] = {
+            parent = 0,
+        },
+        [90] = {
+            parent = 0,
+            strings = {
+                [0] = "rawset",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [91] = {
+            parent = 0,
+            numbers = {
+                [0] = 1,
+            },
+        },
+        [92] = {
+            parent = 0,
+        },
+        [93] = {
+            parent = 0,
+            strings = {
+                [0] = "KeyCode", -- x2
+                [1] = "G",
+                [2] = "autoHaki",
+            },
+            numbers = {
+                [0] = 0,
+            },
+        },
+        [94] = {
+            parent = 0,
+        },
+        [95] = {
+            parent = 0,
+        },
+        [96] = {
+            parent = 0,
+            strings = {
+                [0] = "Size",
+            },
+            numbers = {
+                [0] = 0, -- x6
+                [1] = 580, -- x2
+                [2] = 38,
+                [3] = 0.25, -- x3
+                [4] = 420,
+                [5] = 4,
+                [6] = 3, -- x2
+                [7] = 2, -- x2
+                [8] = 5,
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+            closures = {
+                [0] = { closure = 194 },
+            },
+        },
+        [97] = {
+            parent = 0,
+        },
+        [98] = {
+            parent = 0,
+            strings = {
+                [0] = "Path2DControlPoint",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [99] = {
+            parent = 0,
+            numbers = {
+                [0] = 0, -- x2
+            },
+            closures = {
+                [0] = { closure = 195 },
+                [1] = { closure = 196 },
+            },
+        },
+        [100] = {
+            parent = 0,
+            strings = {
+                [0] = "GetChildren",
+                [1] = "FindFirstChild",
+                [2] = "Torso",
+                [3] = "IsA",
+                [4] = "Model",
+                [5] = "Color3",
+                [6] = "HumanoidRootPart",
+                [7] = "Name",
+                [8] = "Character", -- x2
+                [9] = "PrimaryPart",
+                [10] = "NPC's",
+                [11] = "pcall",
+                [12] = "FindFirstChildOfClass",
+                [13] = "Humanoid",
+                [14] = "Position",
+                [15] = "Magnitude",
+                [16] = "Health",
+            },
+            numbers = {
+                [0] = { value = math.huge, bits = "7ff0000000000000" },
+                [1] = 184,
+                [2] = 2,
+                [3] = 1,
+                [4] = 88,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } }, -- x5
+                [2] = { import = { 5 } },
+                [3] = { import = { 8 } },
+                [4] = { import = { 15 } },
+                [5] = { import = { 17 } },
+            },
+        },
+        [101] = {
+            parent = 0,
+            numbers = {
+                [0] = 0, -- x5
+            },
+        },
+        [102] = {
+            parent = 0,
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "FindFirstChild",
+                [2] = "HumanoidRootPart",
+                [3] = "error",
+                [4] = "Enum",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 43,
+                [2] = 1,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 4 } },
+                [2] = { import = { 6 } },
+            },
+        },
+        [103] = {
+            parent = 0,
+            numbers = {
+                [0] = 3,
+                [1] = 108,
+                [2] = 84,
+                [3] = 1,
+                [4] = 6,
+                [5] = 0,
+            },
+            closures = {
+                [0] = { closure = 197 },
+                [1] = { closure = 198 },
+            },
+        },
+        [104] = {
+            parent = 0,
+            strings = {
+                [0] = "ImageTransparency", -- x2
+                [1] = "Parent",
+            },
+            numbers = {
+                [0] = 1.1, -- x3
+                [1] = 3,
+                [2] = 1,
+                [3] = 209,
+            },
+        },
+        [105] = {
+            parent = 0,
+            strings = {
+                [0] = "xpcall",
+                [1] = "coroutine",
+                [2] = "TextTransparency",
+            },
+            numbers = {
+                [0] = 0.2,
+                [1] = 1.5,
+                [2] = 10, -- x2
+                [3] = 0.3,
+                [4] = 160,
+                [5] = 0, -- x2
+                [6] = 5, -- x2
+                [7] = 3, -- x2
+                [8] = 6,
+                [9] = 7,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 6 } },
+            },
+            closures = {
+                [0] = { closure = 199 },
+                [1] = { closure = 200 },
+            },
+        },
+        [106] = {
+            parent = 0,
+        },
+        [107] = {
+            parent = 0,
+            strings = {
+                [0] = "CFrame", -- x2
+                [1] = "FindFirstChild",
+                [2] = "HumanoidRootPart", -- x4
+                [3] = "Character", -- x6
+                [4] = "npcName", -- x3
+                [5] = "autoAllBosses", -- x9
+                [6] = "Accepting...",
+                [7] = "autoBossQuest", -- x4
+                [8] = "args", -- x4
+                [9] = "instaKillPct",
+                [10] = "autoFarm",
+                [11] = "CompleteQuest",
+                [12] = "CancelQuest",
+                [13] = "Health", -- x2
+                [14] = "PrimaryPart",
+                [15] = "Quest complete",
+                [16] = "Position", -- x2
+                [17] = "MaxHealth",
+                [18] = "missionIndex", -- x2
+                [19] = "Idle",
+                [20] = "distance",
+                [21] = "direction",
+                [22] = "Torso",
+                [23] = "FindFirstChildOfClass",
+                [24] = "Humanoid",
+            },
+            numbers = {
+                [0] = 0.5, -- x2
+                [1] = 1, -- x9
+                [2] = 0.2,
+                [3] = 0, -- x7
+                [4] = 0.1, -- x2
+                [5] = 4, -- x7
+                [6] = 13,
+                [7] = 14,
+                [8] = 12,
+                [9] = 2, -- x5
+                [10] = 7, -- x3
+                [11] = 5, -- x4
+                [12] = 65,
+                [13] = 10, -- x3
+                [14] = 6, -- x3
+                [15] = 16,
+                [16] = 11,
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x5
+                [1] = { import = { 33 } },
+            },
+            closures = {
+                [0] = { closure = 201 },
+                [1] = { closure = 202 },
+                [2] = { closure = 203 },
+                [3] = { closure = 204 },
+            },
+        },
+        [108] = {
+            parent = 0,
+            strings = {
+                [0] = "selectedBoss",
+                [1] = "npcName", -- x8
+                [2] = "Character", -- x2
+                [3] = "CFrame", -- x2
+                [4] = "distance",
+                [5] = "direction",
+                [6] = "FindFirstChild",
+                [7] = "NPCs",
+                [8] = "FindFirstChildOfClass",
+                [9] = "Humanoid", -- x2
+                [10] = "name", -- x2
+                [11] = "autoSelectedBoss",
+                [12] = "NPC's",
+                [13] = "Torso",
+                [14] = "Health", -- x3
+                [15] = "instaKillPct",
+                [16] = "Invalid Boss",
+                [17] = "Name",
+                [18] = "HumanoidRootPart", -- x2
+                [19] = "GetChildren",
+                [20] = "Position", -- x2
+                [21] = "IsA",
+                [22] = "Model",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 0.1,
+                [2] = 10,
+                [3] = 1, -- x5
+                [4] = 2,
+                [5] = 5, -- x2
+                [6] = 4,
+                [7] = 15, -- x3
+                [8] = 3, -- x3
+                [9] = 7, -- x6
+                [10] = 16, -- x2
+                [11] = 6,
+                [12] = 13,
+            },
+            imports = {
+                [0] = { import = { 7 } }, -- x5
+                [1] = { import = { 10 } }, -- x2
+                [2] = { import = { 4 } },
+                [3] = { import = { 30 } },
+                [4] = { import = { 34 } },
+            },
+            closures = {
+                [0] = { closure = 205 },
+                [1] = { closure = 206 },
+                [2] = { closure = 207 },
+                [3] = { closure = 208 },
+                [4] = { closure = 209 },
+                [5] = { closure = 210 },
+                [6] = { closure = 211 },
+            },
+        },
+        [109] = {
+            parent = 0,
+            strings = {
+                [0] = "MaxHealth",
+                [1] = "Health", -- x2
+                [2] = "Megumo",
+                [3] = "Tojee",
+                [4] = "Katakurii",
+                [5] = "FindFirstChildOfClass",
+                [6] = "FindFirstChild", -- x2
+                [7] = "NPCs",
+                [8] = "NPC's",
+                [9] = "All For Me",
+                [10] = "Goko SSJ4",
+                [11] = "Mihook",
+                [12] = "ipairs",
+                [13] = "Humanoid",
+                [14] = "GetChildren",
+                [15] = "instaKillPct",
+                [16] = "Coyote Shark",
+                [17] = "Kid Buu",
+                [18] = "Torso",
+                [19] = "Name",
+                [20] = "HumanoidRootPart", -- x2
+                [21] = "Character", -- x2
+                [22] = "autoAllSummons",
+                [23] = "IsA",
+                [24] = "Model",
+            },
+            numbers = {
+                [0] = 0, -- x4
+                [1] = 1, -- x3
+                [2] = 0.5,
+                [3] = 19,
+                [4] = 8,
+                [5] = 2,
+                [6] = 11, -- x2
+                [7] = 5,
+                [8] = 3,
+            },
+            imports = {
+                [0] = { import = { 5 } }, -- x2
+                [1] = { import = { 7 } }, -- x4
+                [2] = { import = { 14 } },
+                [3] = { import = { 19 } },
+                [4] = { import = { 31 } },
+            },
+            closures = {
+                [0] = { closure = 212 },
+            },
+        },
+        [110] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 255, -- x3
+                [1] = 0.15,
+                [2] = 0,
+                [3] = 2,
+            },
+        },
+        [111] = {
+            parent = 0,
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 0.15,
+                [1] = 3,
+                [2] = 4,
+                [3] = 0,
+            },
+        },
+        [112] = {
+            parent = 0,
+            strings = {
+                [0] = "autoGrabChest",
+            },
+            numbers = {
+                [0] = 156,
+            },
+            closures = {
+                [0] = { closure = 213 },
+                [1] = { closure = 214 },
+            },
+        },
+        [113] = {
+            parent = 0,
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "FindFirstChild",
+                [2] = "HumanoidRootPart",
+                [3] = "autoSoulChest",
+                [4] = "Name",
+                [5] = "find",
+                [6] = "CFrame",
+                [7] = "GetPivot",
+            },
+            numbers = {
+                [0] = 0.5, -- x2
+                [1] = 0, -- x5
+                [2] = 3, -- x2
+                [3] = 0.3,
+                [4] = 4, -- x2
+                [5] = 6,
+                [6] = 2,
+                [7] = 5,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 10 } },
+                [2] = { import = { 14 } },
+            },
+            closures = {
+                [0] = { closure = 215 },
+                [1] = { closure = 216 },
+            },
+        },
+        [114] = {
+            parent = 0,
+            strings = {
+                [0] = "TextColor3",
+                [1] = "FindFirstChildOfClass",
+                [2] = "UIStroke",
+                [3] = "CARD",
+                [4] = "Transparency",
+                [5] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 0.15,
+                [2] = 255, -- x3
+                [3] = 2,
+                [4] = 137,
+                [5] = 3,
+            },
+            imports = {
+                [0] = { import = { 3 } },
+            },
+        },
+        [115] = {
+            parent = 0,
+            strings = {
+                [0] = "Position",
+                [1] = "MouseButton1",
+                [2] = "UserInputType",
+                [3] = "Touch",
+                [4] = "AbsolutePosition",
+                [5] = "Size",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 44, -- x2
+                [2] = 0.1,
+                [3] = 7,
+                [4] = 4, -- x2
+                [5] = 6,
+            },
+        },
+        [116] = {
+            parent = 0,
+            strings = {
+                [0] = "KeyCode",
+                [1] = "Insert",
+                [2] = "Visible",
+            },
+        },
+        [117] = {
+            parent = 0,
+        },
+        [118] = {
+            parent = 0,
+        },
+        [119] = {
+            parent = 0,
+            strings = {
+                [0] = "Y", -- x2
+                [1] = "X", -- x2
+                [2] = "ViewportSize",
+                [3] = "http",
+            },
+            numbers = {
+                [0] = 580,
+                [1] = 0.5, -- x2
+                [2] = 1, -- x2
+                [3] = 233,
+            },
+            imports = {
+                [0] = { import = { 3 } },
+            },
+        },
+        [120] = {
+            parent = 0,
+        },
+        [121] = {
+            parent = 0,
+            strings = {
+                [0] = "UserInputType", -- x2
+                [1] = "MouseButton1",
+            },
+            numbers = {
+                [0] = 0,
+            },
+        },
+        [122] = {
+            parent = 9,
+            strings = {
+                [0] = "FireServer",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 2,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [123] = {
+            parent = 13,
+            strings = {
+                [0] = "request", -- x3
+                [1] = "Body",
+                [2] = "Content-Type",
+                [3] = "Origin",
+                [4] = "Headers",
+                [5] = "JSONEncode",
+                [6] = "cmd",
+                [7] = "nonce",
+                [8] = "code",
+                [9] = "args",
+                [10] = "Url",
+                [11] = "Method",
+            },
+            numbers = {
+                [0] = 5, -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 2 } },
+                [1] = { import = { 4 } },
+                [2] = { import = { 7 } },
+                [3] = { import = { 14 } },
+            },
+        },
+        [124] = {
+            parent = 13,
+            strings = {
+                [0] = "loadstring",
+                [1] = "AnimeLimitless_Key.txt",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [125] = {
+            parent = 14,
+        },
+        [126] = {
+            parent = 23,
+        },
+        [127] = {
+            parent = 24,
+            strings = {
+                [0] = "Destroy",
+            },
+            numbers = {
+                [0] = 191,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [128] = {
+            parent = 24,
+            strings = {
+                [0] = "Disabled",
+                [1] = "Parent",
+                [2] = "Instance",
+                [3] = "Clone",
+                [4] = "IsA",
+                [5] = "BaseScript",
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 0,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 5 } },
+                [3] = { import = { 7 } },
+            },
+        },
+        [129] = {
+            parent = 29,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "HumanoidRootPart",
+                [2] = "CFrame", -- x2
+                [3] = "InteractNPCS",
+                [4] = "MISCNPCS",
+                [5] = "miscNpcName",
+                [6] = "PrimaryPart",
+                [7] = "Character",
+                [8] = "syn",
+                [9] = "Torso",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 4,
+                [2] = 3,
+                [3] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x2
+                [1] = { import = { 11 } },
+            },
+        },
+        [130] = {
+            parent = 35,
+        },
+        [131] = {
+            parent = 35,
+        },
+        [132] = {
+            parent = 38,
+            strings = {
+                [0] = "Activate",
+            },
+            numbers = {
+                [0] = 0,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [133] = {
+            parent = 46,
+            strings = {
+                [0] = "FireServer",
+                [1] = "Yes",
+                [2] = "BornCursedStartSpawn",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [134] = {
+            parent = 46,
+            strings = {
+                [0] = "GetChildren",
+                [1] = "Name", -- x3
+                [2] = "UDim",
+                [3] = "lower",
+                [4] = "tick",
+                [5] = "gsub",
+                [6] = "cursed",
+                [7] = "find",
+                [8] = "", -- x2
+            },
+            numbers = {
+                [0] = 1, -- x3
+                [1] = 0, -- x2
+            },
+            booleans = {
+                [0] = true, -- x3
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x2
+                [1] = { import = { 3 } },
+                [2] = { import = { 5 } }, -- x2
+                [3] = { import = { 7 } },
+                [4] = { import = { 10 } }, -- x2
+                [5] = { import = { 13 } }, -- x2
+            },
+        },
+        [135] = {
+            parent = 46,
+            strings = {
+                [0] = "Health", -- x2
+                [1] = "MaxHealth",
+                [2] = "FindFirstChildOfClass",
+                [3] = "Humanoid",
+            },
+            numbers = {
+                [0] = 1,
+            },
+            imports = {
+                [0] = { import = { 3 } },
+            },
+            closures = {
+                [0] = { closure = 217 },
+            },
+        },
+        [136] = {
+            parent = 46,
+            strings = {
+                [0] = "Position", -- x2
+                [1] = "CFrame", -- x3
+                [2] = "npc",
+                [3] = "part",
+                [4] = "hum",
+                [5] = "Health",
+                [6] = "distance",
+                [7] = "direction",
+            },
+            numbers = {
+                [0] = 1, -- x3
+                [1] = 4, -- x3
+                [2] = 0, -- x5
+                [3] = 3, -- x4
+                [4] = 0.04, -- x2
+                [5] = 11,
+                [6] = 2, -- x2
+                [7] = 7,
+                [8] = 5,
+                [9] = 6, -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [137] = {
+            parent = 46,
+            strings = {
+                [0] = "find",
+                [1] = "blade",
+                [2] = "GetChildren",
+                [3] = "IsA",
+                [4] = "Tool", -- x2
+                [5] = "Name", -- x2
+                [6] = "Dash",
+                [7] = "http_request",
+                [8] = "Blade",
+                [9] = "Katana",
+                [10] = "FindFirstChild",
+                [11] = "Backpack",
+                [12] = "lower",
+                [13] = "Fist",
+                [14] = "Punch",
+                [15] = "Kick",
+                [16] = "M1",
+                [17] = "combat",
+                [18] = "Character",
+                [19] = "sword",
+            },
+            numbers = {
+                [0] = 1, -- x8
+                [1] = 2, -- x2
+                [2] = 0,
+            },
+            booleans = {
+                [0] = true, -- x3
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x3
+                [1] = { import = { 4 } }, -- x2
+                [2] = { import = { 6 } }, -- x2
+                [3] = { import = { 11 } },
+                [4] = { import = { 15 } },
+                [5] = { import = { 18 } }, -- x2
+            },
+        },
+        [138] = {
+            parent = 46,
+            strings = {
+                [0] = "writefile",
+                [1] = "GetChildren",
+                [2] = "Magnitude",
+                [3] = "Position", -- x2
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 2,
+                [2] = 3,
+                [3] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+            },
+        },
+        [139] = {
+            parent = 46,
+            strings = {
+                [0] = "IsA",
+                [1] = "Model",
+                [2] = "FindFirstChildOfClass",
+                [3] = "Humanoid",
+                [4] = "pairs",
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 6 } },
+            },
+        },
+        [140] = {
+            parent = 46,
+            strings = {
+                [0] = "PrimaryPart",
+                [1] = "FindFirstChild",
+                [2] = "HumanoidRootPart",
+                [3] = "Color3",
+                [4] = "Torso",
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x2
+                [1] = { import = { 4 } },
+            },
+        },
+        [141] = {
+            parent = 46,
+            numbers = {
+                [0] = 0,
+            },
+            closures = {
+                [0] = { closure = 218 },
+            },
+        },
+        [142] = {
+            parent = 46,
+            strings = {
+                [0] = "", -- x3
+                [1] = "find",
+                [2] = "cursed",
+                [3] = "lower",
+                [4] = "gsub",
+                [5] = "[%s_%-]+", -- x2
+                [6] = "Color3",
+                [7] = "ColorSequence",
+            },
+            numbers = {
+                [0] = 1, -- x3
+                [1] = 0,
+                [2] = 2,
+            },
+            booleans = {
+                [0] = true, -- x5
+                [1] = false, -- x2
+            },
+            imports = {
+                [0] = { import = { 2 } }, -- x2
+                [1] = { import = { 5 } }, -- x4
+                [2] = { import = { 7 } }, -- x3
+                [3] = { import = { 10 } },
+                [4] = { import = { 12 } },
+            },
+        },
+        [143] = {
+            parent = 46,
+            strings = {
+                [0] = "npc",
+                [1] = "part",
+                [2] = "hum",
+                [3] = "dist",
+                [4] = "Name", -- x3
+                [5] = "Position", -- x2
+                [6] = "Magnitude",
+                [7] = "FindFirstChildOfClass",
+                [8] = "find",
+                [9] = "Born Cursed",
+                [10] = "GetChildren",
+            },
+            numbers = {
+                [0] = 1,
+                [1] = { value = math.huge, bits = "7ff0000000000000" },
+                [2] = 5, -- x2
+                [3] = 3,
+                [4] = 4,
+                [5] = 73,
+                [6] = 0,
+                [7] = 2,
+            },
+            booleans = {
+                [0] = true,
+            },
+            imports = {
+                [0] = { import = { 8 } },
+                [1] = { import = { 10 } },
+                [2] = { import = { 15 } },
+            },
+            closures = {
+                [0] = { closure = 219 },
+            },
+        },
+        [144] = {
+            parent = 49,
+            strings = {
+                [0] = "readfile",
+            },
+            numbers = {
+                [0] = 0,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [145] = {
+            parent = 49,
+        },
+        [146] = {
+            parent = 49,
+            strings = {
+                [0] = "Random",
+                [1] = "PANEL",
+            },
+            numbers = {
+                [0] = 2,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [147] = {
+            parent = 49,
+            strings = {
+                [0] = "Instance",
+                [1] = "▴",
+                [2] = "identifyexecutor",
+                [3] = "▾",
+                [4] = "unpack",
+                [5] = "Size",
+                [6] = "Y",
+                [7] = "Offset",
+            },
+            numbers = {
+                [0] = 1, -- x4
+                [1] = 0, -- x8
+                [2] = 50,
+                [3] = 160,
+                [4] = 3,
+                [5] = 5,
+                [6] = 6,
+                [7] = 7,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 6 } },
+                [2] = { import = { 10 } },
+            },
+        },
+        [148] = {
+            parent = 49,
+            strings = {
+                [0] = "Color3",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [149] = {
+            parent = 49,
+            strings = {
+                [0] = "TextColor3",
+                [1] = "Gotham",
+                [2] = "Font",
+                [3] = "TextSize",
+                [4] = "Left",
+                [5] = "TextButton", -- x2
+                [6] = "TextXAlignment",
+                [7] = "BorderSizePixel",
+                [8] = "AutoButtonColor",
+                [9] = "ZIndex",
+                [10] = "Parent",
+                [11] = "Connect",
+                [12] = "MouseLeave",
+                [13] = "GetChildren",
+                [14] = "Destroy",
+                [15] = "MouseButton1Click",
+                [16] = "IsA",
+                [17] = "PANEL",
+                [18] = "Text",
+                [19] = "TEXT_SEC",
+            },
+            numbers = {
+                [0] = 1, -- x3
+                [1] = 0, -- x3
+                [2] = 28,
+                [3] = 7,
+                [4] = 3,
+                [5] = 4,
+                [6] = 144,
+            },
+            imports = {
+                [0] = { import = { 7 } },
+                [1] = { import = { 10 } },
+                [2] = { import = { 15 } }, -- x3
+                [3] = { import = { 20 } },
+                [4] = { import = { 23 } },
+            },
+            closures = {
+                [0] = { closure = 220 },
+                [1] = { closure = 221 },
+                [2] = { closure = 222 },
+            },
+        },
+        [150] = {
+            parent = 49,
+            strings = {
+                [0] = "CARD",
+                [1] = "BackgroundColor3",
+                [2] = "fluxus",
+            },
+            imports = {
+                [0] = { import = { 2 } },
+            },
+        },
+        [151] = {
+            parent = 50,
+            numbers = {
+                [0] = 0.3,
+                [1] = 1,
+            },
+        },
+        [152] = {
+            parent = 50,
+            strings = {
+                [0] = "UserInputType", -- x2
+                [1] = "Touch",
+                [2] = "MouseMovement",
+            },
+            numbers = {
+                [0] = 1, -- x2
+                [1] = 2,
+            },
+        },
+        [153] = {
+            parent = 50,
+            strings = {
+                [0] = "UserInputType", -- x2
+                [1] = "MouseButton1",
+            },
+            numbers = {
+                [0] = 0,
+            },
+        },
+        [154] = {
+            parent = 50,
+            strings = {
+                [0] = "Position",
+                [1] = "X", -- x3
+                [2] = "AbsolutePosition",
+                [3] = "AbsoluteSize",
+            },
+            numbers = {
+                [0] = -6,
+                [1] = 1, -- x2
+                [2] = 0, -- x2
+                [3] = 252,
+                [4] = 2,
+                [5] = 3,
+                [6] = 6,
+                [7] = 9,
+                [8] = 10,
+                [9] = 11,
+                [10] = 103,
+            },
+        },
+        [155] = {
+            parent = 50,
+            strings = {
+                [0] = "tonumber",
+                [1] = "UserInputType", -- x2
+                [2] = "MouseButton1",
+                [3] = "Touch",
+            },
+            numbers = {
+                [0] = 2,
+                [1] = 0, -- x2
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [156] = {
+            parent = 50,
+        },
+        [157] = {
+            parent = 52,
+            booleans = {
+                [0] = false,
+            },
+        },
+        [158] = {
+            parent = 52,
+            strings = {
+                [0] = "R15",
+            },
+        },
+        [159] = {
+            parent = 52,
+            strings = {
+                [0] = "CFrame",
+                [1] = "Position", -- x2
+                [2] = "_",
+            },
+            numbers = {
+                [0] = 2,
+            },
+            imports = {
+                [0] = { import = { 2 } },
+            },
+        },
+        [160] = {
+            parent = 52,
+            strings = {
+                [0] = "IsA",
+                [1] = "BasePart",
+                [2] = "Enum",
+                [3] = "GetDescendants",
+                [4] = "CanCollide",
+                [5] = "Character",
+            },
+            numbers = {
+                [0] = 2,
+                [1] = 1,
+                [2] = 3,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 5 } },
+            },
+            closures = {
+                [0] = { closure = 223 },
+            },
+        },
+        [161] = {
+            parent = 52,
+            strings = {
+                [0] = "Parent",
+            },
+            numbers = {
+                [0] = 425,
+                [1] = 2,
+                [2] = 0,
+                [3] = 1,
+            },
+            closures = {
+                [0] = { closure = 224 },
+            },
+        },
+        [162] = {
+            parent = 52,
+        },
+        [163] = {
+            parent = 52,
+            strings = {
+                [0] = "CFrame",
+                [1] = "autoDungeon",
+                [2] = "Character", -- x2
+                [3] = "FindFirstChild",
+                [4] = "HumanoidRootPart",
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 3, -- x2
+                [2] = 2,
+            },
+            imports = {
+                [0] = { import = { 5 } },
+            },
+            closures = {
+                [0] = { closure = 225 },
+                [1] = { closure = 226 },
+            },
+        },
+        [164] = {
+            parent = 53,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "http_request",
+                [2] = "IsA",
+                [3] = "InteractNPCS",
+            },
+            numbers = {
+                [0] = 2,
+                [1] = 3,
+                [2] = 0, -- x2
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x2
+                [1] = { import = { 2 } },
+                [2] = { import = { 4 } }, -- x2
+            },
+        },
+        [165] = {
+            parent = 58,
+            strings = {
+                [0] = "set_clipboard", -- x2
+                [1] = "JSONEncode",
+                [2] = "no clipboard function",
+            },
+            numbers = {
+                [0] = 2,
+                [1] = 4,
+                [2] = 5,
+            },
+        },
+        [166] = {
+            parent = 61,
+            strings = {
+                [0] = "playing",
+                [1] = "maxPlayers",
+                [2] = "HttpGet",
+                [3] = "PlaceId", -- x2
+                [4] = "TeleportToPlaceInstance",
+                [5] = "data", -- x2
+                [6] = "id",
+                [7] = "JobId",
+                [8] = "GetService",
+                [9] = "TeleportService",
+                [10] = "JSONDecode",
+            },
+            numbers = {
+                [0] = 0, -- x4
+                [1] = 105,
+                [2] = 247,
+                [3] = 2,
+                [4] = 1,
+            },
+            imports = {
+                [0] = { import = { 2 } },
+                [1] = { import = { 5 } },
+                [2] = { import = { 10 } },
+                [3] = { import = { 13 } },
+            },
+        },
+        [167] = {
+            parent = 66,
+            strings = {
+                [0] = "FindFirstChildOfClass",
+                [1] = "Character",
+                [2] = "_",
+                [3] = "ChangeState",
+                [4] = "Jumping",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 5 } },
+            },
+        },
+        [168] = {
+            parent = 67,
+            strings = {
+                [0] = "IsA",
+                [1] = "BasePart",
+                [2] = "GetDescendants",
+                [3] = "Character", -- x2
+                [4] = "FindFirstChild",
+                [5] = "MeshPart",
+            },
+            numbers = {
+                [0] = 3,
+                [1] = 0, -- x2
+                [2] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x3
+                [1] = { import = { 4 } },
+                [2] = { import = { 7 } }, -- x2
+            },
+            closures = {
+                [0] = { closure = 227 },
+            },
+        },
+        [169] = {
+            parent = 67,
+            numbers = {
+                [0] = 0,
+            },
+            closures = {
+                [0] = { closure = 228 },
+            },
+        },
+        [170] = {
+            parent = 72,
+            strings = {
+                [0] = "BORDER",
+                [1] = "rawget",
+                [2] = "BackgroundColor3",
+                [3] = "Size",
+                [4] = "Back",
+                [5] = "Position",
+            },
+            numbers = {
+                [0] = -7,
+                [1] = 0, -- x2
+                [2] = 3,
+                [3] = 4,
+                [4] = 8, -- x2
+                [5] = 1,
+                [6] = 5,
+                [7] = 7,
+                [8] = 6, -- x2
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+        },
+        [171] = {
+            parent = 72,
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "PANEL",
+            },
+        },
+        [172] = {
+            parent = 72,
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "CARD",
+            },
+            numbers = {
+                [0] = 0,
+                [1] = 1,
+                [2] = 2,
+            },
+        },
+        [173] = {
+            parent = 72,
+            strings = {
+                [0] = "Enum",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [174] = {
+            parent = 73,
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 0.08,
+            },
+        },
+        [175] = {
+            parent = 73,
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [176] = {
+            parent = 73,
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [177] = {
+            parent = 73,
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 0.08,
+                [1] = 0.5,
+            },
+        },
+        [178] = {
+            parent = 73,
+            strings = {
+                [0] = "iscclosure",
+            },
+            numbers = {
+                [0] = 0.7,
+                [1] = 1,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [179] = {
+            parent = 74,
+            strings = {
+                [0] = "Vector2",
+            },
+            numbers = {
+                [0] = 0,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+            closures = {
+                [0] = { closure = 229 },
+            },
+        },
+        [180] = {
+            parent = 77,
+            strings = {
+                [0] = "JSONDecode",
+            },
+        },
+        [181] = {
+            parent = 77,
+            strings = {
+                [0] = "AnimeLimitless_Config.json",
+                [1] = "JSONEncode",
+            },
+            numbers = {
+                [0] = 2,
+                [1] = 0,
+                [2] = 1,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+        },
+        [182] = {
+            parent = 79,
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 66,
+            },
+        },
+        [183] = {
+            parent = 79,
+            strings = {
+                [0] = "RiftBossSKY", -- x2
+                [1] = "FindFirstChild",
+                [2] = "GojohRoomSky",
+                [3] = "PrimaryPart",
+                [4] = "CFrame",
+                [5] = "error",
+            },
+            numbers = {
+                [0] = 0, -- x4
+                [1] = 2,
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x2
+                [1] = { import = { 7 } },
+            },
+        },
+        [184] = {
+            parent = 79,
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "FindFirstChild",
+                [2] = "HumanoidRootPart",
+                [3] = "InGameTeleporter",
+                [4] = "KidBuuTeleport",
+                [5] = "Enter1",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 1,
+                [2] = 2,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+            },
+        },
+        [185] = {
+            parent = 79,
+            strings = {
+                [0] = "CFrame",
+                [1] = "loadstring",
+                [2] = "RiftBossSKY",
+                [3] = "FindFirstChild",
+                [4] = "FindFirstChildWhichIsA",
+            },
+            numbers = {
+                [0] = 0, -- x4
+                [1] = 4,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 6 } }, -- x2
+                [2] = { import = { 8 } },
+            },
+        },
+        [186] = {
+            parent = 79,
+            strings = {
+                [0] = "RiftBossSKY", -- x2
+                [1] = "FindFirstChild",
+                [2] = "GojohRoomSky",
+                [3] = "PrimaryPart",
+                [4] = "CFrame",
+                [5] = "Character", -- x2
+                [6] = "BasePart",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 4,
+                [2] = 1, -- x2
+                [3] = 2,
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x3
+            },
+        },
+        [187] = {
+            parent = 79,
+            strings = {
+                [0] = "CFrame", -- x2
+                [1] = "RiftBossSKY", -- x2
+                [2] = "FindFirstChild",
+                [3] = "Character", -- x2
+                [4] = "HumanoidRootPart",
+                [5] = "FindFirstChildWhichIsA",
+                [6] = "PrimaryPart",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 4,
+                [2] = 1, -- x2
+                [3] = 2,
+            },
+            imports = {
+                [0] = { import = { 2 } }, -- x3
+            },
+        },
+        [188] = {
+            parent = 79,
+            strings = {
+                [0] = "R15",
+            },
+            numbers = {
+                [0] = 1,
+            },
+        },
+        [189] = {
+            parent = 79,
+            strings = {
+                [0] = "InGameTeleporter",
+                [1] = "GokoSSJ4Teleport",
+                [2] = "Enter1",
+            },
+            numbers = {
+                [0] = 0,
+            },
+        },
+        [190] = {
+            parent = 79,
+            strings = {
+                [0] = "writefile",
+                [1] = "FindFirstChildWhichIsA",
+                [2] = "BasePart",
+                [3] = "RiftBossRoom", -- x2
+                [4] = "FindFirstChild",
+                [5] = "KatakuriiRoom",
+                [6] = "CFrame",
+                [7] = "PrimaryPart",
+            },
+            numbers = {
+                [0] = 0, -- x4
+                [1] = 4,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+                [2] = { import = { 6 } }, -- x2
+            },
+        },
+        [191] = {
+            parent = 79,
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "FindFirstChild",
+                [2] = "HumanoidRootPart",
+                [3] = "firetouchinterest",
+                [4] = "InGameTeleporter",
+            },
+            numbers = {
+                [0] = 157,
+                [1] = 0, -- x2
+                [2] = 1,
+                [3] = 66,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 5 } },
+            },
+        },
+        [192] = {
+            parent = 79,
+            strings = {
+                [0] = "FindFirstChildWhichIsA",
+                [1] = "Random",
+                [2] = "FindFirstChild",
+                [3] = "KatakuriiRoom",
+                [4] = "PrimaryPart",
+                [5] = "CFrame", -- x2
+                [6] = "Character",
+            },
+            numbers = {
+                [0] = 4,
+                [1] = 0, -- x2
+                [2] = 114,
+                [3] = 249,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+                [2] = { import = { 4 } }, -- x3
+            },
+        },
+        [193] = {
+            parent = 86,
+            numbers = {
+                [0] = 0.7,
+                [1] = 1,
+            },
+        },
+        [194] = {
+            parent = 96,
+            booleans = {
+                [0] = true,
+            },
+        },
+        [195] = {
+            parent = 99,
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "FindFirstChild", -- x2
+                [2] = "HumanoidRootPart",
+                [3] = "PrimaryPart",
+                [4] = "CFrame", -- x2
+                [5] = "FindFirstChildWhichIsA",
+                [6] = "BasePart",
+                [7] = "DungeonTeleporters",
+            },
+            numbers = {
+                [0] = 0.1, -- x2
+                [1] = 1,
+                [2] = 2, -- x2
+                [3] = 3,
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x2
+                [1] = { import = { 6 } },
+            },
+            closures = {
+                [0] = { closure = 230 },
+                [1] = { closure = 231 },
+            },
+        },
+        [196] = {
+            parent = 99,
+            strings = {
+                [0] = "error",
+                [1] = "FireServer",
+                [2] = "WaitForChild",
+                [3] = "ReadyPlayerDungeon",
+            },
+            numbers = {
+                [0] = 5,
+                [1] = 0,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 5 } },
+            },
+        },
+        [197] = {
+            parent = 103,
+            strings = {
+                [0] = "AnimeLimitless_Config.json",
+                [1] = "syn",
+                [2] = "JSONEncode",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 2,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 3 } },
+            },
+        },
+        [198] = {
+            parent = 103,
+            strings = {
+                [0] = "Name", -- x2
+                [1] = "GetChildren",
+                [2] = "IsA",
+                [3] = "Tool", -- x2
+                [4] = "Refresh",
+                [5] = "Character",
+                [6] = "FindFirstChild",
+                [7] = "Backpack",
+                [8] = "workspace",
+            },
+            numbers = {
+                [0] = 186,
+                [1] = 2, -- x2
+                [2] = 1,
+                [3] = 142,
+                [4] = 3,
+                [5] = 0, -- x2
+            },
+            imports = {
+                [0] = { import = { 2 } }, -- x2
+                [1] = { import = { 4 } }, -- x2
+                [2] = { import = { 9 } },
+                [3] = { import = { 12 } },
+            },
+        },
+        [199] = {
+            parent = 105,
+            strings = {
+                [0] = "set_clipboard", -- x2
+                [1] = "https://discord.com/invite/XxBGsksb", -- x2
+            },
+            numbers = {
+                [0] = 1, -- x2
+                [1] = 0, -- x2
+            },
+        },
+        [200] = {
+            parent = 105,
+            strings = {
+                [0] = "request", -- x3
+                [1] = "Content-Type",
+                [2] = "Origin",
+                [3] = "Headers",
+                [4] = "nonce",
+                [5] = "code",
+                [6] = "args",
+                [7] = "Body",
+                [8] = "Url",
+                [9] = "Method",
+                [10] = "JSONEncode",
+                [11] = "GenerateGUID",
+            },
+            numbers = {
+                [0] = 3,
+                [1] = 5, -- x2
+                [2] = 4,
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 10 } },
+                [3] = { import = { 12 } },
+                [4] = { import = { 14 } },
+                [5] = { import = { 16 } },
+            },
+        },
+        [201] = {
+            parent = 107,
+            strings = {
+                [0] = "InteractNPCS",
+                [1] = "QuestNPCS",
+                [2] = "quest",
+                [3] = "CFrame",
+                [4] = "PrimaryPart",
+                [5] = "FindFirstChild",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 3, -- x2
+                [2] = 0.2,
+                [3] = 1,
+                [4] = 79,
+                [5] = 4,
+            },
+            imports = {
+                [0] = { import = { 8 } },
+            },
+        },
+        [202] = {
+            parent = 107,
+            strings = {
+                [0] = "R15",
+            },
+        },
+        [203] = {
+            parent = 107,
+            strings = {
+                [0] = "rawset",
+                [1] = "find",
+                [2] = "CFrame",
+                [3] = "Name", -- x2
+                [4] = "gsub",
+                [5] = "%s", -- x2
+                [6] = "", -- x2
+                [7] = "lower",
+                [8] = "fluxus",
+                [9] = "FindFirstChild",
+                [10] = "NPCSpawns",
+                [11] = "npcName",
+                [12] = "Color3",
+                [13] = "GetChildren",
+                [14] = "FindFirstChildWhichIsA",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 30,
+                [2] = 188,
+                [3] = 377,
+                [4] = 4,
+                [5] = 1,
+                [6] = 3,
+                [7] = 2,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } }, -- x2
+                [2] = { import = { 8 } }, -- x2
+                [3] = { import = { 12 } }, -- x3
+                [4] = { import = { 14 } },
+                [5] = { import = { 16 } },
+                [6] = { import = { 20 } },
+                [7] = { import = { 22 } },
+                [8] = { import = { 26 } },
+            },
+        },
+        [204] = {
+            parent = 107,
+            strings = {
+                [0] = "CFrame",
+                [1] = "Position",
+            },
+            numbers = {
+                [0] = 0,
+            },
+        },
+        [205] = {
+            parent = 108,
+            strings = {
+                [0] = "InGameTeleporter",
+                [1] = "GokoSSJ4Teleport",
+                [2] = "Enter1",
+            },
+            numbers = {
+                [0] = 0,
+            },
+        },
+        [206] = {
+            parent = 108,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "FindFirstChildWhichIsA",
+                [2] = "BasePart",
+                [3] = "CFrame",
+                [4] = "PrimaryPart",
+                [5] = "RiftBossSKY",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 4,
+            },
+            imports = {
+                [0] = { import = { 0 } }, -- x2
+                [1] = { import = { 2 } },
+            },
+        },
+        [207] = {
+            parent = 108,
+            strings = {
+                [0] = "KidBuuTeleport",
+                [1] = "Enter1",
+            },
+            numbers = {
+                [0] = 0,
+            },
+        },
+        [208] = {
+            parent = 108,
+            strings = {
+                [0] = "PrimaryPart",
+                [1] = "tostring",
+                [2] = "RiftBossSKY", -- x2
+                [3] = "FindFirstChild",
+                [4] = "GojohRoomSky",
+                [5] = "CFrame",
+            },
+            numbers = {
+                [0] = 4,
+                [1] = 249,
+                [2] = 0, -- x4
+                [3] = 2,
+            },
+            imports = {
+                [0] = { import = { 2 } },
+                [1] = { import = { 5 } }, -- x2
+            },
+        },
+        [209] = {
+            parent = 108,
+            strings = {
+                [0] = "PrimaryPart",
+                [1] = "toclipboard",
+                [2] = "FindFirstChild",
+                [3] = "RiftBossRoom",
+                [4] = "CFrame",
+                [5] = "FindFirstChildWhichIsA",
+                [6] = "BasePart",
+                [7] = "isfile",
+            },
+            numbers = {
+                [0] = 0, -- x3
+                [1] = 4,
+                [2] = 152,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 3 } }, -- x2
+                [2] = { import = { 9 } },
+                [3] = { import = { 12 } },
+            },
+        },
+        [210] = {
+            parent = 108,
+            strings = {
+                [0] = "R15",
+            },
+            numbers = {
+                [0] = 1,
+            },
+        },
+        [211] = {
+            parent = 108,
+            strings = {
+                [0] = "CFrame",
+                [1] = "Position", -- x2
+            },
+            numbers = {
+                [0] = 1,
+                [1] = 0,
+                [2] = 2,
+            },
+        },
+        [212] = {
+            parent = 109,
+            strings = {
+                [0] = "typeof",
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [213] = {
+            parent = 112,
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "IsA",
+                [2] = "GetDescendants",
+                [3] = "tick",
+                [4] = "Vector2",
+                [5] = "FindFirstChild",
+                [6] = "HumanoidRootPart",
+                [7] = "Part",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 2,
+            },
+            imports = {
+                [0] = { import = { 1 } }, -- x2
+                [1] = { import = { 3 } },
+                [2] = { import = { 5 } },
+                [3] = { import = { 7 } },
+                [4] = { import = { 9 } },
+            },
+            closures = {
+                [0] = { closure = 232 },
+            },
+        },
+        [214] = {
+            parent = 112,
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Chests",
+            },
+            numbers = {
+                [0] = 0,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [215] = {
+            parent = 113,
+            strings = {
+                [0] = "StoreSoul",
+                [1] = "assert",
+                [2] = "FindFirstChild",
+                [3] = "Name",
+                [4] = "gsub",
+                [5] = "Soul_Chest",
+                [6] = "", -- x2
+                [7] = "Game",
+                [8] = "Remotes",
+                [9] = "ServerHandler",
+                [10] = "FireServer",
+                [11] = "Character",
+            },
+            numbers = {
+                [0] = 0.2,
+                [1] = 0,
+                [2] = 3,
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 3 } },
+                [2] = { import = { 6 } }, -- x2
+                [3] = { import = { 14 } },
+            },
+        },
+        [216] = {
+            parent = 113,
+            strings = {
+                [0] = "fluxus",
+                [1] = "GetPivot",
+            },
+            numbers = {
+                [0] = 0,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+                [1] = { import = { 2 } },
+            },
+        },
+        [217] = {
+            parent = 135,
+            strings = {
+                [0] = "R15",
+            },
+        },
+        [218] = {
+            parent = 141,
+            strings = {
+                [0] = "Position", -- x2
+                [1] = "CFrame",
+            },
+            numbers = {
+                [0] = 2,
+                [1] = 1,
+                [2] = 0,
+            },
+        },
+        [219] = {
+            parent = 143,
+            strings = {
+                [0] = "dist", -- x2
+            },
+        },
+        [220] = {
+            parent = 149,
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+            numbers = {
+                [0] = 255, -- x3
+                [1] = 0.5,
+                [2] = 3,
+                [3] = 4,
+                [4] = 0,
+                [5] = 1,
+                [6] = 2,
+            },
+        },
+        [221] = {
+            parent = 149,
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "TEXT_SEC",
+                [2] = "PANEL",
+            },
+            numbers = {
+                [0] = 2,
+            },
+        },
+        [222] = {
+            parent = 149,
+            strings = {
+                [0] = "pcall",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 50,
+                [2] = 1, -- x2
+                [3] = 125,
+                [4] = 7,
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [223] = {
+            parent = 160,
+            strings = {
+                [0] = "setclipboard",
+            },
+            booleans = {
+                [0] = false,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+        [224] = {
+            parent = 161,
+            numbers = {
+                [0] = 1,
+            },
+        },
+        [225] = {
+            parent = 163,
+        },
+        [226] = {
+            parent = 163,
+        },
+        [227] = {
+            parent = 168,
+            strings = {
+                [0] = "UDim2",
+                [1] = "ColorSequence",
+            },
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 0.05,
+                [2] = 1,
+                [3] = 2, -- x2
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 4 } },
+            },
+        },
+        [228] = {
+            parent = 169,
+            strings = {
+                [0] = "id", -- x2
+                [1] = "TeleportToPlaceInstance",
+                [2] = "data",
+                [3] = "GetService",
+                [4] = "TeleportService",
+                [5] = "HttpGet",
+                [6] = "PlaceId",
+                [7] = "JSONDecode",
+                [8] = "playing",
+                [9] = "maxPlayers",
+            },
+            numbers = {
+                [0] = 5,
+                [1] = 4,
+                [2] = 2,
+                [3] = 0, -- x3
+            },
+            imports = {
+                [0] = { import = { 1 } },
+                [1] = { import = { 4 } },
+                [2] = { import = { 7 } },
+                [3] = { import = { 10 } },
+            },
+        },
+        [229] = {
+            parent = 179,
+        },
+        [230] = {
+            parent = 195,
+            numbers = {
+                [0] = 0, -- x2
+                [1] = 1,
+                [2] = 2,
+            },
+        },
+        [231] = {
+            parent = 195,
+            numbers = {
+                [0] = 1, -- x2
+                [1] = 0,
+                [2] = 2,
+            },
+        },
+        [232] = {
+            parent = 213,
+            strings = {
+                [0] = "Vector3",
+            },
+            numbers = {
+                [0] = 1, -- x2
+                [1] = 0, -- x3
+                [2] = 0.05,
+                [3] = 2,
+                [4] = 3,
+            },
+            imports = {
+                [0] = { import = { 0 } },
+            },
+        },
+    },
+    wrapper_values = {
+        [0] = {
+            strings = {
+                [0] = "BorderSizePixel", -- x4
+                [1] = "ZIndex", -- x13
+                [2] = "Tojee", -- x2
+                [3] = "autoTojee", -- x2
+                [4] = "Katakurii", -- x2
+                [5] = "autoKatakurii", -- x2
+                [6] = "new", -- x9
+                [7] = "floor",
+                [8] = "Connect", -- x19
+                [9] = "npcName", -- x6
+                [10] = "Mihook", -- x2
+                [11] = "name", -- x15
+                [12] = "Megumo", -- x3
+                [13] = "Gojoh", -- x3
+                [14] = "autoSoul",
+                [15] = "Text", -- x4
+                [16] = "verify",
+                [17] = "AutomaticSize",
+                [18] = "BackgroundTransparency", -- x4
+                [19] = "Hokage Narudo", -- x4
+                [20] = "King Gorilla", -- x3
+                [21] = "Baby Veguta", -- x3
+                [22] = "Super 17", -- x3
+                [23] = "autoMegumo", -- x2
+                [24] = "autoGojoh", -- x2
+                [25] = "get key",
+                [26] = "TextSize", -- x7
+                [27] = "Monkey Quests", -- x3
+                [28] = "–",
+                [29] = "autoCoyote",
+                [30] = "autoKidBuu",
+                [31] = "FEATURES LOCKED",
+                [32] = "Monkey - Monkeys (x7)",
+                [33] = "quest", -- x8
+                [34] = "insert",
+                [35] = "EasingStyle",
+                [36] = "Dawn Quests", -- x2
+                [37] = "Forest",
+                [38] = "Toxic",
+                [39] = "Ice",
+                [40] = "Bandit Boss", -- x3
+                [41] = "Arlog", -- x3
+                [42] = "Dawn - Bandits (x5)",
+                [43] = "NEXUS",
+                [44] = "ZIndexBehavior",
+                [45] = "Fishman Quests", -- x3
+                [46] = "Fishman Guard",
+                [47] = "fromOffset",
+                [48] = "SortOrder",
+                [49] = "GetService", -- x6
+                [50] = "k",
+                [51] = "Center",
+                [52] = "Truffle - Minions (x7)",
+                [53] = "Truffle Quests", -- x3
+                [54] = "ScrollingDirection",
+                [55] = "Coyote Shark", -- x2
+                [56] = "sort",
+                [57] = "Android 23",
+                [58] = "WestCity - Super 17 (x1)",
+                [59] = "WestCity Quests", -- x3
+                [60] = "EasingDirection",
+                [61] = "JJK Quests", -- x3
+                [62] = "Grade1 Sorcerer",
+                [63] = "N", -- x2
+                [64] = "Monkey",
+                [65] = "autoMihook", -- x2
+                [66] = "rbxassetid://5028857084",
+                [67] = "Desert Quests", -- x2
+                [68] = "HumanoidStateType",
+                [69] = "JJK - Megumo (x1)",
+                [70] = "HumanoidRigType",
+                [71] = "Truffle Minion",
+                [72] = "Leaf Quests", -- x3
+                [73] = "FillDirection",
+                [74] = "Dracula",
+                [75] = "min",
+                [76] = "JJK - Grade1 Sorcerers (x5)",
+                [77] = "Monochrome",
+                [78] = "Cherry Blossom",
+                [79] = "Bandit",
+                [80] = "Dawn - Bandit Boss (x1)",
+                [81] = "fromRGB",
+                [82] = "delay",
+                [83] = "Leaf - Hokage Narudo (x1)",
+                [84] = "All For Me", -- x2
+                [85] = "autoAllForMe", -- x2
+                [86] = "Goko SSJ4", -- x2
+                [87] = "autoGokoSSJ4", -- x2
+                [88] = "zero",
+                [89] = "Desert - Sand Chunins (x5)",
+                [90] = "Galaxy",
+                [91] = "Leaf Chunin",
+                [92] = "Leaf - Jonins (x5)",
+                [93] = "Gold",
+                [94] = "Monkey - King Gorilla (x1)",
+                [95] = "Saiyon",
+                [96] = "WestCity - Android 23s (x5)",
+                [97] = "VerticalAlignment",
+                [98] = "✕",
+                [99] = "Kid Buu", -- x2
+                [100] = "Truffle - Baby Veguta (x1)",
+                [101] = "WestCity - Saiyons (x7)",
+                [102] = "Leaf Jonin",
+                [103] = "Sunset",
+                [104] = "PlaceholderText",
+                [105] = "enter key",
+                [106] = "Sand Chunin",
+                [107] = "Fishman - Guards (x7)",
+                [108] = "JJK - Grade2 Sorcerers (x5)",
+                [109] = "paste a shared config here...",
+                [110] = "wait",
+                [111] = "autoCollect",
+                [112] = "clamp",
+                [113] = "Truffle Elite",
+                [114] = "Rose Gold",
+                [115] = "Desert - Sand Genins (x7)",
+                [116] = "Fishman - Fighters (x5)",
+                [117] = "TextYAlignment",
+                [118] = "random",
+                [119] = "abs",
+                [120] = "Fishman Fighter",
+                [121] = "Fishman - Arlog (x1)",
+                [122] = "Ocean",
+                [123] = "  Status: Idle",
+                [124] = "Grade2 Sorcerer",
+                [125] = "Truffle - Elites (x5)",
+                [126] = "ANIME LIMITLESS",
+                [127] = "Sand Genin",
+                [128] = "upper",
+                [129] = "Crimson",
+                [130] = "Monkey - Gorillas (x5)",
+                [131] = "spawn",
+                [132] = "Tap a theme to recolor the whole menu",
+                [133] = "Leaf - Chunins (x7)",
+                [134] = "Auto Haki",
+                [135] = "Gorilla",
+            },
+            booleans = {
+                [0] = false, -- x9
+            },
+        },
+        [1] = {
+            strings = {
+                [0] = "autoTojee",
+            },
+        },
+        [5] = {
+            booleans = {
+                [0] = false,
+            },
+        },
+        [7] = {
+            strings = {
+                [0] = "autoSoul",
+            },
+        },
+        [8] = {
+            strings = {
+                [0] = "WaitForChild", -- x2
+            },
+        },
+        [11] = {
+            strings = {
+                [0] = "NexusAnimeLimitless",
+            },
+        },
+        [13] = {
+            strings = {
+                [0] = "invalid key",
+                [1] = "Text", -- x3
+                [2] = "BackgroundTransparency", -- x3
+                [3] = "unlocked",
+                [4] = "valid key",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [14] = {
+            strings = {
+                [0] = "BackgroundTransparency", -- x2
+                [1] = "Text",
+                [2] = "BorderSizePixel",
+                [3] = "TextSize",
+            },
+        },
+        [15] = {
+            strings = {
+                [0] = "Thickness",
+            },
+        },
+        [19] = {
+            strings = {
+                [0] = "R",
+            },
+        },
+        [20] = {
+            strings = {
+                [0] = "autoMegumo",
+            },
+        },
+        [21] = {
+            strings = {
+                [0] = "autoGojoh",
+            },
+        },
+        [23] = {
+            strings = {
+                [0] = "BorderSizePixel",
+                [1] = "ZIndex",
+            },
+        },
+        [24] = {
+            strings = {
+                [0] = "autoDeleteWater",
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+        },
+        [27] = {
+            strings = {
+                [0] = "  Status: ",
+                [1] = "Text",
+            },
+        },
+        [29] = {
+            strings = {
+                [0] = "miscNpcName",
+            },
+        },
+        [31] = {
+            strings = {
+                [0] = "autoStrength",
+                [1] = "autoSoul",
+                [2] = "CombatControl",
+            },
+            booleans = {
+                [0] = false, -- x3
+            },
+        },
+        [32] = {
+            strings = {
+                [0] = "BackgroundTransparency", -- x3
+                [1] = "TextTransparency", -- x3
+            },
+        },
+        [33] = {
+            strings = {
+                [0] = "autoCoyote",
+            },
+        },
+        [34] = {
+            strings = {
+                [0] = "autoKatakurii",
+            },
+        },
+        [35] = {
+            strings = {
+                [0] = "BorderSizePixel", -- x2
+                [1] = "TextSize",
+                [2] = "BackgroundTransparency",
+                [3] = ": Idle",
+                [4] = "Text",
+            },
+        },
+        [36] = {
+            strings = {
+                [0] = "unlocked",
+                [1] = "Visible",
+                [2] = "nexusXsxlnxcy",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [37] = {
+            strings = {
+                [0] = "None",
+            },
+        },
+        [38] = {
+            strings = {
+                [0] = "CombatControl", -- x2
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+        },
+        [39] = {
+            strings = {
+                [0] = "Text", -- x2
+                [1] = "%((%d+)%s*/%s*(%d+)%)",
+            },
+        },
+        [40] = {
+            strings = {
+                [0] = "autoStrength",
+            },
+        },
+        [41] = {
+            strings = {
+                [0] = "autoGokoSSJ4",
+            },
+        },
+        [43] = {
+            strings = {
+                [0] = "Visible",
+            },
+        },
+        [44] = {
+            strings = {
+                [0] = "Visible",
+            },
+        },
+        [45] = {
+            strings = {
+                [0] = "autoMihook",
+            },
+        },
+        [46] = {
+            strings = {
+                [0] = "empty", -- x2
+                [1] = "s)", -- x2
+                [2] = " (", -- x2
+                [3] = "Born Cursed",
+                [4] = "]",
+                [5] = "/",
+                [6] = " [",
+                [7] = "Waiting for ", -- x2
+                [8] = "Confirming clear... (",
+                [9] = "Cursed KingGorilla",
+                [10] = "...",
+                [11] = " left)",
+                [12] = "Clearing ",
+                [13] = "None",
+                [14] = "Attacking ",
+            },
+            booleans = {
+                [0] = false, -- x4
+            },
+        },
+        [47] = {
+            strings = {
+                [0] = "Armament Haki",
+            },
+            booleans = {
+                [0] = false, -- x3
+            },
+        },
+        [48] = {
+            strings = {
+                [0] = "None",
+                [1] = "",
+            },
+        },
+        [49] = {
+            strings = {
+                [0] = "UIListLayout",
+                [1] = "Connect", -- x3
+                [2] = "BackgroundTransparency", -- x3
+                [3] = "Text", -- x3
+                [4] = "None",
+                [5] = "BorderSizePixel", -- x2
+                [6] = "AutoButtonColor",
+                [7] = "ZIndex",
+                [8] = "TextSize", -- x3
+                [9] = "Thickness",
+                [10] = "Visible",
+                [11] = "ScrollBarThickness",
+                [12] = "Color",
+                [13] = "  ",
+            },
+            booleans = {
+                [0] = false, -- x3
+            },
+        },
+        [50] = {
+            strings = {
+                [0] = "TextSize", -- x2
+                [1] = "InputChanged",
+                [2] = "Connect", -- x3
+                [3] = "BackgroundTransparency", -- x2
+                [4] = "Text", -- x2
+                [5] = "BorderSizePixel", -- x4
+                [6] = "RED",
+                [7] = "",
+                [8] = "ZIndex",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [51] = {
+            strings = {
+                [0] = "FrameWork_WorkSpace",
+                [1] = "RaceTrigger", -- x2
+                [2] = "autoCollect",
+            },
+        },
+        [52] = {
+            strings = {
+                [0] = "Connect", -- x2
+                [1] = "Killing NighttGuy [",
+                [2] = "]",
+                [3] = "/",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [53] = {
+            strings = {
+                [0] = "Refresh",
+            },
+        },
+        [56] = {
+            strings = {
+                [0] = "Visible", -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [57] = {
+            strings = {
+                [0] = "ImageColor3",
+            },
+        },
+        [59] = {
+            strings = {
+                [0] = "autoKidBuu",
+            },
+        },
+        [64] = {
+            strings = {
+                [0] = "autoAllForMe",
+            },
+        },
+        [65] = {
+            strings = {
+                [0] = "ClickButton2",
+            },
+        },
+        [72] = {
+            strings = {
+                [0] = "BorderSizePixel", -- x3
+                [1] = "Connect", -- x4
+                [2] = "PaddingLeft",
+                [3] = "PaddingRight",
+                [4] = "TextColor3",
+                [5] = "TextSize",
+                [6] = "Left",
+                [7] = "RED",
+                [8] = "AutoButtonColor", -- x2
+                [9] = "BackgroundTransparency",
+                [10] = "Text", -- x3
+                [11] = "TextLabel",
+                [12] = "", -- x2
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+        },
+        [73] = {
+            strings = {
+                [0] = "Font",
+                [1] = "TextSize",
+                [2] = "BorderSizePixel",
+                [3] = "AutoButtonColor",
+                [4] = "TextColor3",
+                [5] = "Text",
+                [6] = "Connect", -- x5
+                [7] = "MouseButton1Up",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [77] = {
+            strings = {
+                [0] = "unlocked",
+                [1] = "", -- x2
+                [2] = " values - re-execute to apply",
+                [3] = "Loaded ",
+                [4] = "table",
+                [5] = "Text",
+            },
+        },
+        [78] = {
+            strings = {
+                [0] = "autoDeleteWater",
+            },
+        },
+        [79] = {
+            strings = {
+                [0] = "n",
+                [1] = "Kid Buu", -- x2
+                [2] = "Goko SSJ4", -- x2
+                [3] = "All For Me", -- x2
+                [4] = "Gojoh", -- x2
+                [5] = "Katakurii", -- x2
+                [6] = "k",
+            },
+        },
+        [80] = {
+            strings = {
+                [0] = "Color",
+            },
+        },
+        [83] = {
+            strings = {
+                [0] = "selectedWep", -- x3
+                [1] = "",
+            },
+        },
+        [84] = {
+            strings = {
+                [0] = "Refresh",
+            },
+        },
+        [85] = {
+            strings = {
+                [0] = "Color",
+            },
+        },
+        [86] = {
+            strings = {
+                [0] = "accent",
+                [1] = "surf",
+                [2] = "Color", -- x2
+            },
+        },
+        [88] = {
+            strings = {
+                [0] = "autoCollect",
+            },
+        },
+        [91] = {
+            strings = {
+                [0] = "Color",
+            },
+        },
+        [93] = {
+            strings = {
+                [0] = "G",
+                [1] = "J",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [94] = {
+            strings = {
+                [0] = "autoServerHop",
+            },
+        },
+        [96] = {
+            strings = {
+                [0] = "Size", -- x2
+                [1] = "Visible",
+                [2] = "ClipsDescendants", -- x2
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [97] = {
+            strings = {
+                [0] = "autoRaid",
+            },
+        },
+        [104] = {
+            strings = {
+                [0] = "Parent",
+            },
+        },
+        [105] = {
+            strings = {
+                [0] = "TextColor3",
+                [1] = "TextTransparency", -- x2
+                [2] = "copied invite to clipboard",
+                [3] = "Text",
+            },
+        },
+        [106] = {
+            strings = {
+                [0] = "autoSword",
+            },
+        },
+        [107] = {
+            strings = {
+                [0] = "missionIndex", -- x7
+                [1] = "npcName", -- x4
+                [2] = "Finding ",
+                [3] = "autoAllBosses", -- x2
+                [4] = "autoBossQuest",
+                [5] = "]",
+                [6] = "/",
+                [7] = " [",
+                [8] = "...",
+                [9] = "Waiting for ",
+                [10] = "Fighting ",
+            },
+        },
+        [108] = {
+            strings = {
+                [0] = "npcName", -- x8
+                [1] = "Gojoh",
+                [2] = "distance",
+                [3] = "name", -- x2
+                [4] = "Finding ",
+                [5] = "autoSelectedBoss",
+                [6] = "Goko SSJ4",
+                [7] = "Attacking ",
+                [8] = "Kid Buu",
+                [9] = "All For Me",
+                [10] = "Katakurii",
+            },
+        },
+        [109] = {
+            strings = {
+                [0] = "MaxHealth",
+                [1] = "Megumo",
+                [2] = "Gojoh",
+                [3] = "Tojee",
+                [4] = "Katakurii",
+                [5] = "Humanoid", -- x2
+                [6] = "FindFirstChild", -- x2
+                [7] = "NPCs",
+                [8] = "All For Me",
+                [9] = "Goko SSJ4",
+                [10] = "Mihook",
+                [11] = "instaKillPct",
+                [12] = "Coyote Shark",
+                [13] = "Kid Buu",
+                [14] = "autoAllSummons",
+            },
+        },
+        [110] = {
+            strings = {
+                [0] = "TextColor3",
+            },
+        },
+        [111] = {
+            strings = {
+                [0] = "TextColor3",
+            },
+        },
+        [112] = {
+            strings = {
+                [0] = "autoGrabChest",
+            },
+        },
+        [113] = {
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "autoSoulChest",
+            },
+        },
+        [114] = {
+            strings = {
+                [0] = "TextColor3",
+                [1] = "UIStroke",
+                [2] = "Visible",
+            },
+        },
+        [115] = {
+            strings = {
+                [0] = "Size",
+            },
+            booleans = {
+                [0] = true,
+                [1] = false,
+            },
+        },
+        [116] = {
+            strings = {
+                [0] = "KeyCode",
+                [1] = "Visible", -- x2
+            },
+        },
+        [117] = {
+            strings = {
+                [0] = "selectedBoss",
+            },
+        },
+        [118] = {
+            strings = {
+                [0] = "autoFarm",
+            },
+        },
+        [119] = {
+            strings = {
+                [0] = "Scale",
+                [1] = "X",
+            },
+        },
+        [120] = {
+            strings = {
+                [0] = "autoHaki",
+            },
+        },
+        [121] = {
+            strings = {
+                [0] = "Touch",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [123] = {
+            strings = {
+                [0] = "application/json",
+                [1] = "https://discord.com",
+                [2] = "INVITE_BROWSER",
+                [3] = "XxBGsksb",
+                [4] = "http://127.0.0.1:6463/rpc?v=1",
+                [5] = "POST",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [128] = {
+            strings = {
+                [0] = "Parent",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [129] = {
+            strings = {
+                [0] = "Clone",
+            },
+        },
+        [130] = {
+            strings = {
+                [0] = "FindFirstChild", -- x3
+                [1] = "miscNpcName",
+            },
+        },
+        [132] = {
+            strings = {
+                [0] = ": ",
+                [1] = "Text",
+            },
+        },
+        [134] = {
+            strings = {
+                [0] = "RaidPrompt",
+            },
+        },
+        [135] = {
+            strings = {
+                [0] = "", -- x2
+            },
+            booleans = {
+                [0] = true, -- x3
+            },
+        },
+        [136] = {
+            strings = {
+                [0] = "instaKillPct",
+                [1] = "MaxHealth",
+                [2] = "Humanoid",
+            },
+        },
+        [137] = {
+            strings = {
+                [0] = "Health", -- x2
+                [1] = "Born Cursed",
+                [2] = "distance",
+                [3] = "direction",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [138] = {
+            strings = {
+                [0] = "find", -- x3
+                [1] = "IsA", -- x2
+                [2] = "Combat",
+                [3] = "Sword",
+                [4] = "FindFirstChild",
+                [5] = "lower", -- x3
+            },
+            booleans = {
+                [0] = true, -- x4
+            },
+        },
+        [139] = {
+            strings = {
+                [0] = "GetChildren",
+            },
+        },
+        [140] = {
+            strings = {
+                [0] = "IsA",
+                [1] = "FindFirstChildOfClass",
+                [2] = "Humanoid",
+                [3] = "Health",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [141] = {
+            strings = {
+                [0] = "FindFirstChild", -- x2
+            },
+        },
+        [143] = {
+            strings = {
+                [0] = "", -- x3
+                [1] = "find", -- x3
+                [2] = "lower", -- x4
+                [3] = "gsub",
+                [4] = "[%s_%-]+", -- x3
+            },
+            booleans = {
+                [0] = true, -- x5
+                [1] = false, -- x2
+            },
+        },
+        [144] = {
+            strings = {
+                [0] = "Position",
+                [1] = "FindFirstChildOfClass",
+                [2] = "Humanoid",
+                [3] = "find",
+                [4] = "Born Cursed",
+                [5] = "GetChildren",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [146] = {
+            strings = {
+                [0] = "  ",
+                [1] = "Text",
+            },
+        },
+        [147] = {
+            strings = {
+                [0] = "Visible",
+                [1] = "▾",
+                [2] = "Text",
+                [3] = "Size",
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+        },
+        [149] = {
+            strings = {
+                [0] = "Visible", -- x2
+                [1] = "Size", -- x4
+                [2] = "Text",
+                [3] = "▾",
+                [4] = "Y",
+            },
+            booleans = {
+                [0] = false,
+                [1] = true,
+            },
+        },
+        [150] = {
+            strings = {
+                [0] = "TextColor3",
+            },
+        },
+        [151] = {
+            strings = {
+                [0] = "TextColor3",
+                [1] = "Font",
+                [2] = "TextSize",
+                [3] = "Left",
+                [4] = "TextButton",
+                [5] = "TextXAlignment",
+                [6] = "BorderSizePixel",
+                [7] = "AutoButtonColor",
+                [8] = "ZIndex",
+                [9] = "None",
+                [10] = "Parent",
+                [11] = "MouseEnter",
+                [12] = "Connect", -- x3
+                [13] = "GetChildren",
+                [14] = "Size",
+                [15] = "MouseButton1Click",
+                [16] = "IsA",
+                [17] = "  ",
+                [18] = "Text",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [152] = {
+            strings = {
+                [0] = "CARD",
+                [1] = "BackgroundColor3",
+            },
+        },
+        [153] = {
+            strings = {
+                [0] = "TextColor3",
+            },
+        },
+        [154] = {
+            strings = {
+                [0] = "Touch",
+            },
+        },
+        [155] = {
+            strings = {
+                [0] = "UserInputType",
+                [1] = "Touch",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [156] = {
+            strings = {
+                [0] = "Position", -- x2
+                [1] = "X", -- x3
+                [2] = "Text",
+                [3] = "Size",
+                [4] = "AbsoluteSize",
+            },
+        },
+        [157] = {
+            strings = {
+                [0] = "UserInputType", -- x2
+                [1] = "Touch",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [158] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [159] = {
+            strings = {
+                [0] = "Anchored",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [160] = {
+            strings = {
+                [0] = "RigType",
+            },
+        },
+        [161] = {
+            strings = {
+                [0] = "Position", -- x2
+            },
+        },
+        [162] = {
+            strings = {
+                [0] = "IsA",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [163] = {
+            strings = {
+                [0] = "Parent",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [164] = {
+            booleans = {
+                [0] = false,
+            },
+        },
+        [165] = {
+            strings = {
+                [0] = "autoDungeon",
+                [1] = "FindFirstChild",
+            },
+        },
+        [166] = {
+            strings = {
+                [0] = "Health", -- x2
+                [1] = "FindFirstChildOfClass", -- x2
+                [2] = "Humanoid", -- x2
+                [3] = "IsA", -- x2
+                [4] = "Model", -- x2
+                [5] = "lower",
+                [6] = "FindFirstChild",
+                [7] = "Boss",
+                [8] = "GetChildren",
+                [9] = "NighttGuy",
+                [10] = "find",
+                [11] = "night",
+            },
+        },
+        [167] = {
+            strings = {
+                [0] = "FindFirstChild", -- x2
+                [1] = "MISCNPCS",
+                [2] = "GetChildren",
+                [3] = "IsA", -- x2
+                [4] = "Model",
+            },
+        },
+        [169] = {
+            strings = {
+                [0] = "/servers/Public?sortOrder=Asc&limit=100",
+                [1] = "https://games.roblox.com/v1/games/",
+                [2] = "GetService",
+            },
+        },
+        [170] = {
+            strings = {
+                [0] = "FindFirstChildOfClass",
+                [1] = "Humanoid",
+                [2] = "Health",
+            },
+        },
+        [171] = {
+            strings = {
+                [0] = "IsA", -- x3
+                [1] = "FindFirstChild", -- x2
+            },
+        },
+        [173] = {
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "Size",
+                [2] = "Position",
+            },
+        },
+        [174] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [175] = {
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "CARD",
+            },
+        },
+        [176] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [177] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [178] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [179] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [180] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [181] = {
+            strings = {
+                [0] = "BackgroundColor3",
+            },
+        },
+        [182] = {
+            proto_references = {
+                [0] = { proto = 233 },
+            },
+        },
+        [186] = {
+            strings = {
+                [0] = "FindFirstChild", -- x2
+            },
+        },
+        [187] = {
+            strings = {
+                [0] = "FindFirstChild",
+            },
+        },
+        [188] = {
+            strings = {
+                [0] = "FindFirstChild", -- x2
+                [1] = "AllForMeRoomSky",
+            },
+        },
+        [189] = {
+            strings = {
+                [0] = "FindFirstChild", -- x3
+                [1] = "HumanoidRootPart",
+            },
+        },
+        [190] = {
+            strings = {
+                [0] = "FindFirstChild", -- x3
+                [1] = "AllForMeRoomSky",
+                [2] = "HumanoidRootPart",
+            },
+        },
+        [191] = {
+            strings = {
+                [0] = "RigType",
+            },
+        },
+        [193] = {
+            strings = {
+                [0] = "BasePart",
+                [1] = "FindFirstChild", -- x2
+            },
+        },
+        [194] = {
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "HumanoidRootPart",
+            },
+        },
+        [195] = {
+            strings = {
+                [0] = "BasePart",
+                [1] = "RiftBossRoom",
+                [2] = "FindFirstChild", -- x3
+                [3] = "HumanoidRootPart",
+            },
+        },
+        [196] = {
+            strings = {
+                [0] = "accent",
+                [1] = "ScrollBarImageColor3",
+            },
+        },
+        [197] = {
+            strings = {
+                [0] = "Visible",
+            },
+            booleans = {
+                [0] = true,
+            },
+        },
+        [198] = {
+            strings = {
+                [0] = "FindFirstChild", -- x3
+                [1] = "HumanoidRootPart",
+                [2] = "CFrame",
+                [3] = "DungeonTeleporters",
+                [4] = "DungeonTeleporter",
+                [5] = "BasePart",
+            },
+            proto_references = {
+                [0] = { proto = 234 },
+                [1] = { proto = 235 },
+            },
+        },
+        [199] = {
+            strings = {
+                [0] = "WaitForChild",
+            },
+        },
+        [200] = {
+            strings = {
+                [0] = "GetChildren",
+                [1] = "gsub", -- x2
+                [2] = "", -- x2
+                [3] = "BasePart",
+                [4] = "CFrame", -- x2
+                [5] = "lower", -- x2
+                [6] = "FindFirstChild",
+                [7] = "find", -- x2
+            },
+        },
+        [202] = {
+            strings = {
+                [0] = "Name", -- x2
+                [1] = "GetChildren", -- x2
+                [2] = "IsA", -- x2
+                [3] = "Tool",
+                [4] = "Refresh",
+                [5] = "FindFirstChild",
+                [6] = "Backpack",
+            },
+        },
+        [204] = {
+            strings = {
+                [0] = "application/json",
+                [1] = "https://discord.com",
+                [2] = "XxBGsksb",
+                [3] = "http://127.0.0.1:6463/rpc?v=1",
+                [4] = "POST",
+                [5] = "cmd",
+                [6] = "INVITE_BROWSER",
+                [7] = "GenerateGUID",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [205] = {
+            strings = {
+                [0] = "quest",
+                [1] = "CFrame", -- x2
+                [2] = "FindFirstChild",
+                [3] = "HumanoidRootPart",
+            },
+        },
+        [206] = {
+            strings = {
+                [0] = "RigType",
+            },
+        },
+        [207] = {
+            strings = {
+                [0] = "find", -- x2
+                [1] = "CFrame", -- x2
+                [2] = "Name", -- x2
+                [3] = "gsub", -- x3
+                [4] = "%s", -- x3
+                [5] = "", -- x3
+                [6] = "lower", -- x3
+                [7] = "FindFirstChild",
+                [8] = "NPCSpawns",
+                [9] = "npcName",
+                [10] = "GetChildren",
+                [11] = "FindFirstChildWhichIsA",
+                [12] = "BasePart",
+            },
+        },
+        [208] = {
+            strings = {
+                [0] = "CFrame", -- x2
+                [1] = "Position", -- x2
+            },
+        },
+        [209] = {
+            strings = {
+                [0] = "InGameTeleporter",
+                [1] = "GokoSSJ4Teleport",
+                [2] = "Enter1",
+            },
+        },
+        [210] = {
+            strings = {
+                [0] = "FindFirstChild", -- x2
+                [1] = "FindFirstChildWhichIsA",
+                [2] = "BasePart",
+                [3] = "CFrame", -- x2
+                [4] = "PrimaryPart",
+                [5] = "AllForMeRoomSky",
+            },
+        },
+        [211] = {
+            strings = {
+                [0] = "InGameTeleporter",
+                [1] = "KidBuuTeleport",
+                [2] = "Enter1",
+            },
+        },
+        [212] = {
+            strings = {
+                [0] = "PrimaryPart",
+                [1] = "CFrame", -- x2
+                [2] = "FindFirstChildWhichIsA",
+                [3] = "BasePart",
+                [4] = "RiftBossSKY", -- x2
+                [5] = "FindFirstChild", -- x2
+            },
+        },
+        [213] = {
+            strings = {
+                [0] = "PrimaryPart",
+                [1] = "CFrame", -- x2
+                [2] = "RiftBossRoom", -- x2
+                [3] = "FindFirstChild", -- x2
+                [4] = "KatakuriiRoom",
+                [5] = "FindFirstChildWhichIsA",
+                [6] = "BasePart",
+            },
+        },
+        [214] = {
+            strings = {
+                [0] = "RigType",
+            },
+        },
+        [215] = {
+            strings = {
+                [0] = "CFrame", -- x2
+                [1] = "Position", -- x2
+            },
+        },
+        [216] = {
+            strings = {
+                [0] = "RigType",
+            },
+        },
+        [217] = {
+            strings = {
+                [0] = "Character",
+                [1] = "IsA", -- x3
+                [2] = "BasePart",
+                [3] = "GetDescendants",
+                [4] = "FindFirstChild",
+                [5] = "HumanoidRootPart",
+                [6] = "Part",
+                [7] = "MeshPart",
+            },
+            proto_references = {
+                [0] = { proto = 236 },
+            },
+        },
+        [218] = {
+            strings = {
+                [0] = "FindFirstChild",
+                [1] = "Chests",
+            },
+        },
+        [219] = {
+            strings = {
+                [0] = "Character", -- x2
+                [1] = "FindFirstChild",
+                [2] = " Soul",
+                [3] = "Name",
+                [4] = "gsub", -- x2
+                [5] = "Soul_Chest",
+                [6] = "", -- x2
+                [7] = "%s",
+                [8] = "Game",
+                [9] = "Remotes",
+            },
+        },
+        [221] = {
+            strings = {
+                [0] = "R15",
+                [1] = "RigType",
+            },
+        },
+        [222] = {
+            strings = {
+                [0] = "Position", -- x2
+                [1] = "CFrame", -- x2
+            },
+        },
+        [224] = {
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "TextColor3",
+            },
+        },
+        [225] = {
+            strings = {
+                [0] = "BackgroundColor3",
+                [1] = "TEXT_SEC",
+                [2] = "TextColor3",
+            },
+        },
+        [226] = {
+            strings = {
+                [0] = "▾",
+                [1] = "Text", -- x2
+                [2] = "Size",
+                [3] = "  ",
+                [4] = "Visible",
+            },
+            booleans = {
+                [0] = false, -- x2
+            },
+        },
+        [227] = {
+            strings = {
+                [0] = "CanCollide",
+            },
+            booleans = {
+                [0] = false,
+            },
+        },
+        [228] = {
+            strings = {
+                [0] = "CanCollide",
+            },
+        },
+        [229] = {
+            strings = {
+                [0] = "AssemblyLinearVelocity",
+            },
+        },
+        [230] = {
+            strings = {
+                [0] = "AssemblyAngularVelocity",
+            },
+        },
+        [232] = {
+            strings = {
+                [0] = "id",
+                [1] = "PlaceId",
+                [2] = "data",
+                [3] = "JobId",
+                [4] = "GetService",
+                [5] = "/servers/Public?sortOrder=Asc&limit=100",
+                [6] = "https://games.roblox.com/v1/games/",
+            },
+        },
+        [233] = {
+            strings = {
+                [0] = "InvokeServer",
+            },
+        },
+    },
+}

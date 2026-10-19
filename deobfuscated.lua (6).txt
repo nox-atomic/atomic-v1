@@ -1,0 +1,332 @@
+-- This file was generated at discord.gg/syncrypt
+
+local parent = {
+	["ToggleKey"] = Enum.KeyCode.E
+}
+_G.EnergyTrain = false
+_G.StrengthTrain = false
+_G.DurabilityTrain = false
+_G.PsychicTrain = false
+local Players = game:GetService("Players")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+Players = Players.LocalPlayer:WaitForChild("PlayerGui")
+local NexusSpeedsterHub = CoreGui:FindFirstChild("NexusSpeedsterHub") or Players:FindFirstChild("NexusSpeedsterHub")
+if NexusSpeedsterHub then
+    NexusSpeedsterHub:Destroy()
+end
+ReplicatedStorage = ReplicatedStorage:WaitForChild("Remote"):WaitForChild("Training"):WaitForChild("Train")
+NexusSpeedsterHub = Instance.new("ScreenGui")
+NexusSpeedsterHub.Name = "NexusSpeedsterHub"
+NexusSpeedsterHub.ResetOnSpawn = false
+NexusSpeedsterHub.IgnoreGuiInset = true
+if not pcall(function()
+    NexusSpeedsterHub.Parent = CoreGui
+end) then
+    NexusSpeedsterHub.Parent = Players
+end
+Players = Instance.new("TextButton")
+Players.Size = UDim2.new(0, 40, 0, 40)
+Players.Position = UDim2.new(1, -60, 0, 20)
+Players.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Players.BorderSizePixel = 0
+Players.Text = "E"
+Players.TextColor3 = Color3.fromRGB(255, 60, 60)
+Players.Font = Enum.Font.GothamBold
+Players.TextSize = 20
+Players.Parent = NexusSpeedsterHub
+CoreGui = Instance.new("UICorner")
+CoreGui.CornerRadius = UDim.new(1, 0)
+CoreGui.Parent = Players
+CoreGui = Instance.new("Frame")
+CoreGui.Size = UDim2.new(0, 300, 0, 215)
+CoreGui.Position = UDim2.new(0.5, -150, 0.5, -107)
+CoreGui.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+CoreGui.BorderSizePixel = 0
+CoreGui.Parent = NexusSpeedsterHub
+NexusSpeedsterHub = Instance.new("TextLabel")
+NexusSpeedsterHub.Size = UDim2.new(1, -20, 0, 30)
+NexusSpeedsterHub.Position = UDim2.new(0, 15, 0, 5)
+NexusSpeedsterHub.BackgroundTransparency = 1
+NexusSpeedsterHub.Text = "Nexus // ULTRA TRAIN"
+NexusSpeedsterHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+NexusSpeedsterHub.Font = Enum.Font.GothamBold
+NexusSpeedsterHub.TextSize = 13
+NexusSpeedsterHub.TextXAlignment = Enum.TextXAlignment.Left
+NexusSpeedsterHub.Parent = CoreGui
+NexusSpeedsterHub = Instance.new("Frame")
+NexusSpeedsterHub.Size = UDim2.new(1, 0, 0, 2)
+NexusSpeedsterHub.Position = UDim2.new(0, 0, 0, 35)
+NexusSpeedsterHub.BackgroundColor3 = Color3.fromRGB(255, 60, 60)
+NexusSpeedsterHub.BorderSizePixel = 0
+NexusSpeedsterHub.Parent = CoreGui
+local u8
+local u9
+local Position
+local Position2
+CoreGui.InputBegan:Connect(function(input)
+    if not (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+        return
+    end
+
+    u8 = true
+    Position = input.Position
+    Position2 = CoreGui.Position
+    input.Changed:Connect(function()
+        if input.UserInputState ~= Enum.UserInputState.End then
+            return
+        end
+
+        u8 = false
+    end)
+end)
+CoreGui.InputChanged:Connect(function(input)
+    if not (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+        return
+    end
+
+    u9 = input
+end)
+NexusSpeedsterHub = function(input)
+    if input == u9 then
+        v15 = u8
+    else
+        v15 = false
+    end
+
+    if not v15 then
+        return
+    end
+
+    local v12 = input.Position - Position
+
+    CoreGui.Position = UDim2.new(Position2.X.Scale, Position2.X.Offset + v12.X, Position2.Y.Scale, Position2.Y.Offset + v12.Y)
+end
+UserInputService.InputChanged:Connect(NexusSpeedsterHub)
+Players.MouseButton1Click:Connect(function()
+    CoreGui.Visible = not CoreGui.Visible
+end)
+local u13
+local u14
+local Position3
+local Position4
+Players.InputBegan:Connect(function(input)
+    if not (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+        return
+    end
+
+    u13 = true
+    Position3 = input.Position
+    Position4 = Players.Position
+    input.Changed:Connect(function()
+        if input.UserInputState ~= Enum.UserInputState.End then
+            return
+        end
+
+        u13 = false
+    end)
+end)
+Players.InputChanged:Connect(function(input)
+    if not (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+        return
+    end
+
+    u14 = input
+end)
+UserInputService.InputChanged:Connect(function(input)
+    if input == u14 then
+        v23 = u13
+    else
+        v23 = false
+    end
+
+    if not v23 then
+        return
+    end
+
+    local v17 = input.Position - Position3
+
+    Players.Position = UDim2.new(Position4.X.Scale, Position4.X.Offset + v17.X, Position4.Y.Scale, Position4.Y.Offset + v17.Y)
+end)
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+    local v18 = not gameProcessed
+
+    if v18 then
+        v18 = input.KeyCode == parent.ToggleKey
+    end
+
+    if not v18 then
+        return
+    end
+
+    CoreGui.Visible = not CoreGui.Visible
+end)
+parent = Instance.new("Frame")
+parent.Size = UDim2.new(1, 0, 1, -40)
+parent.Position = UDim2.new(0, 0, 0, 40)
+parent.BackgroundTransparency = 1
+parent.Parent = CoreGui
+Players = Instance.new("UIListLayout")
+Players.SortOrder = Enum.SortOrder.LayoutOrder
+Players.Padding = UDim.new(0, 8)
+Players.Parent = parent
+Players = Instance.new("UIPadding")
+Players.PaddingTop = UDim.new(0, 12)
+Players.PaddingLeft = UDim.new(0, 15)
+Players.PaddingRight = UDim.new(0, 15)
+Players.Parent = parent
+parent = function(p1)
+    local Frame = Instance.new("Frame")
+
+    Frame.Size = UDim2.new(1, 0, 0, 30)
+    Frame.BackgroundTransparency = 1
+    Frame.Parent = parent
+
+    local TextLabel = Instance.new("TextLabel")
+
+    TextLabel.Size = UDim2.new(1, -50, 1, 0)
+    TextLabel.BackgroundTransparency = 1
+    TextLabel.Text = p1
+    TextLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
+    TextLabel.Font = Enum.Font.GothamMedium
+    TextLabel.TextSize = 14
+    TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+    TextLabel.Parent = Frame
+    TextLabel = Instance.new("TextButton")
+    TextLabel.Size = UDim2.new(0, 40, 0, 20)
+    TextLabel.Position = UDim2.new(1, -40, 0.5, -10)
+    TextLabel.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+    TextLabel.Text = ""
+    TextLabel.Parent = Frame
+    Frame = Instance.new("UICorner")
+    Frame.CornerRadius = UDim.new(1, 0)
+    Frame.Parent = TextLabel
+    Frame = Instance.new("Frame")
+    Frame.Size = UDim2.new(0, 16, 0, 16)
+    Frame.Position = UDim2.new(0, 2, 0.5, -8)
+    Frame.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+    Frame.Parent = TextLabel
+
+    local UICorner = Instance.new("UICorner")
+
+    UICorner.CornerRadius = UDim.new(1, 0)
+    UICorner.Parent = Frame
+
+    return TextLabel, Frame
+end
+Players, UserInputService = parent("energy train")
+CoreGui, NexusSpeedsterHub = parent("strenght train")
+local v22, v24 = parent("durability train")
+local v25
+parent, v25 = parent("psychic train")
+task.spawn(function()
+    while true do
+        if _G.EnergyTrain then
+            local function v26()
+                ReplicatedStorage:FireServer("Energy", 6)
+                ReplicatedStorage:FireServer("Energy", 6)
+                ReplicatedStorage:FireServer("Energy", 6)
+                ReplicatedStorage:FireServer("Energy", 6)
+                ReplicatedStorage:FireServer("Energy", 6)
+            end
+
+            pcall(v26)
+        end
+
+        task.wait()
+    end
+end)
+task.spawn(function()
+    while true do
+        if _G.StrengthTrain then
+            local function v27()
+                ReplicatedStorage:FireServer("Strength")
+                ReplicatedStorage:FireServer("Strength")
+                ReplicatedStorage:FireServer("Strength")
+                ReplicatedStorage:FireServer("Strength")
+                ReplicatedStorage:FireServer("Strength")
+            end
+
+            pcall(v27)
+        end
+
+        task.wait()
+    end
+end)
+task.spawn(function()
+    while true do
+        if _G.DurabilityTrain then
+            local function v28()
+                ReplicatedStorage:FireServer("Durability")
+                ReplicatedStorage:FireServer("Durability")
+                ReplicatedStorage:FireServer("Durability")
+                ReplicatedStorage:FireServer("Durability")
+                ReplicatedStorage:FireServer("Durability")
+            end
+
+            pcall(v28)
+        end
+
+        task.wait()
+    end
+end)
+task.spawn(function()
+    while true do
+        if _G.PsychicTrain then
+            local function v29()
+                ReplicatedStorage:FireServer("Psychic")
+                ReplicatedStorage:FireServer("Psychic")
+                ReplicatedStorage:FireServer("Psychic")
+                ReplicatedStorage:FireServer("Psychic")
+                ReplicatedStorage:FireServer("Psychic")
+            end
+
+            pcall(v29)
+        end
+
+        task.wait()
+    end
+end)
+TweenService = function(p2, p3)
+    local v30, tweenInfo, UDim2_
+
+    if p3 then
+        v30 = TweenService
+        tweenInfo = TweenInfo.new(0.15)
+        UDim2_ = UDim2
+        v30.Create(v30, p2, tweenInfo, {
+			["Position"] = UDim2_.new(1, -18, 0.5, -8),
+			["BackgroundColor3"] = Color3.fromRGB(255, 60, 60)
+		}):Play()
+
+        return
+    else
+        v30 = TweenService
+        tweenInfo = TweenInfo.new(0.15)
+        UDim2_ = UDim2
+        v30.Create(v30, p2, tweenInfo, {
+			["Position"] = UDim2_.new(0, 2, 0.5, -8),
+			["BackgroundColor3"] = Color3.fromRGB(150, 150, 150)
+		}):Play()
+
+        return
+    end
+end
+Players.MouseButton1Click:Connect(function()
+    _G.EnergyTrain = not _G.EnergyTrain
+    TweenService(UserInputService, _G.EnergyTrain)
+end)
+CoreGui.MouseButton1Click:Connect(function()
+    _G.StrengthTrain = not _G.StrengthTrain
+    TweenService(NexusSpeedsterHub, _G.StrengthTrain)
+end)
+v22.MouseButton1Click:Connect(function()
+    _G.DurabilityTrain = not _G.DurabilityTrain
+    TweenService(v24, _G.DurabilityTrain)
+end)
+parent.MouseButton1Click:Connect(function()
+    _G.PsychicTrain = not _G.PsychicTrain
+    TweenService(v25, _G.PsychicTrain)
+end)

@@ -1,0 +1,2023 @@
+-- This file was generated at discord.gg/syncrypt
+
+local parent = {
+	["a"] = {
+		82,
+		72,
+		55,
+		75,
+		45,
+		57,
+		77,
+		50,
+		88,
+		45,
+		81,
+		52,
+		80,
+		76,
+		82,
+		66,
+		51,
+		78,
+		45,
+		56,
+		86,
+		53,
+		84,
+		45,
+		87,
+		49,
+		90,
+		67,
+		82,
+		88,
+		57,
+		68,
+		45,
+		52,
+		72,
+		54,
+		89,
+		45,
+		75,
+		50,
+		77,
+		70,
+		82,
+		81,
+		50,
+		87,
+		45,
+		55,
+		74,
+		56,
+		66,
+		45,
+		78,
+		53,
+		86,
+		65,
+	},
+	["b"] = {
+		82,
+		90,
+		54,
+		80,
+		45,
+		51,
+		67,
+		57,
+		76,
+		45,
+		84,
+		56,
+		88,
+		69,
+		82,
+		77,
+		52,
+		70,
+		45,
+		49,
+		75,
+		55,
+		82,
+		45,
+		71,
+		54,
+		85,
+		89,
+		82,
+		89,
+		56,
+		83,
+		45,
+		53,
+		81,
+		50,
+		68,
+		45,
+		66,
+		57,
+		72,
+		78,
+		82,
+		74,
+		49,
+		84,
+		45,
+		54,
+		80,
+		52,
+		90,
+		45,
+		86,
+		55,
+		75,
+		87,
+	},
+	["c"] = {
+		82,
+		67,
+		53,
+		88,
+		45,
+		50,
+		78,
+		56,
+		77,
+		45,
+		70,
+		51,
+		76,
+		82,
+		82,
+		71,
+		57,
+		66,
+		45,
+		55,
+		89,
+		49,
+		75,
+		45,
+		68,
+		52,
+		81,
+		84,
+		82,
+		78,
+		51,
+		86,
+		45,
+		54,
+		88,
+		56,
+		80,
+		45,
+		72,
+		50,
+		77,
+		74,
+		82,
+		84,
+		55,
+		76,
+		45,
+		52,
+		75,
+		57,
+		66,
+		45,
+		87,
+		53,
+		90,
+		82,
+	},
+	["d"] = {
+		82,
+		68,
+		50,
+		70,
+		45,
+		56,
+		81,
+		51,
+		78,
+		45,
+		74,
+		54,
+		88,
+		86,
+		82,
+		80,
+		53,
+		72,
+		45,
+		49,
+		77,
+		55,
+		84,
+		45,
+		76,
+		57,
+		67,
+		66,
+		82,
+		87,
+		56,
+		88,
+		45,
+		51,
+		90,
+		54,
+		75,
+		45,
+		70,
+		52,
+		81,
+		78,
+		82,
+		86,
+		52,
+		66,
+		45,
+		57,
+		80,
+		50,
+		72,
+		45,
+		89,
+		55,
+		75,
+		77,
+	},
+	["e"] = {
+		82,
+		75,
+		49,
+		78,
+		45,
+		53,
+		74,
+		56,
+		82,
+		45,
+		88,
+		51,
+		76,
+		68,
+		82,
+		83,
+		54,
+		81,
+		45,
+		50,
+		87,
+		52,
+		70,
+		45,
+		66,
+		57,
+		80,
+		84,
+		82,
+		72,
+		57,
+		76,
+		45,
+		55,
+		86,
+		49,
+		78,
+		45,
+		68,
+		56,
+		88,
+		77,
+	},
+	["f"] = {
+		82,
+		67,
+		51,
+		84,
+		45,
+		52,
+		75,
+		54,
+		80,
+		45,
+		81,
+		50,
+		74,
+		87,
+		82,
+		66,
+		56,
+		70,
+		45,
+		49,
+		88,
+		53,
+		77,
+		45,
+		90,
+		55,
+		76,
+		72,
+		82,
+		88,
+		50,
+		80,
+		45,
+		57,
+		78,
+		51,
+		86,
+		45,
+		75,
+		54,
+		82,
+		84,
+	},
+	["g"] = {
+		82,
+		81,
+		55,
+		74,
+		45,
+		52,
+		72,
+		56,
+		66,
+		45,
+		87,
+		49,
+		70,
+		78,
+		82,
+		90,
+		53,
+		77,
+		45,
+		50,
+		84,
+		54,
+		76,
+		45,
+		89,
+		57,
+		67,
+		80,
+		82,
+		77,
+		49,
+		75,
+		45,
+		56,
+		86,
+		51,
+		88,
+		45,
+		68,
+		52,
+		81,
+		72,
+	},
+	["h"] = {
+		82,
+		89,
+		57,
+		66,
+		45,
+		54,
+		80,
+		50,
+		74,
+		45,
+		78,
+		55,
+		76,
+		87,
+		82,
+		74,
+		52,
+		78,
+		45,
+		49,
+		70,
+		56,
+		84,
+		45,
+		75,
+		51,
+		88,
+		77,
+		82,
+		67,
+		55,
+		81,
+		45,
+		53,
+		76,
+		57,
+		86,
+		45,
+		66,
+		50,
+		82,
+		72,
+	},
+	["i"] = {
+		82,
+		71,
+		51,
+		80,
+		45,
+		56,
+		88,
+		49,
+		77,
+		45,
+		87,
+		54,
+		68,
+		84,
+		82,
+		78,
+		54,
+		75,
+		45,
+		50,
+		90,
+		52,
+		74,
+		45,
+		70,
+		57,
+		81,
+		86,
+		82,
+		84,
+		49,
+		66,
+		45,
+		55,
+		72,
+		53,
+		78,
+		45,
+		76,
+		56,
+		77,
+		88,
+	},
+	["j"] = {
+		82,
+		68,
+		57,
+		76,
+		45,
+		52,
+		86,
+		50,
+		80,
+		45,
+		75,
+		54,
+		74,
+		87,
+		82,
+		80,
+		56,
+		70,
+		45,
+		49,
+		81,
+		55,
+		88,
+		45,
+		66,
+		51,
+		84,
+		78,
+		82,
+		87,
+		50,
+		77,
+		45,
+		54,
+		75,
+		57,
+		72,
+		45,
+		89,
+		53,
+		82,
+		67,
+	},
+	["k"] = {
+		82,
+		86,
+		53,
+		74,
+		45,
+		51,
+		80,
+		49,
+		76,
+		45,
+		68,
+		56,
+		88,
+		78,
+		82,
+		75,
+		56,
+		84,
+		45,
+		57,
+		70,
+		52,
+		66,
+		45,
+		81,
+		50,
+		77,
+		87,
+		82,
+		83,
+		51,
+		78,
+		45,
+		55,
+		88,
+		54,
+		86,
+		45,
+		74,
+		49,
+		76,
+		72,
+	},
+	["l"] = {
+		82,
+		72,
+		54,
+		80,
+		45,
+		50,
+		77,
+		56,
+		75,
+		45,
+		87,
+		52,
+		81,
+		84,
+		82,
+		67,
+		49,
+		76,
+		45,
+		53,
+		90,
+		57,
+		70,
+		45,
+		66,
+		55,
+		82,
+		78,
+		82,
+		66,
+		52,
+		88,
+		45,
+		56,
+		74,
+		51,
+		84,
+		45,
+		75,
+		50,
+		80,
+		86,
+	},
+	["m"] = {
+		82,
+		88,
+		55,
+		78,
+		45,
+		49,
+		81,
+		54,
+		77,
+		45,
+		68,
+		57,
+		76,
+		72,
+		82,
+		81,
+		51,
+		70,
+		45,
+		52,
+		87,
+		56,
+		66,
+		45,
+		89,
+		53,
+		88,
+		84,
+		82,
+		90,
+		57,
+		75,
+		45,
+		54,
+		80,
+		50,
+		86,
+		45,
+		78,
+		49,
+		77,
+		74,
+	},
+	["n"] = {
+		82,
+		77,
+		53,
+		74,
+		45,
+		51,
+		84,
+		55,
+		76,
+		45,
+		70,
+		56,
+		81,
+		72,
+		82,
+		89,
+		50,
+		66,
+		45,
+		57,
+		78,
+		52,
+		88,
+		45,
+		87,
+		54,
+		75,
+		80,
+		82,
+		74,
+		56,
+		80,
+		45,
+		49,
+		86,
+		53,
+		77,
+		45,
+		68,
+		51,
+		76,
+		84,
+	},
+	["o"] = {
+		82,
+		67,
+		54,
+		81,
+		45,
+		52,
+		75,
+		57,
+		72,
+		45,
+		66,
+		55,
+		88,
+		78,
+		82,
+		71,
+		49,
+		76,
+		45,
+		56,
+		70,
+		50,
+		84,
+		45,
+		89,
+		53,
+		77,
+		74,
+		82,
+		78,
+		57,
+		86,
+		45,
+		51,
+		80,
+		54,
+		88,
+		45,
+		75,
+		52,
+		81,
+		87,
+	},
+	["p"] = {
+		82,
+		84,
+		52,
+		66,
+		45,
+		55,
+		77,
+		49,
+		74,
+		45,
+		68,
+		56,
+		76,
+		72,
+		82,
+		68,
+		57,
+		76,
+		45,
+		52,
+		86,
+		50,
+		80,
+		45,
+		75,
+		54,
+		74,
+		87,
+		82,
+		80,
+		56,
+		70,
+		45,
+		49,
+		81,
+		55,
+		88,
+		45,
+		66,
+		51,
+		84,
+		78,
+	},
+	["q"] = {
+		82,
+		87,
+		50,
+		77,
+		45,
+		54,
+		75,
+		57,
+		72,
+		45,
+		89,
+		53,
+		82,
+		67,
+		82,
+		86,
+		53,
+		74,
+		45,
+		51,
+		80,
+		49,
+		76,
+		45,
+		68,
+		56,
+		88,
+		78,
+		82,
+		75,
+		56,
+		84,
+		45,
+		57,
+		70,
+		52,
+		66,
+		45,
+		81,
+		50,
+		77,
+		87,
+	},
+	["r"] = {
+		82,
+		72,
+		55,
+		78,
+		45,
+		49,
+		81,
+		54,
+		77,
+		45,
+		68,
+		57,
+		76,
+		72,
+		82,
+		81,
+		51,
+		70,
+		45,
+		52,
+		87,
+		56,
+		66,
+		45,
+		89,
+		53,
+		88,
+		84,
+		82,
+		90,
+		57,
+		75,
+		45,
+		54,
+		80,
+		50,
+		86,
+		45,
+		78,
+		49,
+		77,
+		74,
+	},
+	["s"] = {
+		82,
+		84,
+		49,
+		66,
+		45,
+		55,
+		72,
+		53,
+		78,
+		45,
+		76,
+		56,
+		77,
+		88,
+		82,
+		68,
+		57,
+		76,
+		45,
+		52,
+		86,
+		50,
+		80,
+		45,
+		75,
+		54,
+		74,
+		87,
+		82,
+		80,
+		56,
+		70,
+		45,
+		49,
+		81,
+		55,
+		88,
+		45,
+		66,
+		51,
+		84,
+		78,
+	},
+}
+local function v2(p1)
+	local v3
+	local t1 = {
+		function()
+			if typeof(setclipboard) == "function" then
+				setclipboard(v3)
+
+				return true
+			else
+				return
+			end
+		end,
+		function()
+			if typeof(toclipboard) == "function" then
+				toclipboard(v3)
+
+				return true
+			else
+				return
+			end
+		end,
+		function()
+			local syn_ = syn
+
+			if not syn_ then
+				if syn_ then
+					syn.set_clipboard(v3)
+
+					return true
+				else
+					return
+				end
+
+				return
+			end
+
+			syn_ = syn.set_clipboard
+			syn_ = typeof(syn_) == "function"
+
+			if syn_ then
+				syn.set_clipboard(v3)
+
+				return true
+			else
+				return
+			end
+		end,
+	}
+	v3 = p1
+	for _, v in ipairs(t1) do
+		local ok, result = pcall(v)
+
+		if ok and result then
+			return true
+		end
+	end
+
+	return false
+end
+parent.t = {
+	82,
+	78,
+	54,
+	80,
+	45,
+	50,
+	77,
+	56,
+	75,
+	45,
+	87,
+	52,
+	81,
+	84,
+	82,
+	67,
+	49,
+	76,
+	45,
+	53,
+	90,
+	57,
+	70,
+	45,
+	66,
+	55,
+	82,
+	78,
+	82,
+	75,
+	56,
+	84,
+	45,
+	57,
+	70,
+	52,
+	66,
+	45,
+	81,
+	50,
+	77,
+	87,
+}
+local function parent2(p2)
+	local n1 = 1
+	local t2 = {}
+
+	while n1 <= #p2 do
+		local v15 = n1 + 13
+
+		v15 = string.sub(p2, n1, v15)
+
+		if #v15 == 14 then
+			t2[#t2 + 1] = v15
+		end
+
+		n1 = n1 + 14
+	end
+
+	return t2
+end
+local function parent3(p3)
+	local t3 = {}
+
+	for i = 1, #p3 do
+		local v19 = p3[i]
+
+		t3[i] = string.char(v19)
+	end
+
+	return table.concat(t3)
+end
+local v20
+local function v21(p4)
+	local v22 = tostring(p4):upper():gsub("%s+", "")
+
+	if
+		not v22:match(
+			"^[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]%-[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]%-[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]$"
+		)
+	then
+		return false
+	end
+
+	local v23 = v22:gsub("%-", "")
+	local v24 = string.sub(v23, 1, 1)
+	local v25 = true
+
+	for i = 2, #v23 do
+		if string.sub(v23, i, i) ~= v24 then
+			v25 = false
+
+			break
+		end
+	end
+
+	if v25 then
+		return false
+	end
+
+	v24 = string.byte(v23, 1)
+	v25 = true
+
+	local v27
+
+	for i = 2, #v23 do
+		v27 = string.byte(v23, i)
+
+		if v27 == v24 + 1 then
+			v24 = false
+		else
+			v24 = v27 ~= v24 - 1
+		end
+
+		if v24 then
+			v25 = false
+
+			break
+		end
+
+		v24 = v27
+	end
+
+	if v25 then
+		return false
+	else
+		v24 = #v23 / 2
+		v24 = math.floor(v24)
+		v24 = string.sub(v23, 1, v24)
+
+		if v24 .. v24 == v23 then
+			return false
+		else
+			local t4 = {}
+
+			v25 = 0
+
+			for i = 1, #v23 do
+				v27 = string.sub(v23, i, i)
+
+				if not t4[v27] then
+					t4[v27] = true
+					v25 = v25 + 1
+				end
+			end
+
+			if v25 < 5 then
+				return false
+			else
+				return v20[v22] == true
+			end
+
+			return
+		end
+
+		return
+	end
+end
+v20 = (function()
+	local v31, v32, v33 = ipairs({
+		"a",
+		"b",
+		"c",
+		"d",
+		"e",
+		"f",
+		"g",
+		"h",
+		"i",
+		"j",
+		"k",
+		"l",
+		"m",
+		"n",
+		"o",
+		"p",
+		"q",
+		"r",
+		"s",
+		"t",
+	})
+	local t5 = {}
+	local t6 = {}
+
+	while true do
+		local v36
+
+		v33, v36 = v31(v32, v33)
+
+		if not v33 then
+			break
+		end
+
+		t5[#t5 + 1] = parent3(parent[v36])
+	end
+
+	for _, v in ipairs(parent2(table.concat(t5))) do
+		t6[v] = true
+	end
+
+	return t6
+end)()
+parent = Instance.new("ScreenGui")
+parent.Name = "ReefHubKeySystem"
+parent.ResetOnSpawn = false
+parent.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+parent2 = Instance.new("Frame")
+parent2.Size = UDim2.fromOffset(460, 380)
+parent2.Position = UDim2.fromScale(0.5, 0.5)
+parent2.AnchorPoint = Vector2.new(0.5, 0.5)
+parent2.BackgroundColor3 = Color3.fromRGB(18, 20, 25)
+parent2.BorderSizePixel = 0
+parent2.Parent = parent
+parent3 = Instance.new("UICorner")
+parent3.CornerRadius = UDim.new(0, 12)
+parent3.Parent = parent2
+parent3 = Instance.new("UIStroke")
+parent3.Color = Color3.fromRGB(55, 60, 70)
+parent3.Thickness = 1
+parent3.Transparency = 0.15
+parent3.Parent = parent2
+parent3 = Instance.new("TextLabel")
+parent3.BackgroundTransparency = 1
+parent3.Size = UDim2.new(1, -40, 0, 38)
+parent3.Position = UDim2.fromOffset(20, 25)
+parent3.Font = Enum.Font.GothamBold
+parent3.Text = "REEFHUB"
+parent3.TextColor3 = Color3.fromRGB(245, 245, 250)
+parent3.TextSize = 25
+parent3.TextXAlignment = Enum.TextXAlignment.Left
+parent3.Parent = parent2
+parent3 = Instance.new("TextLabel")
+parent3.BackgroundTransparency = 1
+parent3.Size = UDim2.new(1, -40, 0, 30)
+parent3.Position = UDim2.fromOffset(20, 70)
+parent3.Font = Enum.Font.GothamSemibold
+parent3.Text = "ReefHub Key System"
+parent3.TextColor3 = Color3.fromRGB(225, 228, 235)
+parent3.TextSize = 19
+parent3.TextXAlignment = Enum.TextXAlignment.Left
+parent3.Parent = parent2
+parent3 = Instance.new("TextLabel")
+parent3.BackgroundTransparency = 1
+parent3.Size = UDim2.new(1, -40, 0, 42)
+parent3.Position = UDim2.fromOffset(20, 104)
+parent3.Font = Enum.Font.Gotham
+parent3.Text = "Enter your key below to continue."
+parent3.TextColor3 = Color3.fromRGB(145, 150, 160)
+parent3.TextSize = 14
+parent3.TextXAlignment = Enum.TextXAlignment.Left
+parent3.Parent = parent2
+parent3 = Instance.new("TextBox")
+parent3.Size = UDim2.new(1, -40, 0, 48)
+parent3.Position = UDim2.fromOffset(20, 155)
+parent3.BackgroundColor3 = Color3.fromRGB(27, 30, 37)
+parent3.BorderSizePixel = 0
+parent3.ClearTextOnFocus = false
+parent3.Font = Enum.Font.Gotham
+parent3.PlaceholderText = "XXXX-XXXX-XXXX"
+parent3.PlaceholderColor3 = Color3.fromRGB(95, 100, 110)
+parent3.Text = ""
+parent3.TextColor3 = Color3.fromRGB(240, 242, 247)
+parent3.TextSize = 15
+parent3.Parent = parent2
+local UICorner = Instance.new("UICorner")
+UICorner.CornerRadius = UDim.new(0, 8)
+UICorner.Parent = parent3
+UICorner = Instance.new("TextButton")
+UICorner.Size = UDim2.new(1, -40, 0, 45)
+UICorner.Position = UDim2.fromOffset(20, 213)
+UICorner.BackgroundColor3 = Color3.fromRGB(38, 42, 51)
+UICorner.BorderSizePixel = 0
+UICorner.Font = Enum.Font.GothamSemibold
+UICorner.Text = "Get Key"
+UICorner.TextColor3 = Color3.fromRGB(245, 247, 250)
+UICorner.TextSize = 15
+UICorner.AutoButtonColor = true
+UICorner.Parent = parent2
+local UICorner2 = Instance.new("UICorner")
+UICorner2.CornerRadius = UDim.new(0, 8)
+UICorner2.Parent = UICorner
+UICorner2 = Instance.new("TextButton")
+UICorner2.Size = UDim2.new(1, -40, 0, 45)
+UICorner2.Position = UDim2.fromOffset(20, 266)
+UICorner2.BackgroundColor3 = Color3.fromRGB(38, 42, 51)
+UICorner2.BorderSizePixel = 0
+UICorner2.Font = Enum.Font.GothamSemibold
+UICorner2.Text = "Join Discord"
+UICorner2.TextColor3 = Color3.fromRGB(245, 247, 250)
+UICorner2.TextSize = 15
+UICorner2.AutoButtonColor = true
+UICorner2.Parent = parent2
+local UICorner3 = Instance.new("UICorner")
+UICorner3.CornerRadius = UDim.new(0, 8)
+UICorner3.Parent = UICorner2
+UICorner3 = Instance.new("TextLabel")
+UICorner3.BackgroundTransparency = 1
+UICorner3.Size = UDim2.new(1, -40, 0, 28)
+UICorner3.Position = UDim2.fromOffset(20, 319)
+UICorner3.Font = Enum.Font.Gotham
+UICorner3.Text = ""
+UICorner3.TextColor3 = Color3.fromRGB(150, 210, 255)
+UICorner3.TextSize = 13
+UICorner3.TextXAlignment = Enum.TextXAlignment.Left
+UICorner3.Parent = parent2
+parent2 = function(p5, p6)
+	UICorner3.Text = p5
+	UICorner3.TextColor3 = p6 or Color3.fromRGB(150, 210, 255)
+
+	local now = os.clock()
+
+	UICorner3:SetAttribute("StatusId", now)
+	now = function()
+		local Parent = UICorner3.Parent
+
+		if Parent then
+			Parent = UICorner3:GetAttribute("StatusId") == now
+		end
+
+		if not Parent then
+			return
+		end
+
+		UICorner3.Text = ""
+	end
+	task.delay(0.9, now)
+end
+pcall(function()
+	parent.Parent = game:GetService("CoreGui")
+end)
+local LocalPlayer = not parent.Parent and game:GetService("Players").LocalPlayer
+if LocalPlayer then
+	parent.Parent = LocalPlayer:WaitForChild("PlayerGui")
+end
+local v45
+parent = function()
+	local loadstring_ = loadstring or load
+
+	if typeof(loadstring_) ~= "function" then
+		UICorner3.Text = "Executor not supported (no loadstring)."
+		UICorner3.TextColor3 = Color3.fromRGB(255, 110, 110)
+
+		return
+	end
+
+	UICorner3.Text = "Loading ReefHub..."
+
+	local result
+
+	loadstring_, result = pcall(loadstring_, v45)
+
+	if not loadstring_ or typeof(result) ~= "function" then
+		UICorner3.Text = "Compile Error: " .. tostring(result)
+		UICorner3.TextColor3 = Color3.fromRGB(255, 110, 110)
+
+		return
+	end
+
+	loadstring_ = function()
+		parent:Destroy()
+	end
+	pcall(loadstring_)
+	loadstring_, result = pcall(result)
+
+	if loadstring_ then
+		return
+	end
+
+	warn("[ReefHub] Runtime Error: " .. tostring(result))
+	UICorner3.Text = "Runtime Error: " .. tostring(result)
+	UICorner3.TextColor3 = Color3.fromRGB(255, 110, 110)
+end
+v45 = [[-- ReefHub | Peel THE Potato
+-- PlaceId: 116701845804918
+
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+
+local Players = game:GetService("Players")
+local RunSvc  = game:GetService("RunService")
+local UIS     = game:GetService("UserInputService")
+local VIM     = game:GetService("VirtualInputManager")
+local VU      = game:GetService("VirtualUser")
+local LP      = Players.LocalPlayer
+
+local S = {
+    Full = false, Collect = false, Peel = false, AutoStart = true,
+    Place = false, Buttons = false, Sell = false, Crank = false,
+    AntiAFK = true, Fast = false,
+}
+local CFG = {
+    ClicksPerSec = 25,
+    CollectPerSec = 15,
+    Speed = 28,
+    CollectTPDist = 18,
+    TurnStrength = 350,
+}
+local peels = 0
+local phase = "idle"
+
+local function myRoot()
+    local pf = workspace:FindFirstChild("Players")
+    local c = pf and pf:FindFirstChild(LP.Name)
+    return (c and c:FindFirstChild("HumanoidRootPart"))
+        or (LP.Character and LP.Character:FindFirstChild("HumanoidRootPart"))
+end
+
+local function hum()
+    local pf = workspace:FindFirstChild("Players")
+    local c = pf and pf:FindFirstChild(LP.Name)
+    return (c and c:FindFirstChildOfClass("Humanoid"))
+        or (LP.Character and LP.Character:FindFirstChildOfClass("Humanoid"))
+end
+
+local function notify(t, msg)
+    pcall(function()
+        Rayfield:Notify({ Title = t, Content = msg, Duration = 3 })
+    end)
+end
+
+-- ── Clicks ───────────────────────────────────────────────────────────────────
+local BAD_BTN = {
+    autopeel = true, peelall = true, leave = true, cancel = true, buy = true, purchase = true,
+}
+
+local function hitBadButton(sx, sy)
+    local pg = LP:FindFirstChild("PlayerGui")
+    if not pg then return false end
+    for _, g in ipairs(pg:GetDescendants()) do
+        if (g:IsA("TextButton") or g:IsA("ImageButton")) and g.Visible then
+            local name = string.lower(g.Name or "")
+            local text = string.lower(g:IsA("TextButton") and (g.Text or "") or "")
+            local bad = BAD_BTN[name]
+                or name:find("autopeel") or name:find("peelall")
+                or text:find("auto peel") or text:find("peel all")
+                or text:find("leave") or text:find("buy")
+            if bad and g.AbsoluteSize.X > 0 then
+                local p, s = g.AbsolutePosition, g.AbsoluteSize
+                if sx >= p.X and sx <= p.X + s.X and sy >= p.Y and sy <= p.Y + s.Y then
+                    return true
+                end
+            end
+        end
+    end
+    return false
+end
+
+local function safeClick(x, y)
+    if hitBadButton(x, y) then return end
+    pcall(function()
+        VIM:SendMouseMoveEvent(x, y, game)
+        VIM:SendMouseButtonEvent(x, y, 0, true,  game, 0)
+        VIM:SendMouseButtonEvent(x, y, 0, false, game, 0)
+    end)
+end
+
+local function releaseMouse()
+    pcall(function()
+        local vp = workspace.CurrentCamera and workspace.CurrentCamera.ViewportSize or Vector2.new(400, 300)
+        VIM:SendMouseButtonEvent(vp.X / 2, vp.Y / 2, 0, false, game, 0)
+    end)
+end
+
+local function clickWorld(pos)
+    local cam = workspace.CurrentCamera
+    if not cam then return false end
+    local sp, onScreen = cam:WorldToViewportPoint(pos)
+    if not onScreen or sp.Z <= 0 then return false end
+    if hitBadButton(sp.X, sp.Y) then return false end
+    safeClick(sp.X, sp.Y)
+    return true
+end
+
+local function clickCenter()
+    local cam = workspace.CurrentCamera
+    local vp = cam and cam.ViewportSize or Vector2.new(800, 600)
+    safeClick(vp.X / 2, vp.Y * 0.4)
+end
+
+local function aim(pos)
+    local cam = workspace.CurrentCamera
+    if cam and pos then
+        pcall(function() cam.CFrame = CFrame.new(cam.CFrame.Position, pos) end)
+    end
+end
+
+local function dragTurn(cx, cy, amount)
+    amount = amount or CFG.TurnStrength
+    pcall(function()
+        VIM:SendMouseMoveEvent(cx, cy, game)
+        VIM:SendMouseButtonEvent(cx, cy, 0, true, game, 0)
+        for i = 1, 12 do
+            local x = cx + (amount * i / 12)
+            local y = cy + math.sin(i * 0.4) * 14
+            VIM:SendMouseMoveEvent(x, y, game)
+            task.wait(0.01)
+        end
+        VIM:SendMouseButtonEvent(cx + amount, cy, 0, false, game, 0)
+    end)
+end
+
+local pauseUntil = 0
+local function overMenu()
+    return os.clock() < pauseUntil
+end
+UIS.InputBegan:Connect(function(_, gpe)
+    if gpe then pauseUntil = os.clock() + 1.0 end
+end)
+
+-- ── Game helpers ─────────────────────────────────────────────────────────────
+local function allPeelParts()
+    local list = {}
+    for _, mg in ipairs(workspace:GetChildren()) do
+        if mg.Name == "UnpeeledPotatoForMinigame" or (mg:IsA("Model") and mg:FindFirstChild("Peel")) then
+            for _, d in ipairs(mg:GetDescendants()) do
+                if d:IsA("BasePart") and d.Name == "Peel" then
+                    table.insert(list, d)
+                end
+            end
+        end
+    end
+    if #list == 0 then
+        for _, d in ipairs(workspace:GetDescendants()) do
+            if d:IsA("BasePart") and d.Name == "Peel" and d.Parent and d.Parent:IsA("Model") then
+                table.insert(list, d)
+            end
+        end
+    end
+    return list
+end
+
+local function nearestLivePotato()
+    local pileFolder = workspace:FindFirstChild("PotatoPile")
+    local r = myRoot()
+    if not pileFolder or not r then return nil end
+    local best, bd = nil, math.huge
+    for _, c in ipairs(pileFolder:GetChildren()) do
+        if c:IsA("BasePart") and (c.LocalTransparencyModifier or 0) < 0.9 then
+            local d = (c.Position - r.Position).Magnitude
+            if d < bd then best, bd = c, d end
+        end
+    end
+    return best
+end
+
+local function ensureNearPotato(pot, dist)
+    local r = myRoot()
+    if not r or not pot then return end
+    if (r.Position - pot.Position).Magnitude > (dist or CFG.CollectTPDist) then
+        r.CFrame = CFrame.new(pot.Position + Vector3.new(0, 3, 5))
+    end
+end
+
+local function tpToPart(part)
+    local r = myRoot()
+    if not r or not part or not part.Parent then return false end
+    local pos = part:IsA("BasePart") and part.Position
+        or (part:IsA("Attachment") and part.WorldPosition)
+        or (part.Parent and part.Parent:IsA("BasePart") and part.Parent.Position)
+    if not pos then return false end
+    r.CFrame = CFrame.new(pos + Vector3.new(0, 3, 4))
+    return true
+end
+
+local function firePrompt(p)
+    if not p or not p.Parent or typeof(fireproximityprompt) ~= "function" then return false end
+    local hold, los, maxd = p.HoldDuration, p.RequiresLineOfSight, p.MaxActivationDistance
+    pcall(function()
+        p.HoldDuration = 0
+        p.RequiresLineOfSight = false
+        p.MaxActivationDistance = 1000
+    end)
+    local ok = pcall(fireproximityprompt, p)
+    pcall(function()
+        p.HoldDuration = hold
+        p.RequiresLineOfSight = los
+        p.MaxActivationDistance = maxd
+    end)
+    return ok
+end
+
+local function nearestPromptByAction(word)
+    word = string.lower(word)
+    local r = myRoot()
+    local best, bd = nil, math.huge
+    for _, p in ipairs(workspace:GetDescendants()) do
+        if p:IsA("ProximityPrompt") and p.Enabled
+            and string.find(string.lower(p.ActionText or ""), word, 1, true) then
+            local a = p.Parent
+            local pos = a and (a:IsA("BasePart") and a.Position
+                or a:IsA("Attachment") and a.WorldPosition)
+            local d = (r and pos) and (r.Position - pos).Magnitude or 0
+            if d < bd then best, bd = p, d end
+        end
+    end
+    return best
+end
+
+local function pressButton(name)
+    local pg = LP:FindFirstChild("PlayerGui")
+    if not pg then return false end
+    local b
+    for _, g in ipairs(pg:GetDescendants()) do
+        if (g:IsA("ImageButton") or g:IsA("TextButton")) and g.Name == name then
+            b = g
+            break
+        end
+    end
+    if not b then return false end
+    if typeof(getconnections) == "function" then
+        pcall(function()
+            for _, c in ipairs(getconnections(b.MouseButton1Click)) do
+                if c.Function then c.Function() elseif c.Fire then c:Fire() end
+            end
+            for _, c in ipairs(getconnections(b.Activated)) do
+                if c.Function then c.Function() elseif c.Fire then c:Fire() end
+            end
+        end)
+        return true
+    end
+    if typeof(firesignal) == "function" then
+        pcall(firesignal, b.MouseButton1Click)
+        pcall(firesignal, b.Activated)
+        return true
+    end
+    return false
+end
+
+local function basketCount()
+    local pg = LP:FindFirstChild("PlayerGui")
+    if not pg then return 0, 10 end
+    for _, g in ipairs(pg:GetDescendants()) do
+        if g:IsA("TextLabel") and g.Visible then
+            local cur, mx = string.match(g.Text, "^%s*(%d+)%s*/%s*(%d+)%s*$")
+            if cur and mx then
+                local c, m = tonumber(cur), tonumber(mx)
+                if m >= 5 and m <= 500 then return c, m end
+            end
+        end
+    end
+    return 0, 10
+end
+
+local function setPhase(p) phase = p end
+
+local function doPeelClick()
+    local parts = allPeelParts()
+    if #parts == 0 then return nil end
+    local cam = workspace.CurrentCamera
+    local best = parts[1]
+    local cx, cy = 400, 300
+    if cam then
+        local bd = math.huge
+        local sum = Vector3.zero
+        for _, part in ipairs(parts) do
+            sum += part.Position
+            local sp, on = cam:WorldToViewportPoint(part.Position)
+            if on and sp.Z > 0 then
+                local c = cam.ViewportSize / 2
+                local d = (Vector2.new(sp.X, sp.Y) - Vector2.new(c.X, c.Y)).Magnitude
+                if d < bd then best, bd = part, d end
+            end
+        end
+        local center = sum / #parts
+        local sp = cam:WorldToViewportPoint(center)
+        if sp.Z > 0 then cx, cy = sp.X, sp.Y end
+    end
+    return best, cx, cy
+end
+
+-- ── Full cycle ───────────────────────────────────────────────────────────────
+local function fullCycle()
+    setPhase("collecting")
+    local first = nearestLivePotato()
+    if first then ensureNearPotato(first, 12) end
+    local hardStop = os.clock() + 30
+    while S.Full and os.clock() < hardStop do
+        local cur, mx = basketCount()
+        if cur >= mx and mx > 0 then break end
+        if not overMenu() then
+            local pot = nearestLivePotato()
+            if pot then
+                ensureNearPotato(pot, CFG.CollectTPDist)
+                aim(pot.Position)
+                if not clickWorld(pot.Position) then clickCenter() end
+            end
+        end
+        setPhase("collecting " .. cur .. "/" .. mx)
+        task.wait(1 / CFG.CollectPerSec)
+    end
+    if not S.Full then return end
+
+    setPhase("placing")
+    local place = nearestPromptByAction("place")
+    if place then
+        tpToPart(place.Parent)
+        task.wait(0.4)
+        firePrompt(place)
+        task.wait(0.5)
+    end
+    if not S.Full then return end
+
+    setPhase("peeling")
+    local pp = nearestPromptByAction("peel")
+    if pp then
+        tpToPart(pp.Parent)
+        task.wait(0.4)
+        firePrompt(pp)
+        task.wait(0.5)
+    end
+
+    local emptyFor, turnEvery = 0, 0
+    while S.Full and emptyFor < 3.5 do
+        local best, cx, cy = doPeelClick()
+        if best then
+            emptyFor = 0
+            if not overMenu() then
+                turnEvery += 1
+                if turnEvery >= 3 then
+                    turnEvery = 0
+                    dragTurn(cx, cy, CFG.TurnStrength)
+                    task.wait(0.04)
+                    dragTurn(cx, cy, -math.floor(CFG.TurnStrength * 0.75))
+                    task.wait(0.04)
+                end
+                aim(best.Position)
+                if not clickWorld(best.Position) then safeClick(cx, cy) end
+                peels += 1
+            end
+            task.wait(1 / CFG.ClicksPerSec)
+        else
+            emptyFor = emptyFor + 0.15
+            local p2 = nearestPromptByAction("peel")
+            if p2 then firePrompt(p2) end
+            task.wait(0.15)
+        end
+    end
+    if not S.Full then return end
+
+    setPhase("selling")
+    local sell = nearestPromptByAction("sell")
+    if sell then
+        tpToPart(sell.Parent)
+        task.wait(0.4)
+        firePrompt(sell)
+        task.wait(0.6)
+    end
+    setPhase("idle")
+end
+
+-- ── Start Farm ───────────────────────────────────────────────────────────────
+local function startFarm()
+    task.spawn(function()
+        while true do
+            if S.Full then
+                local ok, e = pcall(fullCycle)
+                if not ok then setPhase("err: " .. tostring(e)) task.wait(1) end
+            else
+                task.wait(0.2)
+            end
+        end
+    end)
+
+    task.spawn(function()
+        local turnEvery = 0
+        while true do
+            if S.Peel and not overMenu() then
+                local best, cx, cy = doPeelClick()
+                if best then
+                    turnEvery += 1
+                    if turnEvery >= 3 then
+                        turnEvery = 0
+                        dragTurn(cx, cy, CFG.TurnStrength)
+                        task.wait(0.04)
+                        dragTurn(cx, cy, -math.floor(CFG.TurnStrength * 0.75))
+                        task.wait(0.04)
+                    end
+                    aim(best.Position)
+                    if not clickWorld(best.Position) then safeClick(cx, cy) end
+                    peels += 1
+                    task.wait(1 / CFG.ClicksPerSec)
+                else
+                    if S.AutoStart then
+                        local p = nearestPromptByAction("peel")
+                        if p then firePrompt(p) end
+                    end
+                    task.wait(0.4)
+                end
+            else
+                task.wait(0.12)
+            end
+        end
+    end)
+
+    task.spawn(function()
+        while true do
+            if S.Collect and not overMenu() then
+                local pot = nearestLivePotato()
+                if pot then
+                    ensureNearPotato(pot, CFG.CollectTPDist)
+                    aim(pot.Position)
+                    if not clickWorld(pot.Position) then clickCenter() end
+                end
+                task.wait(1 / CFG.CollectPerSec)
+            else
+                task.wait(0.12)
+            end
+        end
+    end)
+
+    task.spawn(function()
+        while true do
+            task.wait(0.55)
+            if S.Buttons then
+                pressButton("PeelAll")
+                pressButton("AutoPeel")
+            end
+            if S.Place then
+                local p = nearestPromptByAction("place")
+                if p then tpToPart(p.Parent) task.wait(0.15) firePrompt(p) end
+            end
+            if S.Sell then
+                local p = nearestPromptByAction("sell")
+                if p then firePrompt(p) end
+            end
+            if S.Crank then
+                local p = nearestPromptByAction("crank")
+                if p then firePrompt(p) end
+            end
+        end
+    end)
+
+    RunSvc.Stepped:Connect(function()
+        if S.Fast then
+            local h = hum()
+            if h and h.WalkSpeed < CFG.Speed then h.WalkSpeed = CFG.Speed end
+        end
+    end)
+
+    local function stopAll()
+        for k in pairs(S) do S[k] = false end
+        S.AntiAFK = true
+        releaseMouse()
+        phase = "stopped"
+        notify("STOPPED", "all features off")
+    end
+
+    UIS.InputBegan:Connect(function(io, gpe)
+        if gpe then return end
+        if io.KeyCode == Enum.KeyCode.K or io.KeyCode == Enum.KeyCode.RightControl then
+            stopAll()
+        end
+    end)
+
+    LP.Idled:Connect(function()
+        if S.AntiAFK then
+            pcall(function()
+                VU:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+                task.wait(1)
+                VU:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+            end)
+        end
+    end)
+
+    local Window = Rayfield:CreateWindow({
+        Name = "ReefHub | Peel THE Potato",
+        LoadingTitle = "ReefHub",
+        LoadingSubtitle = "Peel THE Potato",
+        Theme = "AmberGlow",
+        ConfigurationSaving = { Enabled = false },
+        KeySystem = false,
+    })
+
+    local Main = Window:CreateTab("Auto Farm", 4483362458)
+
+    Main:CreateToggle({
+        Name = "FULL AUTO (collect → place → peel → sell)",
+        CurrentValue = false,
+        Flag = "full",
+        Callback = function(v)
+            S.Full = v
+            if not v then releaseMouse() setPhase("idle") end
+        end,
+    })
+
+    Main:CreateLabel("— individual stages —")
+
+    Main:CreateToggle({
+        Name = "Auto Collect (pile)",
+        CurrentValue = false,
+        Flag = "collect",
+        Callback = function(v) S.Collect = v if not v then releaseMouse() end end,
+    })
+
+    Main:CreateToggle({
+        Name = "Auto Peel (strong turn + clicks)",
+        CurrentValue = false,
+        Flag = "peel",
+        Callback = function(v) S.Peel = v peels = 0 if not v then releaseMouse() end end,
+    })
+
+    Main:CreateToggle({
+        Name = "Auto Start PEEL prompt",
+        CurrentValue = true,
+        Flag = "autostart",
+        Callback = function(v) S.AutoStart = v end,
+    })
+
+    Main:CreateToggle({
+        Name = "Auto Place",
+        CurrentValue = false,
+        Flag = "place",
+        Callback = function(v) S.Place = v end,
+    })
+
+    Main:CreateToggle({
+        Name = "Press PeelAll / AutoPeel (gamepass)",
+        CurrentValue = false,
+        Flag = "buttons",
+        Callback = function(v) S.Buttons = v end,
+    })
+
+    Main:CreateToggle({
+        Name = "Auto Sell",
+        CurrentValue = false,
+        Flag = "sell",
+        Callback = function(v) S.Sell = v end,
+    })
+
+    Main:CreateToggle({
+        Name = "Auto Crank",
+        CurrentValue = false,
+        Flag = "crank",
+        Callback = function(v) S.Crank = v end,
+    })
+
+    Main:CreateSlider({
+        Name = "Peel clicks/sec",
+        Range = { 5, 90 }, Increment = 1, Suffix = "/s",
+        CurrentValue = 25, Flag = "peelspeed",
+        Callback = function(v) CFG.ClicksPerSec = v end,
+    })
+
+    Main:CreateSlider({
+        Name = "Collect clicks/sec",
+        Range = { 5, 60 }, Increment = 1, Suffix = "/s",
+        CurrentValue = 15, Flag = "collectspeed",
+        Callback = function(v) CFG.CollectPerSec = v end,
+    })
+
+    Main:CreateSlider({
+        Name = "Collect TP distance",
+        Range = { 8, 40 }, Increment = 1, Suffix = " studs",
+        CurrentValue = 18, Flag = "tpdist",
+        Callback = function(v) CFG.CollectTPDist = v end,
+    })
+
+    Main:CreateSlider({
+        Name = "Turn strength (potato spin)",
+        Range = { 80, 280 }, Increment = 10, Suffix = " px",
+        CurrentValue = 180, Flag = "turn",
+        Callback = function(v) CFG.TurnStrength = v end,
+    })
+
+    local phaseLabel = Main:CreateLabel("phase: idle")
+
+    local Misc = Window:CreateTab("Misc", 4483362458)
+
+    Misc:CreateToggle({
+        Name = "Fast Walk", CurrentValue = false, Flag = "fast",
+        Callback = function(v) S.Fast = v end,
+    })
+
+    Misc:CreateToggle({
+        Name = "Anti-AFK", CurrentValue = true, Flag = "antiafk",
+        Callback = function(v) S.AntiAFK = v end,
+    })
+
+    Misc:CreateButton({
+        Name = "Test: find peels",
+        Callback = function()
+            local n = #allPeelParts()
+            notify("Peels", n > 0 and ("found " .. n) or "none — start peel at table")
+        end,
+    })
+
+    Misc:CreateButton({
+        Name = "Release mouse",
+        Callback = function() releaseMouse() notify("Mouse", "released") end,
+    })
+
+    Misc:CreateButton({
+        Name = "STOP ALL (or press K)",
+        Callback = function() stopAll() end,
+    })
+
+    Misc:CreateButton({
+        Name = "Copy Discord Invite",
+        Callback = function()
+            if setclipboard then setclipboard("https://discord.gg/BeXJBSE9Fn") end
+            notify("Discord", "Invite copied to clipboard")
+        end,
+    })
+
+    task.spawn(function()
+        while true do
+            task.wait(0.4)
+            pcall(function()
+                phaseLabel:Set("phase: " .. phase .. "  |  peels: " .. peels)
+            end)
+        end
+    end)
+
+    notify("ReefHub", "Peel THE Potato unlocked")
+    print("ReefHub | Peel THE Potato ready")
+end
+
+-- Start the script immediately since the ReefHub Key System handles authentication
+startFarm()
+]]
+parent3:GetPropertyChangedSignal("Text"):Connect(function()
+	UICorner.Text = parent3.Text == "" and "Get Key" or false or "Check Key"
+end)
+UICorner2.MouseButton1Click:Connect(function()
+	if v2("https://discord.gg/BeXJBSE9Fn") then
+		parent2("Discord copied to clipboard.")
+
+		return
+	else
+		UICorner3.Text = "https://discord.gg/BeXJBSE9Fn"
+		UICorner3.TextColor3 = Color3.fromRGB(255, 190, 110)
+
+		return
+	end
+end)
+UICorner.MouseButton1Click:Connect(function()
+	if parent3.Text == "" then
+		if v2("https://work.ink/2Z3w/keydestination") then
+			parent2("Key copied to clipboard.")
+
+			return
+		else
+			UICorner3.Text = "https://work.ink/2Z3w/keydestination"
+			UICorner3.TextColor3 = Color3.fromRGB(255, 190, 110)
+
+			return
+		end
+
+		return
+	else
+		local v48 = string.upper(parent3.Text:gsub("%s+", ""))
+
+		parent3.Text = v48
+
+		if v21(v48) then
+			parent()
+
+			return
+		else
+			UICorner3.Text = "That key is invalid."
+			UICorner3.TextColor3 = Color3.fromRGB(255, 120, 120)
+
+			return
+		end
+
+		return
+	end
+end)

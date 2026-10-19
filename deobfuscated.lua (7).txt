@@ -1,0 +1,1720 @@
+-- This file was generated at discord.gg/syncrypt
+
+local t2 = {
+	["value1"] = game:GetService("HttpService")
+}
+local t1 = {
+	value6 = 22367117977775,
+	value3 = 25237642063336
+}
+t2.value2 = {
+	"https://keygate-teal.vercel.app",
+	"https://keygate-delta.vercel.app",
+	"https://keygate-rrr6.onrender.com",
+	"https://keygate-5ljp.onrender.com"
+}
+t1.value5 = 4982196996368
+t1.value2 = 1
+local value1 = t2.value2[t1.value2]
+
+t2.value3 = "ldr_420d4728c8a648fd"
+t2.value4 = "kg_sec_3c9874b801874073f0ab3dbc2564bae66e89"
+t2.value5 = true
+value1 = t1.value1
+local value12 = t1.value1
+t1.value7 = value1
+t1.value3 = value12
+value1 = syn
+t1.value5 = value1
+if value1 then
+    t1.value5 = syn.request
+end
+value1 = t1.value5
+value12 = t1.value7
+t1.value4 = value1
+t1.value1 = value12
+if not t1.value5 then
+    value1 = t1.value1
+    value12 = t1.value1
+    t1.value7 = value1
+    t1.value10 = value12
+    t1.value9 = http
+    value1 = t1.value9
+
+    if t1.value9 then
+        value1 = http.request
+    end
+
+    t1.value1 = t1.value10
+    t1.value5 = value1
+
+    if not value1 then
+        t1.value5 = request or http_request
+    end
+
+    value1 = t1.value7
+    value12 = t1.value5
+    t1.value1 = value1
+    t1.value4 = value12
+end
+t1.value1 = t1.value3
+t2.value6 = t1.value4
+t1.value5 = t1.value1
+t1.value7 = setclipboard
+t1.value4 = t1.value7
+if not t1.value7 then
+    value1 = t1.value1
+    t1.value10 = toclipboard
+    t1.value7 = t1.value10
+
+    if not t1.value10 then
+        t1.value9 = t1.value1
+        t1.value11 = set_clipboard
+        t1.value10 = t1.value11
+
+        if not t1.value11 then
+            t1.value8 = t1.value1
+            t1.value12 = Clipboard
+            t1.value11 = t1.value12
+
+            if t1.value12 then
+                t1.value11 = Clipboard.set
+            end
+
+            value12 = t1.value11
+            v115 = t1.value8
+            t1.value10 = value12
+            t1.value1 = v115
+        end
+
+        value12 = t1.value10
+        v115 = t1.value9
+        t1.value7 = value12
+        t1.value1 = v115
+    end
+
+    t1.value4 = t1.value7
+    t1.value1 = value1
+end
+t1.value1 = t1.value5
+t2.value7 = t1.value4
+value1 = t1.value1
+value12 = t1.value1
+t1.value7 = value1
+t1.value10 = value12
+value1 = getgenv
+if value1 then
+    value1 = getgenv()
+end
+value12 = t1.value10
+t1.value4 = value1
+t1.value1 = value12
+if not value1 then
+    t1.value10 = t1.value1
+    value1 = _G or shared
+    value12 = t1.value10
+    t1.value4 = value1
+    t1.value1 = value12
+end
+t1.value1 = t1.value7
+t2.value8 = t1.value4
+t1.value10 = t2.value8
+t1.value4 = t1.value10
+if t1.value10 then
+    t1.value8 = t2.value8
+    t1.value9 = t1.value1
+    t1.value11 = t1.value8._KEYGATE_ACTIVE_INSTANCE
+    t1.value10 = t1.value11
+
+    if t1.value11 then
+        t1.value10 = t2.value8._KEYGATE_ACTIVE_INSTANCE.cleanup
+    end
+
+    value1 = t1.value9
+    value12 = t1.value10
+    t1.value1 = value1
+    t1.value4 = value12
+end
+if t1.value4 then
+    pcall(function()
+        t2.value8._KEYGATE_ACTIVE_INSTANCE.cleanup()
+    end)
+end
+t2.value9 = game:GetService("CoreGui")
+t2.value10 = game:GetService("Players").LocalPlayer
+function t1.value11()
+    local function v5()
+        local value10 = t2.value10
+
+        if value10 then
+            value10 = t2.value10:FindFirstChild("PlayerGui")
+        end
+
+        value10 = { t2.value9, value10 }
+
+        for _, v in ipairs(value10) do
+            if v then
+                for _, child in ipairs(v:GetChildren()) do
+                    local isScreenGui
+
+                    if child then
+                        isScreenGui = child:IsA("ScreenGui")
+                    else
+                        isScreenGui = child
+                    end
+
+                    if isScreenGui then
+                        isScreenGui = string.lower(child.Name)
+
+                        if string.find(isScreenGui, "keygate") or (string.find(isScreenGui, "windui") or child.Name == "KeyGate_" .. t2.value3) then
+                            pcall(function()
+                                child:Destroy()
+                            end)
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    pcall(v5)
+end
+t2.value11 = t1.value11
+t1.value11 = string.gsub
+t1.value8 = t1.value11("SUN HUB", "[^%w%-_]", "_")
+t2.value12 = "KeyGate"
+t2.value13 = t2.value12 .. "/" .. t1.value8
+t2.value14 = t2.value13 .. "/Key.txt"
+function t1.value11()
+    local isfile_ = isfile
+
+    if isfile_ then
+        isfile_ = isfile(t2.value14)
+    end
+
+    if not isfile_ then
+        return nil
+    end
+
+    isfile_ = function()
+        return readfile(t2.value14)
+    end
+
+    local result
+
+    isfile_, result = pcall(isfile_)
+
+    if not isfile_ then
+        if isfile_ then
+            return string.gsub(result, "^%s*(.-)%s*$", "%1")
+        else
+            return nil
+        end
+
+        return
+    end
+
+    if result then
+        isfile_ = #result > 0
+    else
+        isfile_ = result
+    end
+
+    if isfile_ then
+        return string.gsub(result, "^%s*(.-)%s*$", "%1")
+    else
+        return nil
+    end
+end
+t2.value15 = nil
+value1 = function(p1)
+    local ok, result = pcall(function()
+        return game:HttpGet(p1, true)
+    end)
+
+    if not ok then
+        if ok then
+            return result
+        else
+            return nil
+        end
+
+        return
+    end
+
+    if result then
+        ok = #result > 500
+    else
+        ok = result
+    end
+
+    if ok then
+        return result
+    else
+        return nil
+    end
+end
+function t2.value16(p2)
+    if not p2 or type(p2) ~= "table" then
+        return nil
+    else
+        local StatusCode = p2.StatusCode or (p2.status_code or (p2.Status or (p2.Status_Code or p2.statusCode)))
+
+        StatusCode = tonumber(StatusCode) or (tonumber(string.match(tostring(StatusCode or ""), "%d+")) or 0)
+
+        local Body = p2.Body or (p2.body or (p2.Content or (p2.content or (p2.Response or ""))))
+
+        return {
+			["StatusCode"] = StatusCode,
+			["Body"] = tostring(Body)
+		}
+    end
+end
+t2.value15 = 1
+function t2.value17(_, _, _)
+    local v18 = #t2.value2
+
+    if v18 == 0 then
+        return nil, nil, "No KeyGate cluster servers configured in loader."
+    end
+end
+value12 = game:GetService("Players").LocalPlayer
+t2.value18 = nil
+t2.value18 = value12
+function t2.value19()
+    local s1 = ""
+    local s2 = ""
+    local s3 = ""
+
+    pcall(function()
+        if not t2.value18 then
+            return
+        end
+
+        local UserId = t2.value18.UserId
+
+        s1 = tostring(UserId)
+        UserId = t2.value18.Name
+        s2 = tostring(UserId)
+        UserId = t2.value18.DisplayName
+        s3 = tostring(UserId)
+    end)
+
+    local s4 = ""
+
+    pcall(function()
+        if gethwid then
+            v26 = gethwid
+            s4 = tostring(v26())
+
+            return
+        end
+        if not get_hwid then
+            return
+        end
+        s4 = tostring(get_hwid())
+    end)
+
+    local s5 = "Unknown"
+
+    local function v27()
+        local v28
+
+        if identifyexecutor then
+            local v29
+
+            v28, v29 = identifyexecutor()
+            v28 = tostring(v28 or "")
+
+            if not v29 then
+                s5 = v28 .. (v29 or "")
+
+                return
+            end
+
+            v29 = " " .. tostring(v29)
+            s5 = v28 .. (v29 or "")
+
+            return
+        else
+            if not getexecutorname then
+                return
+            end
+
+            v28 = getexecutorname
+            s5 = tostring(v28())
+
+            return
+        end
+    end
+
+    local pcall_ = pcall
+
+    pcall_(v27)
+    v27 = s4 == ""
+
+    if v27 then
+        v27 = s5 ~= "Unknown"
+    end
+
+    local v30
+
+    if v27 then
+        pcall_ = s5
+        s4 = pcall_
+        v30 = s4
+    else
+        v30 = s4
+    end
+
+    local v31 = s1 ~= ""
+
+    if v31 then
+        v31 = s1 ~= "0"
+    end
+
+    local v32
+
+    if not v31 then
+        v27 = v31 or nil
+
+        if s2 == "" then
+            pcall_ = nil
+        else
+            pcall_ = s2 or nil
+        end
+
+        if s3 == "" then
+            v35 = false
+        else
+            v35 = s3
+        end
+
+        v35 = v35 or nil
+
+        if v30 == "" then
+            v32 = nil
+        else
+            v32 = v30 or nil
+        end
+
+        return {
+			["robloxUserId"] = v27,
+			["username"] = pcall_,
+			["displayName"] = v35,
+			["clientIdentifier"] = v32,
+			["executor"] = s5
+		}
+    end
+
+    v31 = s1
+    v27 = v31 or nil
+
+    if s2 == "" then
+        pcall_ = nil
+    else
+        pcall_ = s2 or nil
+    end
+
+    if s3 == "" then
+        v35 = false
+    else
+        v35 = s3
+    end
+
+    local v35_ = v35 or nil
+
+    if v30 == "" then
+        v32 = nil
+    else
+        v32 = v30 or nil
+    end
+
+    return {
+		["robloxUserId"] = v27,
+		["username"] = pcall_,
+		["displayName"] = v35_,
+		["clientIdentifier"] = v32,
+		["executor"] = s5
+	}
+end
+function t2.value20(p3, p4)
+    local t3 = {}
+
+    for i = 1, #p4 do
+        t3[i - 1] = string.byte(p4, i)
+    end
+
+    local v36 = #p4
+    local t4 = {}
+
+    for i = 0, 255 do
+        t4[i] = i
+    end
+
+    local n1 = 0
+    local v40
+
+    for i = 0, 255 do
+        n1 = (n1 + t4[i] + t3[i % v36]) % 256
+
+        local v42 = t4[n1]
+
+        v40 = t4[i]
+        t4[i] = v42
+        t4[n1] = v40
+    end
+
+    v36 = {}
+
+    local n2 = 0
+    local bit32_ = bit32
+
+    t3 = 0
+
+    if bit32_ then
+        bit32_ = bit32.bxor
+    end
+
+    local v45
+
+    if bit32_ then
+        for i = 1, #p3 do
+            n2 = (n2 + 1) % 256
+            t3 = (t3 + t4[n2]) % 256
+            v40 = t4[t3]
+            v45 = t4[n2]
+            t4[n2] = v40
+            t4[t3] = v45
+            v40 = bit32_(string.byte(p3, i), t4[(t4[n2] + t4[t3]) % 256])
+            v36[i] = string.format("%02x", v40)
+        end
+
+        return table.concat(v36)
+    end
+
+    bit32_ = bit
+
+    if bit32_ then
+        bit32_ = bit.bxor
+    end
+
+    bit32_ = bit32_ or function(p5, p6)
+        local n3 = 1
+        local n4 = 0
+
+        while p5 > 0 and true or p6 > 0 do
+            if p5 % 2 ~= p6 % 2 then
+                n4 = n4 + n3
+            end
+
+            local v49 = p5 / 2
+
+            p5 = math.floor(v49)
+            v49 = p6 / 2
+            p6 = math.floor(v49)
+            n3 = n3 * 2
+        end
+
+        return n4
+    end
+
+    for i = 1, #p3 do
+        n2 = (n2 + 1) % 256
+        t3 = (t3 + t4[n2]) % 256
+        v40 = t4[t3]
+        v45 = t4[n2]
+        t4[n2] = v40
+        t4[t3] = v45
+        v40 = bit32_(string.byte(p3, i), t4[(t4[n2] + t4[t3]) % 256])
+        v36[i] = string.format("%02x", v40)
+    end
+
+    return table.concat(v36)
+end
+t2.value21 = nil
+function t2.value21(p7, p8)
+    local t5 = {}
+
+    for i = 1, #p8 do
+        t5[i - 1] = string.byte(p8, i)
+    end
+
+    local v53 = #p8
+    local t6 = {}
+
+    for i = 0, 255 do
+        t6[i] = i
+    end
+
+    local n5 = 0
+
+    for i = 0, 255 do
+        n5 = (n5 + t6[i] + t5[i % v53]) % 256
+
+        local v58 = t6[n5]
+        local v59 = t6[i]
+
+        t6[i] = v58
+        t6[n5] = v59
+    end
+
+    v53 = 0
+
+    local n6 = 0
+    local t7 = {}
+
+    t5 = bit32
+
+    local n7 = 1
+
+    if t5 then
+        t5 = bit32.bxor
+    end
+
+    local v63, v64, v65
+
+    if t5 then
+        for i = 1, #p7, 2 do
+            v63 = i + 1
+            v63 = string.sub(p7, i, v63)
+            v63 = tonumber(v63, 16) or 0
+            v53 = (v53 + 1) % 256
+            n6 = (n6 + t6[v53]) % 256
+            v64 = t6[n6]
+            v65 = t6[v53]
+            t6[v53] = v64
+            t6[n6] = v65
+            v64 = t6[(t6[v53] + t6[n6]) % 256]
+            t7[n7] = string.char(t5(v63, v64))
+            n7 = n7 + 1
+        end
+
+        return table.concat(t7)
+    end
+
+    t5 = bit
+
+    if t5 then
+        t5 = bit.bxor
+    end
+
+    t5 = t5 or function(p9, p10)
+        local n8 = 1
+        local n9 = 0
+
+        while p9 > 0 and true or p10 > 0 do
+            if p9 % 2 ~= p10 % 2 then
+                n9 = n9 + n8
+            end
+
+            local v69 = p9 / 2
+
+            p9 = math.floor(v69)
+            p10 = math.floor(p10 / 2)
+            n8 = n8 * 2
+        end
+
+        return n9
+    end
+
+    for i = 1, #p7, 2 do
+        v63 = i + 1
+        v63 = string.sub(p7, i, v63)
+        v63 = tonumber(v63, 16) or 0
+        v53 = (v53 + 1) % 256
+        n6 = (n6 + t6[v53]) % 256
+        v64 = t6[n6]
+        v65 = t6[v53]
+        t6[v53] = v64
+        t6[n6] = v65
+        v64 = t6[(t6[v53] + t6[n6]) % 256]
+        t7[n7] = string.char(t5(v63, v64))
+        n7 = n7 + 1
+    end
+
+    return table.concat(t7)
+end
+function t2.value22()
+    return string.format("%08x%08x", math.random(0, 2147483647), math.random(0, 2147483647))
+end
+t2.value23 = nil
+function t2.value23(p11)
+    local v71 = t2.value22()
+    local json = t2.value1:JSONEncode(p11)
+
+    json = t2.value20(json, t2.value4 .. ":" .. v71)
+
+    return t2.value1:JSONEncode({
+		["encrypted"] = true,
+		["loaderId"] = t2.value3,
+		["token"] = t2.value4,
+		["nonce"] = v71,
+		["payload"] = json,
+		["timestamp"] = os.time()
+	})
+end
+function t2.value24()
+    if not t2.value6 then
+        return nil, "Executor lacks HTTP request capability."
+    end
+
+    local function v73()
+        local restorefunction_ = restorefunction
+
+        if restorefunction_ then
+            restorefunction_ = t2.value6
+        end
+
+        if not restorefunction_ then
+            return
+        end
+
+        restorefunction(t2.value6)
+    end
+
+    pcall(v73)
+    v73 = t2.value19()
+    v73 = t2.value23({
+		["loaderId"] = t2.value3,
+		["token"] = t2.value4,
+		["robloxUserId"] = v73.robloxUserId,
+		["username"] = v73.username,
+		["displayName"] = v73.displayName,
+		["clientIdentifier"] = v73.clientIdentifier,
+		["executor"] = v73.executor
+	})
+
+    local v75, v76
+
+    v73, v75, v76 = t2.value17("/api/v1/loaders/bootstrap", {
+		["Method"] = "POST",
+		["Headers"] = {
+			["Content-Type"] = "application/json",
+			["X-KeyGate-Token"] = t2.value4
+		},
+		["Body"] = v73
+	}, function(p12)
+        if p12.StatusCode ~= 200 then
+            return false
+        end
+    end)
+
+    if not (v73 and v75) then
+        return nil, "Failed to connect to KeyGate checkpoint service on all cluster nodes. " .. tostring(v76 or "")
+    end
+
+    v73 = function()
+        return t2.value1:JSONDecode(v73.Body)
+    end
+
+    local result
+
+    v73, result = pcall(v73)
+
+    if not v73 then
+        if v73 then
+            return v75 .. result.gatewayUrl, nil
+        else
+            return nil, "Failed to connect to KeyGate checkpoint service on all cluster nodes. " .. tostring(v76 or "")
+        end
+
+        return
+    end
+
+    if result then
+        v73 = result.gatewayUrl
+    else
+        v73 = result
+    end
+
+    if v73 then
+        return v75 .. result.gatewayUrl, nil
+    else
+        return nil, "Failed to connect to KeyGate checkpoint service on all cluster nodes. " .. tostring(v76 or "")
+    end
+end
+function t2.value25(p13, p14, p15)
+    local v78 = t2.value4 .. ":" .. p15 .. ":" .. p14
+
+    return t2.value21(p13, v78)
+end
+t2.value26 = false
+t2.value27 = false
+t2.value28 = false
+t2.value29 = 0
+t2.value30 = 0
+t2.value31 = 10
+function t2.value32(p16, p17)
+    local v79, v80, v81, v82
+
+    if p17 then
+        if p17 then
+            return "Lifetime"
+        else
+            v79 = tonumber(p16) or 0
+
+            if v79 <= 0 then
+                return "Active"
+            else
+                v80 = v79 / 86400
+                v80 = math.floor(v80)
+                v81 = v79 % 86400 / 3600
+                v81 = math.floor(v81)
+                v82 = v79 % 3600 / 60
+                v82 = math.floor(v82)
+                v79 = v79 % 60
+
+                if v80 > 0 then
+                    return string.format("%dd %dh %dm", v80, v81, v82)
+                else
+                    if v81 > 0 then
+                        return string.format("%dh %dm", v81, v82)
+                    else
+                        if v82 > 0 then
+                            return string.format("%dm %ds", v82, v79)
+                        else
+                            return string.format("%ds", v79)
+                        end
+
+                        return
+                    end
+
+                    return
+                end
+
+                return
+            end
+
+            return
+        end
+
+        return
+    end
+
+    if p16 then
+        p17 = tonumber(p16)
+
+        if not p17 then
+            if p17 then
+                return "Lifetime"
+            else
+                v79 = tonumber(p16) or 0
+
+                if v79 <= 0 then
+                    return "Active"
+                else
+                    v80 = v79 / 86400
+                    v80 = math.floor(v80)
+                    v81 = v79 % 86400 / 3600
+                    v81 = math.floor(v81)
+                    v82 = v79 % 3600 / 60
+                    v82 = math.floor(v82)
+                    v79 = v79 % 60
+
+                    if v80 > 0 then
+                        return string.format("%dd %dh %dm", v80, v81, v82)
+                    else
+                        if v81 > 0 then
+                            return string.format("%dh %dm", v81, v82)
+                        else
+                            if v82 > 0 then
+                                return string.format("%dm %ds", v82, v79)
+                            else
+                                return string.format("%ds", v79)
+                            end
+
+                            return
+                        end
+
+                        return
+                    end
+
+                    return
+                end
+
+                return
+            end
+
+            return
+        end
+
+        p17 = tonumber(p16) > 157680000
+    else
+        p17 = p16
+    end
+
+    if p17 then
+        return "Lifetime"
+    else
+        v79 = tonumber(p16) or 0
+
+        if v79 <= 0 then
+            return "Active"
+        else
+            v80 = v79 / 86400
+            v80 = math.floor(v80)
+            v81 = v79 % 86400 / 3600
+            v81 = math.floor(v81)
+            v82 = v79 % 3600 / 60
+            v82 = math.floor(v82)
+            v79 = v79 % 60
+
+            if v80 > 0 then
+                return string.format("%dd %dh %dm", v80, v81, v82)
+            else
+                if v81 > 0 then
+                    return string.format("%dh %dm", v81, v82)
+                else
+                    if v82 > 0 then
+                        return string.format("%dm %ds", v82, v79)
+                    else
+                        return string.format("%ds", v79)
+                    end
+
+                    return
+                end
+
+                return
+            end
+
+            return
+        end
+
+        return
+    end
+end
+function t2.value33(p18)
+    if not t2.value6 then
+        return false, "Executor lacks HTTP request capability."
+    end
+    if t2.value28 then
+        return true, "Access granted (features already active)."
+    end
+    pcall(function()
+        local restorefunction_ = restorefunction
+
+        if restorefunction_ then
+            restorefunction_ = t2.value6
+        end
+
+        if not restorefunction_ then
+            return
+        end
+
+        restorefunction(t2.value6)
+    end)
+    local verify = t2.value19()
+    verify = t2.value23({
+		["key"] = p18,
+		["loaderId"] = t2.value3,
+		["token"] = t2.value4,
+		["robloxUserId"] = verify.robloxUserId,
+		["username"] = verify.username,
+		["displayName"] = verify.displayName,
+		["clientIdentifier"] = verify.clientIdentifier,
+		["executor"] = verify.executor
+	})
+    local v85
+    verify, v85, v85 = t2.value17("/api/v1/loaders/verify", {
+		["Method"] = "POST",
+		["Headers"] = {
+			["Content-Type"] = "application/json",
+			["X-KeyGate-Token"] = t2.value4
+		},
+		["Body"] = verify
+	}, function(p19)
+        if not p19 or type(p19) ~= "table" then
+            return false
+        end
+
+        local StatusCode = p19.StatusCode or 0
+
+        if StatusCode >= 500 or (StatusCode == 404 or (StatusCode == 502 or (StatusCode == 503 and true or StatusCode == 504))) then
+            return false
+        end
+
+        StatusCode = function()
+            return t2.value1:JSONDecode(p19.Body)
+        end
+
+        local result
+
+        StatusCode, result = pcall(StatusCode)
+
+        if not StatusCode or (not result or type(result) ~= "table") then
+            return false
+        end
+
+        StatusCode = result.error
+
+        if not StatusCode then
+            if StatusCode then
+                return false
+            else
+                return result.authorized ~= nil and true or result.error ~= nil
+            end
+
+            return
+        end
+
+        StatusCode = result.error.code == "DECRYPTION_FAILED" or result.error.code == "INVALID_INPUT"
+
+        if StatusCode then
+            return false
+        else
+            return result.authorized ~= nil and true or result.error ~= nil
+        end
+    end)
+    if not verify then
+        return false, "Cluster unreachable: " .. tostring(v85 or "all nodes failed to respond")
+    end
+    if verify.StatusCode ~= 200 then
+        v85 = function()
+            return t2.value1:JSONDecode(verify.Body)
+        end
+        v85, v107 = pcall(v85)
+
+        if v85 then
+            if v107 then
+                v85 = v107.error
+
+                if v85 then
+                    v85 = v107.error.message
+                end
+            else
+                v85 = v107
+            end
+        end
+
+        if v85 then
+            return false, v85
+        end
+
+        verify = verify.StatusCode
+        v85 = "Key verification failed (status " .. tostring(verify) .. ")."
+
+        return false, v85
+    end
+    verify = function()
+        return t2.value1:JSONDecode(verify.Body)
+    end
+    verify, v85 = pcall(verify)
+    if not (verify and v85) then
+        return false, "Corrupted response received from KeyGate server."
+    end
+    if not v85.authorized then
+        return false, "Access verification returned negative authorization."
+    end
+    verify = t2.value32(v85.remainingSeconds, v85.isLifetime)
+    local executePayload
+    local encrypted = v85.encrypted
+    if encrypted then
+        encrypted = v85.payload
+
+        if encrypted then
+            encrypted = v85.nonce
+        end
+    end
+    if encrypted then
+        executePayload = t2.value25(v85.payload, v85.nonce, p18)
+    elseif v85.executePayload then
+        executePayload = v85.executePayload
+    end
+    if executePayload then
+        encrypted = #executePayload > 0
+    else
+        encrypted = executePayload
+    end
+    if not encrypted then
+        if not (t2.value5 and writefile) then
+            return true, "Access verified successfully.", verify, v85.isLifetime, v85.remainingSeconds
+        end
+
+        pcall(function()
+            if not makefolder then
+                writefile(t2.value14, p18)
+
+                return
+            end
+
+            local isfolder_ = isfolder
+
+            if isfolder_ then
+                isfolder_ = not isfolder(t2.value12)
+            end
+
+            if isfolder_ then
+                isfolder_ = function()
+                    makefolder(t2.value12)
+                end
+                pcall(isfolder_)
+            elseif not isfolder then
+                pcall(function()
+                    makefolder(t2.value12)
+                end)
+            end
+
+            isfolder_ = isfolder
+
+            if isfolder_ then
+                isfolder_ = not isfolder(t2.value13)
+            end
+
+            if isfolder_ then
+                isfolder_ = function()
+                    makefolder(t2.value13)
+                end
+                pcall(isfolder_)
+            else
+                if isfolder then
+                    writefile(t2.value14, p18)
+
+                    return
+                end
+
+                isfolder_ = function()
+                    makefolder(t2.value13)
+                end
+                pcall(isfolder_)
+            end
+
+            writefile(t2.value14, p18)
+        end)
+
+        return true, "Access verified successfully.", verify, v85.isLifetime, v85.remainingSeconds
+    end
+    executePayload, encrypted = loadstring(executePayload)
+    pcall(function()
+        if not collectgarbage then
+            return
+        end
+
+        collectgarbage("collect")
+    end)
+    if not executePayload then
+        return false, "Payload syntax error: " .. tostring(encrypted)
+    end
+    if not t2.value28 then
+        t2.value28 = true
+        task.spawn(executePayload)
+    end
+    if not (t2.value5 and writefile) then
+        return true, "Access granted! Payload executed.", verify, v85.isLifetime, v85.remainingSeconds
+    end
+    pcall(function()
+        if not makefolder then
+            writefile(t2.value14, p18)
+
+            return
+        end
+
+        local isfolder_ = isfolder
+
+        if isfolder_ then
+            isfolder_ = not isfolder(t2.value12)
+        end
+
+        if isfolder_ then
+            isfolder_ = function()
+                makefolder(t2.value12)
+            end
+            pcall(isfolder_)
+        elseif not isfolder then
+            pcall(function()
+                makefolder(t2.value12)
+            end)
+        end
+
+        isfolder_ = isfolder
+
+        if isfolder_ then
+            isfolder_ = not isfolder(t2.value13)
+        end
+
+        if isfolder_ then
+            isfolder_ = function()
+                makefolder(t2.value13)
+            end
+            pcall(isfolder_)
+        else
+            if isfolder then
+                writefile(t2.value14, p18)
+
+                return
+            end
+
+            isfolder_ = function()
+                makefolder(t2.value13)
+            end
+            pcall(isfolder_)
+        end
+
+        writefile(t2.value14, p18)
+    end)
+
+    return true, "Access granted! Payload executed.", verify, v85.isLifetime, v85.remainingSeconds
+end
+if t2.value5 then
+    value12 = t1.value11()
+
+    if value12 then
+        v115 = #value12 > 0
+    else
+        v115 = value12
+    end
+
+    if v115 then
+        print("[KeyGate] Found cached key in " .. t2.value14 .. ". Validating with cluster...")
+        value12, v115, v116 = t2.value33(value12)
+
+        if value12 then
+            value1 = t1.value1
+
+            if v116 then
+                value12 = " (" .. tostring(v116) .. " remaining)"
+            else
+                value12 = v116
+            end
+
+            t1.value1 = value1
+            value1 = value12 or ""
+            print("[KeyGate] Cached key verified successfully!" .. value1 .. " Access granted without UI.")
+            pcall(function()
+                local StarterGui = game:GetService("StarterGui")
+                local SetCore
+
+                if StarterGui then
+                    SetCore = StarterGui.SetCore
+                else
+                    SetCore = StarterGui
+                end
+
+                if not SetCore then
+                    return
+                end
+
+                StarterGui:SetCore("SendNotification", {
+					["Title"] = "KeyGate: Access Verified",
+					["Text"] = "Key loaded from file" .. value1 .. "!",
+					["Duration"] = 5
+				})
+            end)
+            value1 = t2.value3
+            value12 = t2.value33
+            t1.value13 = t2.value24
+
+            return {
+				["loaderId"] = value1,
+				["version"] = "1.0.0",
+				["cachedKeyUsed"] = true,
+				["authorized"] = true,
+				["timeRemaining"] = v116,
+				["verifyAndExecute"] = value12,
+				["getGateway"] = t1.value13
+			}
+        end
+
+        warn("[KeyGate] Cached key invalid or expired (" .. tostring(v115) .. "). Opening Key System UI...")
+    end
+end
+t2.value34 = value1("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua")
+
+if not t2.value34 then
+    t2.value34 = value1("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")
+end
+if not t2.value34 then
+    for _, v in ipairs(t2.value2) do
+        t2.value34 = value1(v .. "/api/v1/loaders/windui.lua")
+
+        if t2.value34 then
+            break
+        end
+    end
+end
+if not t2.value34 then
+    warn("[KeyGate] ERROR: Unable to load WindUI library from GitHub or KeyGate cluster fallback endpoints.")
+
+    return
+end
+value1, value12 = pcall(function()
+    return loadstring(t2.value34)()
+end)
+
+if not (value1 and value12) then
+    warn("[KeyGate] ERROR: Failed to initialize WindUI: " .. tostring(value12))
+
+    return
+end
+t2.value11()
+value1 = value12.CreateWindow
+local v96 = "KeyGate_" .. t2.value3
+t1.value13 = UDim2.fromOffset(560, 360)
+value1 = value1(value12, {
+	["Title"] = "SUN HUB",
+	["Icon"] = "key-round",
+	["Author"] = "SUN HUB \226\128\162 v1.0.0",
+	["Folder"] = v96,
+	["Size"] = t1.value13,
+	["Theme"] = "Dark"
+})
+v96 = value1:Tab({
+	["Title"] = "Access Key",
+	["Icon"] = "key"
+})
+v96:Paragraph({
+	["Title"] = "How to get Access Key",
+	["Desc"] = "Click \'Get Key\' below to copy the link and complete verification in your browser. Once you receive your key, paste it below and click \'Verify Key\'."
+})
+local value5 = t2.value5
+local value13 = t1.value1
+value13 = t1.value1
+if value5 then
+    value5 = t1.value11()
+end
+t1.value1 = value13
+local u99 = value5 or ""
+value5 = v96.Input
+value13 = u99
+function t1.value15(p20)
+    u99 = p20
+end
+value5(v96, {
+	["Title"] = "Access Key",
+	["Desc"] = "Paste your access key here",
+	["Value"] = value13,
+	["Placeholder"] = "Paste key here...",
+	["Callback"] = t1.value15
+})
+v96:Button({
+	["Title"] = "Verify Key",
+	["Desc"] = "Authenticate key and execute protected features",
+	["Callback"] = function()
+    if t2.value27 or t2.value28 then
+        value12:Notify({
+				["Title"] = "Already Loaded",
+				["Content"] = "Access granted! Script features are already active.",
+				["Duration"] = 3,
+				["Icon"] = "check"
+			})
+
+        return
+    end
+
+    if t2.value26 then
+        value12:Notify({
+				["Title"] = "Verification in Progress",
+				["Content"] = "Please wait, verification is currently running...",
+				["Duration"] = 3,
+				["Icon"] = "loader"
+			})
+
+        return
+    end
+
+    local tick_ = tick
+
+    if tick_ then
+        tick_ = tick()
+    end
+
+    if not tick_ then
+        tick_ = os
+
+        if tick_ then
+            tick_ = os.clock()
+        end
+
+        tick_ = tick_ or 0
+    end
+
+    tick_ = tick_ - t2.value30
+
+    if t2.value30 > 0 then
+        v121 = tick_ < t2.value31
+    else
+        v121 = false
+    end
+
+    if v121 then
+        tick_ = t2.value31 - tick_
+        tick_ = math.ceil(tick_)
+        value12:Notify({
+				["Title"] = "Cooldown Active",
+				["Content"] = string.format("Please wait %d seconds before verifying again.", tick_),
+				["Duration"] = 3,
+				["Icon"] = "clock"
+			})
+
+        return
+    end
+
+    tick_ = string.gsub(u99 or "", "^%s*(.-)%s*$", "%1")
+
+    if #tick_ == 0 then
+        value12:Notify({
+				["Title"] = "Missing Key",
+				["Content"] = "Please paste or enter your access key first.",
+				["Duration"] = 4,
+				["Icon"] = "shield-alert"
+			})
+
+        return
+    end
+
+    local tick_2 = tick
+
+    if tick_2 then
+        tick_2 = tick()
+    end
+
+    if tick_2 or not os then
+        value12:Notify({
+				["Title"] = "Verifying...",
+				["Content"] = "Validating access key with KeyGate cluster...",
+				["Duration"] = 2,
+				["Icon"] = "loader"
+			})
+        tick_, tick_2, v122 = t2.value33(tick_)
+
+        if not tick_ then
+            tick_ = string.find(tostring(tick_2), "Device Mismatch") or string.find(tostring(tick_2), "HWID")
+            v122 = value12
+            v122:Notify({
+					["Title"] = tick_ and "Device Mismatch" or tick_ or "Verification Failed",
+					["Content"] = tick_2 or "Key is invalid or expired.",
+					["Duration"] = 8,
+					["Icon"] = "shield-alert"
+				})
+
+            return
+        end
+
+        return
+    end
+
+    os.clock()
+    value12:Notify({
+			["Title"] = "Verifying...",
+			["Content"] = "Validating access key with KeyGate cluster...",
+			["Duration"] = 2,
+			["Icon"] = "loader"
+		})
+
+    local v102
+
+    tick_, tick_2, v102 = t2.value33(tick_)
+
+    if not tick_ then
+        tick_ = string.find(tostring(tick_2), "Device Mismatch") or string.find(tostring(tick_2), "HWID")
+        v102 = value12
+        v102:Notify({
+				["Title"] = tick_ and "Device Mismatch" or tick_ or "Verification Failed",
+				["Content"] = tick_2 or "Key is invalid or expired.",
+				["Duration"] = 8,
+				["Icon"] = "shield-alert"
+			})
+
+        return
+    end
+end
+})
+v96:Button({
+	["Title"] = "Get Key (Copy Link)",
+	["Desc"] = "Copy your checkpoint link to clipboard",
+	["Callback"] = function()
+    local tick_ = tick
+
+    if tick_ then
+        tick_ = tick()
+    end
+
+    local v104
+
+    if tick_ then
+        if tick_ - t2.value29 < 3 then
+            value12:Notify({
+					["Title"] = "Please Wait",
+					["Content"] = "Cooldown active. Please wait a moment before requesting another link.",
+					["Duration"] = 3,
+					["Icon"] = "clock"
+				})
+
+            return
+        else
+            tick_, v104 = t2.value24()
+
+            if tick_ then
+                if t2.value7 then
+                    t2.value7(tick_)
+                    value12:Notify({
+							["Title"] = "Link Copied!",
+							["Content"] = "Checkpoint link copied to clipboard! Complete it in your browser to get your key.",
+							["Duration"] = 6,
+							["Icon"] = "copy"
+						})
+
+                    return
+                else
+                    value12:Notify({
+							["Title"] = "Checkpoint Link",
+							["Content"] = tick_,
+							["Duration"] = 10,
+							["Icon"] = "link"
+						})
+
+                    return
+                end
+
+                return
+            else
+                value12:Notify({
+						["Title"] = "Error",
+						["Content"] = v104 or "Could not obtain checkpoint link.",
+						["Duration"] = 5,
+						["Icon"] = "alert-triangle"
+					})
+
+                return
+            end
+
+            return
+        end
+
+        return
+    end
+
+    tick_ = os
+
+    if tick_ then
+        tick_ = os.clock()
+    end
+
+    tick_ = tick_ or 0
+
+    if tick_ - t2.value29 < 3 then
+        value12:Notify({
+				["Title"] = "Please Wait",
+				["Content"] = "Cooldown active. Please wait a moment before requesting another link.",
+				["Duration"] = 3,
+				["Icon"] = "clock"
+			})
+
+        return
+    else
+        tick_, v104 = t2.value24()
+
+        if tick_ then
+            if t2.value7 then
+                t2.value7(tick_)
+                value12:Notify({
+						["Title"] = "Link Copied!",
+						["Content"] = "Checkpoint link copied to clipboard! Complete it in your browser to get your key.",
+						["Duration"] = 6,
+						["Icon"] = "copy"
+					})
+
+                return
+            else
+                value12:Notify({
+						["Title"] = "Checkpoint Link",
+						["Content"] = tick_,
+						["Duration"] = 10,
+						["Icon"] = "link"
+					})
+
+                return
+            end
+
+            return
+        else
+            value12:Notify({
+					["Title"] = "Error",
+					["Content"] = v104 or "Could not obtain checkpoint link.",
+					["Duration"] = 5,
+					["Icon"] = "alert-triangle"
+				})
+
+            return
+        end
+
+        return
+    end
+end
+})
+v96 = value1:Tab({
+	["Title"] = "Support & Links",
+	["Icon"] = "heart-handshake"
+})
+v96:Paragraph({
+	["Title"] = "Official Community & Links",
+	["Desc"] = "Need assistance, script updates, or an HWID reset? Join our official community links below."
+})
+if "https://discord.gg/3xNTqjymge" ~= "" then
+    function t1.value15()
+        if t2.value7 then
+            t2.value7("https://discord.gg/3xNTqjymge")
+            value12:Notify({
+				["Title"] = "Link Copied!",
+				["Content"] = "Discord invite link copied to clipboard.",
+				["Duration"] = 4,
+				["Icon"] = "copy"
+			})
+
+            return
+        else
+            value12:Notify({
+				["Title"] = "Discord Server",
+				["Content"] = "https://discord.gg/3xNTqjymge",
+				["Duration"] = 8,
+				["Icon"] = "link"
+			})
+
+            return
+        end
+    end
+
+    value5 = {
+		["Title"] = "Join Discord Server",
+		["Desc"] = "Copy Discord invite link to clipboard",
+		["Callback"] = t1.value15
+	}
+    v96:Button(value5)
+end
+if "" ~= "" then
+    value5 = v96.Button
+
+    function t1.value15()
+        if t2.value7 then
+            t2.value7("")
+            value12:Notify({
+				["Title"] = "Link Copied!",
+				["Content"] = "YouTube channel link copied to clipboard.",
+				["Duration"] = 4,
+				["Icon"] = "copy"
+			})
+
+            return
+        else
+            local v105 = value12
+
+            v105:Notify({
+				["Title"] = "YouTube Channel",
+				["Content"] = "",
+				["Duration"] = 8,
+				["Icon"] = "link"
+			})
+
+            return
+        end
+    end
+
+    value5(v96, {
+		["Title"] = "YouTube Channel",
+		["Desc"] = "Copy YouTube channel link to clipboard",
+		["Callback"] = t1.value15
+	})
+end
+if "" ~= "" then
+    value5 = v96.Button
+
+    function t1.value15()
+        if t2.value7 then
+            t2.value7("")
+            value12:Notify({
+				["Title"] = "Link Copied!",
+				["Content"] = "Official website URL copied to clipboard.",
+				["Duration"] = 4,
+				["Icon"] = "copy"
+			})
+
+            return
+        else
+            value12:Notify({
+				["Title"] = "Official Website",
+				["Content"] = "",
+				["Duration"] = 8,
+				["Icon"] = "link"
+			})
+
+            return
+        end
+    end
+
+    value5(v96, {
+		["Title"] = "Official Website",
+		["Desc"] = "Copy website URL to clipboard",
+		["Callback"] = t1.value15
+	})
+end
+value12 = false
+if value12 then
+    value12 = true
+    value12 = value12 and true or value12
+end
+if value12 then
+    v96:Paragraph({
+		["Title"] = "Community Info",
+		["Desc"] = "Join our Discord server to connect with the community and reset your HWID."
+	})
+end
+if not t2.value8 then
+    value12 = t2.value3
+    t1.value13 = t2.value24
+    t1.value15 = t2.value33
+    t1.value16 = value1
+
+    return {
+		["loaderId"] = value12,
+		["version"] = "1.0.0",
+		["getGateway"] = t1.value13,
+		["verifyAndExecute"] = t1.value15,
+		["window"] = t1.value16
+	}
+end
+value12 = t2.value8
+t1.value14 = value1
+value12._KEYGATE_ACTIVE_INSTANCE = {
+	["cleanup"] = function()
+    local function v106()
+        local Destroy = value1
+
+        if Destroy then
+            Destroy = value1.Destroy
+        end
+
+        if Destroy then
+            value1:Destroy()
+        end
+
+        Destroy = value1
+
+        if Destroy then
+            Destroy = value1.Close
+        end
+
+        if not Destroy then
+            t2.value11()
+
+            return
+        end
+
+        value1:Close()
+        t2.value11()
+    end
+
+    pcall(v106)
+end,
+	["window"] = t1.value14
+}
+value12 = t2.value3
+t1.value13 = t2.value24
+t1.value15 = t2.value33
+t1.value16 = value1
+return {
+	["loaderId"] = value12,
+	["version"] = "1.0.0",
+	["getGateway"] = t1.value13,
+	["verifyAndExecute"] = t1.value15,
+	["window"] = t1.value16
+}
